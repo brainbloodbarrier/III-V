@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw source data (large files)
+*.pdf
+*.pdf.html
+*.pdf.json
+*.pdf.markdown
+rhoton_supratentorial_cerebral_veins_ventric*/
+
+# Processed outputs (regenerable)
+processed/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+.bun/
+
+# Environment
+.env
+.env.*
+!.env.example
