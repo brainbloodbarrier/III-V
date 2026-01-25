@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rhoton-kb.local/schemas/document.schema.json",
+  "title": "RhotonDocument",
+  "description": "Unified representation of an ingested and normalized Rhoton source document",
+  "type": "object",
+  "required": ["id", "title", "author", "source_files", "pages", "figure_map", "metadata"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Unique document identifier"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Document title"
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Author name"
+    },
+    "source_files": {
+      "$ref": "#/$defs/SourceFiles"
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/RhotonPage"
+      },
+      "minItems": 1
+    },
+    "figure_map": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/FigureReference"
+      }
+    },
+    "metadata": {
+      "$ref": "#/$defs/DocumentMetadata"
+    }
+  },
+  "$defs": {
+    "SourceFiles": {
+      "type": "object",
+      "required": ["json", "markdown", "image_dir"],
+      "properties": {
+        "json": { "type": "string" },
+        "markdown": { "type": "string" },
+        "image_dir": { "type": "string" }
+      }
+    },
+    "DocumentMetadata": {
+      "type": "object",
+      "required": ["processed_at", "pipeline_version", "source_json_lines", "source_markdown_lines", "total_images", "parse_rate", "ligature_count", "figure_coverage"],
+      "properties": {
+        "processed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "pipeline_version": { "type": "string" },
+        "source_json_lines": { "type": "integer", "minimum": 0 },
+        "source_markdown_lines": { "type": "integer", "minimum": 0 },
+        "total_images": { "type": "integer", "minimum": 0 },
+        "parse_rate": { "type": "number", "minimum": 0, "maximum": 100 },
+        "ligature_count": { "type": "integer", "minimum": 0 },
+        "figure_coverage": { "type": "number", "minimum": 0, "maximum": 100 }
+      }
+    },
+    "RhotonPage": {
+      "type": "object",
+      "required": ["page_number", "blocks"],
+      "properties": {
+        "page_number": { "type": "integer", "minimum": 0 },
+        "blocks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContentBlock"
+          }
+        }
+      }
+    },
+    "ContentBlock": {
+      "type": "object",
+      "required": ["id", "block_type", "level", "content", "raw_html", "parent_hierarchy", "figure_references", "bbox", "section_id"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^/page/\\d+/\\w+/\\d+$"
+        },
+        "block_type": {
+          "type": "string",
+          "enum": ["section_header", "text", "figure_caption", "page_header", "inline_math"]
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 6
+        },
+        "content": { "type": "string" },
+        "raw_html": { "type": "string" },
+        "parent_hierarchy": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "figure_references": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "bbox": {
+          "$ref": "#/$defs/BoundingBox"
+        },
+        "section_id": { "type": "string" }
+      }
+    },
+    "BoundingBox": {
+      "type": "object",
+      "required": ["x1", "y1", "x2", "y2"],
+      "properties": {
+        "x1": { "type": "number", "minimum": 0 },
+        "y1": { "type": "number", "minimum": 0 },
+        "x2": { "type": "number", "minimum": 0 },
+        "y2": { "type": "number", "minimum": 0 }
+      }
+    },
+    "FigureReference": {
+      "type": "object",
+      "required": ["figure_id", "page_number", "caption", "abbreviations", "status"],
+      "properties": {
+        "figure_id": {
+          "type": "string",
+          "pattern": "^Fig\\. \\d+\\.\\d+$"
+        },
+        "image_file": {
+          "type": "string"
+        },
+        "page_number": { "type": "integer", "minimum": 0 },
+        "caption": { "type": "string" },
+        "abbreviations": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "status": {
+          "type": "string",
+          "enum": ["mapped", "no-image-in-caption", "unresolved"]
+        }
+      },
+      "if": {
+        "properties": { "status": { "const": "mapped" } }
+      },
+      "then": {
+        "required": ["image_file"]
+      }
+    }
+  }
+}

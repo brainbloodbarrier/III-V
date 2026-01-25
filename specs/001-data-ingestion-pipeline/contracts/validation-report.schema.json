@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rhoton-kb.local/schemas/validation-report.schema.json",
+  "title": "ValidationReport",
+  "description": "Quality gate validation report for pipeline run",
+  "type": "object",
+  "required": ["document_id", "timestamp", "gates", "overall_status"],
+  "properties": {
+    "document_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "gates": {
+      "type": "object",
+      "required": ["parse_rate", "ligature_count", "figure_coverage"],
+      "properties": {
+        "parse_rate": {
+          "$ref": "#/$defs/GateResult"
+        },
+        "ligature_count": {
+          "$ref": "#/$defs/GateResult"
+        },
+        "figure_coverage": {
+          "$ref": "#/$defs/GateResult"
+        }
+      }
+    },
+    "overall_status": {
+      "type": "string",
+      "enum": ["pass", "fail"]
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/FailureDetail"
+      }
+    }
+  },
+  "$defs": {
+    "GateResult": {
+      "type": "object",
+      "required": ["name", "threshold", "actual", "status"],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "threshold": {
+          "type": "string",
+          "description": "Human-readable threshold (e.g., '100%', '0', '>90%')"
+        },
+        "actual": {
+          "type": ["number", "integer"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pass", "fail"]
+        },
+        "details": {
+          "type": "string"
+        }
+      }
+    },
+    "FailureDetail": {
+      "type": "object",
+      "required": ["gate", "reason"],
+      "properties": {
+        "gate": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "affected_items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "description": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

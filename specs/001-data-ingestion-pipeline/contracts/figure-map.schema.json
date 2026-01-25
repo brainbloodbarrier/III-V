@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rhoton-kb.local/schemas/figure-map.schema.json",
+  "title": "FigureMap",
+  "description": "Standalone figure-to-image mapping output",
+  "type": "object",
+  "required": ["document_id", "figures", "summary"],
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "description": "Reference to parent document ID"
+    },
+    "figures": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/FigureEntry"
+      }
+    },
+    "summary": {
+      "$ref": "#/$defs/FigureSummary"
+    }
+  },
+  "$defs": {
+    "FigureEntry": {
+      "type": "object",
+      "required": ["figure_id", "page_number", "caption", "abbreviations", "status"],
+      "properties": {
+        "figure_id": {
+          "type": "string",
+          "pattern": "^Fig\\. \\d+\\.\\d+$"
+        },
+        "image_file": {
+          "type": "string",
+          "description": "Image filename (present when status=mapped)"
+        },
+        "image_path": {
+          "type": "string",
+          "description": "Full path to image file"
+        },
+        "page_number": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "caption": {
+          "type": "string",
+          "minLength": 1
+        },
+        "caption_block_id": {
+          "type": "string",
+          "description": "Source block ID containing the caption"
+        },
+        "abbreviations": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Parsed abbreviation key-value pairs"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["mapped", "no-image-in-caption", "unresolved"]
+        },
+        "referencing_blocks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Block IDs that reference this figure"
+        }
+      }
+    },
+    "FigureSummary": {
+      "type": "object",
+      "required": ["total_figures", "mapped_count", "unmapped_count", "coverage_percentage"],
+      "properties": {
+        "total_figures": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "mapped_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unmapped_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "coverage_percentage": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "by_status": {
+          "type": "object",
+          "properties": {
+            "mapped": { "type": "integer" },
+            "no-image-in-caption": { "type": "integer" },
+            "unresolved": { "type": "integer" }
+          }
+        }
+      }
+    }
+  }
+}

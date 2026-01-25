@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "chunks-output.schema.json",
+  "title": "ChunksOutput",
+  "description": "Complete chunks.json output file structure",
+  "type": "object",
+  "required": [
+    "document_id",
+    "generated_at",
+    "total_chunks",
+    "chunks"
+  ],
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Parent document reference"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO timestamp of generation"
+    },
+    "total_chunks": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of chunks"
+    },
+    "chunks": {
+      "type": "array",
+      "items": { "$ref": "chunk.schema.json" },
+      "description": "Array of Chunk objects"
+    }
+  }
+}

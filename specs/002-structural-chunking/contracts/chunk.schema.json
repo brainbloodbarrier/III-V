@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "chunk.schema.json",
+  "title": "Chunk",
+  "description": "A self-contained text unit with hierarchical breadcrumb context",
+  "type": "object",
+  "required": [
+    "chunk_id",
+    "document_id",
+    "breadcrumb",
+    "breadcrumb_text",
+    "content",
+    "content_with_context",
+    "page_numbers",
+    "source_block_ids",
+    "sequence_number",
+    "previous_chunk_id",
+    "next_chunk_id",
+    "parent_section_id",
+    "figure_references",
+    "token_count",
+    "character_count",
+    "overlap_tokens",
+    "is_figure_caption",
+    "is_table",
+    "contains_abbreviations"
+  ],
+  "properties": {
+    "chunk_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+-chunk-[0-9]{4}$",
+      "description": "Unique identifier: {doc_id}-chunk-{seq:04d}"
+    },
+    "document_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Parent document reference"
+    },
+    "breadcrumb": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Hierarchy path as array of labels"
+    },
+    "breadcrumb_text": {
+      "type": "string",
+      "pattern": "^\\[Context: .+\\]$",
+      "description": "Formatted context string"
+    },
+    "content": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The actual chunk text without context prefix"
+    },
+    "content_with_context": {
+      "type": "string",
+      "minLength": 1,
+      "description": "breadcrumb_text + newlines + content"
+    },
+    "page_numbers": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "minItems": 1,
+      "description": "Source page numbers"
+    },
+    "source_block_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Original JSON block IDs"
+    },
+    "sequence_number": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Order within document (0-indexed)"
+    },
+    "previous_chunk_id": {
+      "type": ["string", "null"],
+      "description": "Link to previous chunk"
+    },
+    "next_chunk_id": {
+      "type": ["string", "null"],
+      "description": "Link to next chunk"
+    },
+    "parent_section_id": {
+      "type": "string",
+      "description": "Section this chunk belongs to"
+    },
+    "figure_references": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/FigureRef" },
+      "description": "Figures mentioned in this chunk"
+    },
+    "token_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 600,
+      "description": "Estimated tokens (hard max: 600)"
+    },
+    "character_count": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Character count of content"
+    },
+    "overlap_tokens": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Tokens shared with previous chunk"
+    },
+    "is_figure_caption": {
+      "type": "boolean",
+      "description": "True if this is a figure caption chunk"
+    },
+    "is_table": {
+      "type": "boolean",
+      "description": "True if this contains tabular data"
+    },
+    "contains_abbreviations": {
+      "type": "boolean",
+      "description": "True if abbreviation definitions present"
+    }
+  },
+  "definitions": {
+    "FigureRef": {
+      "type": "object",
+      "required": ["figure_id", "image_path", "caption_snippet"],
+      "properties": {
+        "figure_id": {
+          "type": "string",
+          "pattern": "^Fig\\. \\d+\\.\\d+$",
+          "description": "Figure identifier"
+        },
+        "image_path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Path to image file"
+        },
+        "caption_snippet": {
+          "type": "string",
+          "maxLength": 150,
+          "description": "First 100 chars of caption"
+        }
+      }
+    }
+  }
+}

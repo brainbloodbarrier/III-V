@@ -31,16 +31,7 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-| Principle | Compliance | Notes |
-|-----------|------------|-------|
-| I. Data Integrity | [ ] Pass / [ ] Waiver | Source traceability, zero hallucinations |
-| II. Schema Validation | [ ] Pass / [ ] Waiver | TypeScript interfaces, JSON Schema validation |
-| III. Test-First | [ ] Pass / [ ] Waiver | Tests exist before implementation |
-| IV. Traceability & Observability | [ ] Pass / [ ] Waiver | Breadcrumbs, logging, confidence scores |
-| V. Simplicity | [ ] Pass / [ ] Waiver | Mini-models first, no premature abstraction |
-
-**Waivers (if any):**
-- [Document any principle waivers with rationale here]
+[Gates determined based on constitution file]
 
 ## Project Structure
 
