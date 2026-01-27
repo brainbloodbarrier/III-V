@@ -11,6 +11,7 @@
  */
 
 import { z } from "zod";
+import { decode } from "html-entities";
 import type { BlockType, BoundingBox, ContentBlock, RhotonPage } from "../../models/document";
 import { dedupe } from "../../lib/array-utils";
 import { createLogger } from "../../lib/logger";
@@ -168,18 +169,16 @@ function extractHeadingLevel(html: string): number {
 }
 
 /**
- * Strips HTML tags to get plain text content.
+ * Strips HTML tags and decodes entities to get plain text content.
+ * Uses html-entities library for proper entity handling (Issue #208 CodeQL fix).
  */
 function stripHtml(html: string): string {
-  return html
-    .replace(/<[^>]+>/g, "")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .trim();
+  // Strip tags first
+  const stripped = html.replace(/<[^>]+>/g, "");
+  // Use library for proper entity decoding (handles all HTML entities correctly)
+  const decoded = decode(stripped);
+  // Normalize non-breaking spaces (U+00A0) to regular spaces for text processing
+  return decoded.replace(/\u00A0/g, " ").trim();
 }
 
 /**

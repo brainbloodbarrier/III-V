@@ -10,6 +10,7 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "html-entities": "^2.6.0",
     "zod": "^4.3.6"
   }
 }
