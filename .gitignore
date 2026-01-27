@@ -26,3 +26,7 @@ node_modules/
 .env
 .env.*
 !.env.example
+.grepai/
+
+# Claude Code local state
+.claude/*.local.md
