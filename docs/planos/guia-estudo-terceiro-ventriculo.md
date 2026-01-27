@@ -148,6 +148,27 @@ Vista lateral do fórnice:
 
 **Suprimento arterial do plexo do 3V**: Artérias coroidais posteriores MEDIAIS (ramos da P2)
 
+### 1.5 Verificação Rápida - Teto
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Cite as 5 camadas do teto do 3V (FSVIP): ___
+2. Qual estrutura vascular passa pelo velum interpositum? ___
+3. A abordagem transchoroidal abre pelo lado ___ (fornical/talâmico)
+4. Por que o lado fornical é mais seguro? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Fórnice, Superior tela, Velum, Inferior tela, Plexo
+2. VCIs + artérias coroidais posteriores mediais
+3. Fornical (lado talâmico tem vasos)
+4. O lado talâmico contém a talamoestriada e artérias coroidais
+
+</details>
+
 ---
 
 ## 2. ASSOALHO (Floor)
@@ -215,6 +236,27 @@ Forma a parte inferior das paredes laterais E o assoalho:
 └─────────────────────────────────────────────────────────────┘
 ```
 
+### 2.4 Verificação Rápida - Assoalho
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Cite os 6 componentes do assoalho (QPTCPM): ___
+2. Quais são os 2 recessos ANTERIORES do 3V? ___
+3. Qual divisão do hipotálamo está relacionada ao eixo HH (endócrino)? ___
+4. Lesão dos corpos mamilares afeta qual circuito de memória? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Quiasma, Pedúnculo (hipofisário), Túber (cinéreo), Corpos (mamilares), Perfurada (posterior), Mesencéfalo
+2. Recesso óptico e recesso infundibular
+3. Região Tuberal
+4. Circuito de Papez (memória)
+
+</details>
+
 ---
 
 ## 3. PAREDES LATERAIS
@@ -259,6 +301,25 @@ Forma a parte inferior das paredes laterais E o assoalho:
 └─────────────────────────────────────────────────────────────┘
 ```
 
+### 3.3 Verificação Rápida - Paredes Laterais
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Qual estrutura divide a parede lateral em tálamo/hipotálamo? ___
+2. Em que porcentagem a massa intermédia está presente? ___
+3. Se a massa intermédia estiver ausente, isso causa déficit? Por quê? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Sulco hipotalâmico
+2. 70-80% dos indivíduos
+3. NÃO causa déficit - é apenas marco anatômico, não estrutura funcional. Usam-se outros marcos: estrias medulares, linha média entre VCIs
+
+</details>
+
 ---
 
 ## 4. PAREDE ANTERIOR
@@ -302,6 +363,25 @@ QUIASMA ÓPTICO
 └─────────────────────────────────────────────────────────────┘
 ```
 
+### 4.3 Verificação Rápida - Parede Anterior
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Cite as 3 estruturas da parede anterior (superior → inferior): ___
+2. Na abordagem translaminar terminal, qual é o limite superior da abertura? ___
+3. Quais artérias devem ser preservadas nessa abordagem? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Colunas do fórnice, Comissura anterior, Lâmina terminal
+2. Comissura anterior (não estender!)
+3. A. comunicante anterior + perfurantes hipotalâmicos, A. recorrente de Heubner
+
+</details>
+
 ---
 
 ## 5. PAREDE POSTERIOR
@@ -335,6 +415,27 @@ MESENCÉFALO
 - Marca a junção diencéfalo-mesencéfalo
 - Localizada imediatamente acima do aqueduto
 - Contém fibras relacionadas ao reflexo pupilar
+
+### 5.3 Verificação Rápida - Parede Posterior
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Cite as 6 estruturas da parede posterior (superior → inferior): ___
+2. Quais são os 2 recessos POSTERIORES do 3V? ___
+3. O que a comissura posterior marca anatomicamente? ___
+4. Qual estrutura conecta o 3V ao 4V? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Recesso suprapineal, Comissura habenular, Glândula pineal, Recesso pineal, Comissura posterior, Aqueduto cerebral
+2. Recesso suprapineal e recesso pineal
+3. A junção diencéfalo-mesencéfalo
+4. Aqueduto cerebral (de Sylvius)
+
+</details>
 
 ---
 
@@ -415,6 +516,27 @@ MESENCÉFALO
 └─────────────────────────────────────────────────────────────┘
 ```
 
+### 6.4 Verificação Rápida - Forame de Monro
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Quais são os 4 limites do forame de Monro? ___
+2. Quais 2 veias se juntam para formar a VCI no forame? ___
+3. Em que porcentagem a talamoestriada está ausente? ___
+4. Na ausência da talamoestriada, qual veia assume a drenagem? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Anterior: coluna do fórnice; Posterior: polo anterior do tálamo; Inferior: plexo coroide; Lateral: genu da cápsula interna
+2. Veia talamoestriada + Veia coroidal superior
+3. ~4% dos casos
+4. Veia talamocaudada (trajeto mais medial/posterior)
+
+</details>
+
 ---
 
 ## 7. ANATOMIA VASCULAR
@@ -444,6 +566,25 @@ MESENCÉFALO
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+┌─────────────────────────────────────────────────────────────┐
+│  🔄 RECONEXÃO: VCI e Velum Interpositum                     │
+├─────────────────────────────────────────────────────────────┤
+│  VOCÊ APRENDEU NA SEÇÃO 1 (Teto):                           │
+│  • VCI passa pelo VELUM INTERPOSITUM (camada 3 do teto)     │
+│  • Velum tem forma triangular: base no esplênio             │
+│  • 5 camadas FSVIP: Fórnice→Sup.Tela→Velum→Inf.Tela→Plexo  │
+│                                                             │
+│  AGORA CONECTE:                                             │
+│  • Por que conhecer as 5 camadas importa cirurgicamente?    │
+│  • Na abordagem transchoroidal, você atravessa do VL        │
+│    para o velum - precisa saber ONDE está a VCI             │
+│                                                             │
+│  IMPLICAÇÃO CIRÚRGICA:                                      │
+│  • VCI bilateral = FATAL se lesada                          │
+│  • Conhecer anatomia do velum = saber onde NÃO coagular     │
+│  • Abordagem pelo lado FORNICAL preserva a VCI              │
+└─────────────────────────────────────────────────────────────┘
 
 #### Veias Cerebrais Internas (VCI)
 
@@ -487,6 +628,27 @@ MESENCÉFALO
 └─────────────────────────────────────────────────────────────┘
 ```
 
+┌─────────────────────────────────────────────────────────────┐
+│  🔄 RECONEXÃO: Artérias Coroidais e Plexo                   │
+├─────────────────────────────────────────────────────────────┤
+│  VOCÊ APRENDEU NA SEÇÃO 2 (Assoalho):                       │
+│  • Plexo coroide projeta-se do teto para o 3V               │
+│  • Estruturas do assoalho seguem QPTCPM                     │
+│  • Plexo é contínuo com VL através do forame de Monro       │
+│                                                             │
+│  AGORA CONECTE:                                             │
+│  • Qual artéria supre qual plexo?                           │
+│  • 3V recebe da A. coroidal posterior MEDIAL (da P2)        │
+│  • VL recebe da A. coroidal ANTERIOR (corno temporal)       │
+│    + A. coroidal posterior LATERAL (corpo)                  │
+│                                                             │
+│  IMPLICAÇÃO CIRÚRGICA:                                      │
+│  • REGRA: 3V = MEDIAL; VL = ANTERIOR + LATERAL              │
+│  • Lesão da coroidal anterior = tríade dos 3 Hs             │
+│  • Na abordagem transchoroidal, coroidais estão no lado     │
+│    TALÂMICO - por isso preferir lado fornical               │
+└─────────────────────────────────────────────────────────────┘
+
 #### Tríade da Artéria Coroidal Anterior
 
 ```
@@ -506,6 +668,29 @@ MESENCÉFALO
 └─────────────────────────────────────────────────────────────┘
 ```
 
+### 7.3 Verificação Rápida - Anatomia Vascular
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Quais veias formam a VCI? ___
+2. Pode sacrificar VCI bilateral? Por quê? ___
+3. Qual artéria supre o plexo coroide do 3V? ___
+4. Qual o trajeto da veia basal (CAQ)? ___
+5. Qual a tríade do infarto da A. coroidal anterior (3 Hs)? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Veia talamoestriada + Veia coroidal superior
+2. NÃO - geralmente FATAL (edema venoso hemorrágico profundo, coma, morte)
+3. Artéria coroidal posterior MEDIAL (ramo da P2)
+4. Crural → Ambiente → Quadrigeminal (cisternas)
+5. Hemiplegia (cápsula interna), Hemianestesia (tálamo), Hemianopsia homônima (trato óptico/geniculado lateral)
+
+</details>
+
 ---
 
 ## 8. CORREDORES CIRÚRGICOS
@@ -522,6 +707,25 @@ MESENCÉFALO
 │  ├─ Alvo: Teto e parte superior do 3V                      │
 │  └─ Risco: V. talamoestriada (evitar lado talâmico)        │
 │                                                             │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │ 🔄 RECONEXÃO: Fissura Coroidal e VCI (Seção 1)        │ │
+│  ├───────────────────────────────────────────────────────┤ │
+│  │ VOCÊ APRENDEU NA SEÇÃO 1 (Teto):                      │ │
+│  │ • Fissura coroidal fica entre fórnice e tálamo        │ │
+│  │ • VCI está no velum interpositum (5 camadas FSVIP)    │ │
+│  │ • Talamoestriada + Chor.Sup. → VCI no forame          │ │
+│  │                                                       │ │
+│  │ AGORA CONECTE:                                        │ │
+│  │ • Por que o lado FORNICAL é mais seguro?              │ │
+│  │ • Abrindo pela TENIA FORNICIS, você fica LONGE       │ │
+│  │   da talamoestriada e artérias coroidais              │ │
+│  │                                                       │ │
+│  │ IMPLICAÇÃO CIRÚRGICA:                                 │ │
+│  │ • Lado talâmico = vasos críticos (fatal se bilateral) │ │
+│  │ • Lado fornical = estruturas menores, sacrificáveis  │ │
+│  │ • TRANSCHOROIDAL (fornical) ✓ vs SUBCHOROIDAL ✗      │ │
+│  └───────────────────────────────────────────────────────┘ │
+│                                                             │
 │  TRANSCALOSA-INTERFORNICEAL                                 │
 │  ├─ Via: Caloso → entre os dois fórnices (rafe mediana)    │
 │  ├─ Alvo: Exposição direta do 3V                           │
@@ -531,6 +735,25 @@ MESENCÉFALO
 │  ├─ Via: Subfrontal → lâmina terminal                      │
 │  ├─ Alvo: 3V anterior, craniofaringiomas                   │
 │  └─ Risco: Quiasma, hipotálamo, ACoA                       │
+│                                                             │
+│  ┌───────────────────────────────────────────────────────┐ │
+│  │ 🔄 RECONEXÃO: Lâmina Terminal e Quiasma (Seção 4)     │ │
+│  ├───────────────────────────────────────────────────────┤ │
+│  │ VOCÊ APRENDEU NA SEÇÃO 4 (Parede Anterior):           │ │
+│  │ • Lâmina terminal está ENTRE comissura anterior       │ │
+│  │   (superior) e quiasma óptico (inferior)              │ │
+│  │ • Limites: CA acima, quiasma abaixo                   │ │
+│  │                                                       │ │
+│  │ AGORA CONECTE:                                        │ │
+│  │ • A "janela" cirúrgica é PEQUENA e delicada           │ │
+│  │ • Estruturas a preservar: ACoA + perfurantes          │ │
+│  │   hipotalâmicos + A. recorrente de Heubner            │ │
+│  │                                                       │ │
+│  │ IMPLICAÇÃO CIRÚRGICA:                                 │ │
+│  │ • NÃO estender acima da CA (lesa fibras)              │ │
+│  │ • NÃO lesar quiasma (hemianopsia bitemporal)          │ │
+│  │ • Precisão milimétrica é OBRIGATÓRIA                  │ │
+│  └───────────────────────────────────────────────────────┘ │
 │                                                             │
 │  ENDOSCÓPICA                                                │
 │  ├─ Via: Transcortical → VL → FM                           │
@@ -564,6 +787,29 @@ MESENCÉFALO
 └─────────────────────────────────────────────────────────────┘
 ```
 
+### 8.3 Verificação Rápida - Corredores Cirúrgicos
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Qual abordagem usa a rafe mediana entre os dois fórnices? ___
+2. A interforniceal secciona as colunas do fórnice? ___
+3. Por que preferir o lado fornical na fissura coroidal? ___
+4. Qual abordagem é preferida para craniofaringiomas do 3V anterior? ___
+5. Para biópsia de tumor pineal com hidrocefalia, qual procedimento combina ETV + biópsia? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Transcalosa-interforniceal
+2. NÃO - apenas a rafe mediana (comissura do fórnice)
+3. O lado talâmico contém a talamoestriada e artérias coroidais (maior risco vascular)
+4. Translaminar terminal (via subfrontal → lâmina terminal)
+5. Abordagem endoscópica (transcortical → VL → FM)
+
+</details>
+
 ---
 
 ## 9. PATOLOGIA E IMPLICAÇÕES CLÍNICAS
@@ -588,6 +834,26 @@ MESENCÉFALO
 └─────────────────────────────────────────────────────────────┘
 ```
 
+┌─────────────────────────────────────────────────────────────┐
+│  🔄 RECONEXÃO: Hipotálamo e SIADH                           │
+├─────────────────────────────────────────────────────────────┤
+│  VOCÊ APRENDEU NA SEÇÃO 2.3 (Hipotálamo):                   │
+│  • Hipotálamo divide-se em PTM: Pré-óptica, Tuberal, Mamilar│
+│  • Região tuberal = eixo hipotálamo-hipofisário (endócrino) │
+│  • Núcleos controlam temperatura, endócrino, memória        │
+│                                                             │
+│  AGORA CONECTE:                                             │
+│  • Por que manipulação do 3V pode causar SIADH?             │
+│  • Núcleos SUPRAÓPTICO e PARAVENTRICULAR produzem ADH       │
+│  • Lesão = liberação descontrolada de ADH = hiponatremia    │
+│                                                             │
+│  IMPLICAÇÃO CIRÚRGICA:                                      │
+│  • Ressecção de cisto coloide pode irritar hipotálamo       │
+│  • SIADH pós-operatório: Na+ sérico < 135 mEq/L             │
+│  • Monitorar eletrólitos nas primeiras 48-72h               │
+│  • Tratamento: restrição hídrica ± solução salina           │
+└─────────────────────────────────────────────────────────────┘
+
 ### 9.2 Tumores Pineais
 
 ```
@@ -608,6 +874,48 @@ MESENCÉFALO
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+┌─────────────────────────────────────────────────────────────┐
+│  🔄 RECONEXÃO: Parede Posterior e Síndrome de Parinaud      │
+├─────────────────────────────────────────────────────────────┤
+│  VOCÊ APRENDEU NA SEÇÃO 5 (Parede Posterior):               │
+│  • Comissura posterior marca junção diencéfalo-mesencéfalo  │
+│  • Pineal está ENTRE os colículos superiores                │
+│  • Aqueduto cerebral conecta 3V → 4V                        │
+│                                                             │
+│  AGORA CONECTE:                                             │
+│  • Por que tumores pineais causam paralisia do olhar CIMA?  │
+│  • A pineal comprime o TETO MESENCEFÁLICO (colículos sup.)  │
+│  • Colículos superiores coordenam movimentos oculares       │
+│    verticais via fascículo longitudinal medial              │
+│                                                             │
+│  IMPLICAÇÃO CIRÚRGICA:                                      │
+│  • Síndrome de Parinaud = ALERTA para tumor pineal          │
+│  • Hidrocefalia associada (compressão do aqueduto)          │
+│  • ETV resolve hidrocefalia + permite biópsia simultânea    │
+│  • Melhora do Parinaud depende de descompressão precoce     │
+└─────────────────────────────────────────────────────────────┘
+
+### 9.3 Verificação Rápida - Patologia
+
+```
+ANTES DE CONTINUAR, responda mentalmente:
+
+1. Onde se localiza o cisto coloide? ___
+2. Qual o tamanho de cisto coloide que indica cirurgia, mesmo assintomático? ___
+3. Cite a tríade da síndrome de Parinaud: ___
+4. Por que tumores pineais causam hidrocefalia? ___
+```
+
+<details>
+<summary>Conferir respostas</summary>
+
+1. Teto do forame de Monro
+2. > 10mm
+3. Paralisia do olhar para cima, pupilas que reagem à acomodação mas NÃO à luz, nistagmo de convergência-retração
+4. Por compressão do aqueduto cerebral
+
+</details>
 
 ---
 

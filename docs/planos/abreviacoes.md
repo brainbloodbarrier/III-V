@@ -381,7 +381,74 @@ a veia de Galeno."
 
 ---
 
-## 10. Checklist de Domínio
+## 10. Cartão de Bolso (Formato A6 - Imprimir)
+
+### FRENTE
+
+```
+┌─────────────────────────────────────────────────┐
+│         ABREVIAÇÕES RHOTON - FRENTE             │
+│              Terceiro Ventrículo                │
+├─────────────────────────────────────────────────┤
+│ VEIAS                  │ ARTÉRIAS               │
+│────────────────────────│────────────────────────│
+│ V.C.I. = V.Cer.Interna │ P.C.A. = A.Cer.Post.  │
+│ Thal.Str. = Talamoestr.│ A.Ch.A. = A.Chor.Ant. │
+│ Bas.V. = V.Basal       │ M.P.Ch.A. = Chor.P.Med│
+│ Sup.Chor.V. = Chor.Sup.│ L.P.Ch.A. = Chor.P.Lat│
+│ Inf.Vent.V. = Vent.Inf.│ A.Co.A. = A.Com.Ant.  │
+├─────────────────────────┴────────────────────────┤
+│ REGRA COROIDAIS:                                │
+│ • 3V = MEDIAL (M.P.Ch.A.)                       │
+│ • VL = ANTERIOR + LATERAL (A.Ch.A. + L.P.Ch.A.) │
+├─────────────────────────────────────────────────┤
+│ FORMAÇÃO VCI: Thal.Str. + Sup.Chor.V. → V.C.I. │
+│ TRAJETO BASAL (CAQ): Crural→Ambiente→Quadrigem. │
+└─────────────────────────────────────────────────┘
+```
+
+### VERSO
+
+```
+┌─────────────────────────────────────────────────┐
+│         ABREVIAÇÕES RHOTON - VERSO              │
+│            Estruturas + Mnemônicos              │
+├─────────────────────────────────────────────────┤
+│ ESTRUTURAS 3V          │ CISTERNAS              │
+│────────────────────────│────────────────────────│
+│ For.Mon. = Forame Monro│ Crur. = Crural        │
+│ V.Int. = Velum Interp. │ Amb. = Ambiente       │
+│ Lam.Term. = Lam.Term.  │ Quad. = Quadrigeminal │
+│ Mass.Int. = M.Interméd.│ Interped. = Interped. │
+├─────────────────────────┴────────────────────────┤
+│ MNEMÔNICOS ESSENCIAIS:                          │
+│ • FSVIP = Teto 3V (Fórnice→Sup.tela→Velum→     │
+│           Inf.tela→Plexo)                       │
+│ • QPTCPM = Assoalho (Quiasma→Pedúnculo→Túber→  │
+│            Corpos→Perfurada→Mesencéfalo)        │
+│ • 3 Hs = Tríade AChA (Hemiplegia, Hemianestesia│
+│          Hemianopsia)                           │
+│ • CAQ = Trajeto basal                           │
+│ • 10-80-10 = Quiasma (pré-normal-pós)          │
+├─────────────────────────────────────────────────┤
+│ VARIAÇÕES IMPORTANTES:                          │
+│ • Massa intermédia: presente ~70-80%            │
+│ • Talamoestriada atrás FM: ~10-15%              │
+│ • Talamoestriada ausente: ~4%                   │
+└─────────────────────────────────────────────────┘
+```
+
+### Instruções de Impressão
+
+1. Copie cada quadro (FRENTE e VERSO) para um documento
+2. Use fonte monoespaçada (Courier, Consolas)
+3. Ajuste para caber em A6 (105x148mm)
+4. Imprima frente e verso
+5. Plastifique para durabilidade
+
+---
+
+## 11. Checklist de Domínio
 
 ```
 ┌────────────────────────────────────────────────────────────────┐

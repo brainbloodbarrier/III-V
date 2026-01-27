@@ -254,6 +254,37 @@
 
 ---
 
+### 2.5 Estria Medular do Tálamo
+🔴 **AVANÇADO** | Tempo: 2 min
+
+**CENÁRIO**: Durante cirurgia transcalosa, você precisa identificar a linha média do 3V.
+
+**PERGUNTA**: "Qual estrutura anatômica marca a margem superior da parede lateral do 3V e serve como guia para a linha média?"
+
+**RESPOSTA IDEAL**:
+> "A **ESTRIA MEDULAR DO TÁLAMO** (Stria Medullaris Thalami).
+>
+> **Características**:
+> - Faixa de fibras que corre na margem superior do tálamo
+> - Estende-se da comissura habenular (posterior) até a região anterior do tálamo
+> - A VCI cursa ao longo dela no velum interpositum
+>
+> **Uso cirúrgico**:
+> - Marca a margem do 3V quando massa intermédia ausente
+> - Guia para encontrar a linha média"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Estria medular do tálamo. Corre na margem superior do tálamo, a VCI segue seu trajeto."
+
+**ARMADILHA**: Confundir com estria terminal (que está no sulco estriotalâmico)
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Qual a diferença entre estria medular e estria terminal?"
+> - Medular: margem superior do tálamo, para habênula
+> - Terminal: sulco estriotalâmico, sistema límbico
+
+---
+
 ## ESTAÇÃO 3: ANATOMIA VASCULAR
 
 ### 3.1 Sacrifício de VCI
@@ -614,6 +645,62 @@
 
 ---
 
+### 5.3 Hidrocefalia e Marcos Venosos
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
+
+**CENÁRIO**: Você está operando um paciente com hidrocefalia crônica e os ventrículos estão muito dilatados.
+
+**PERGUNTA**: "Por que veias são melhores marcos que artérias em hidrocefalia?"
+
+**RESPOSTA IDEAL**:
+> "As **VEIAS VENTRICULARES** são marcos mais confiáveis porque:
+>
+> **Veias**:
+> - Estão firmemente **aderidas à superfície ependimária**
+> - Permanecem no local mesmo com dilatação ventricular
+> - A talamoestriada é especialmente útil
+>
+> **Artérias**:
+> - Passam por **cisternas e sulcos**, não aderidas
+> - Movem-se com expansão ventricular
+> - Menos úteis como referência"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Veias estão aderidas à superfície ependimária, artérias passam por cisternas e não são fixas."
+
+**ARMADILHA**: Assumir que todas as estruturas se movem igualmente com hidrocefalia
+
+---
+
+### 5.4 SIADH em Lesões do 3V
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
+
+**CENÁRIO**: Pós-operatório de craniofaringioma, sódio sérico de 125 mEq/L.
+
+**PERGUNTA**: "Qual estrutura foi provavelmente lesada e qual o mecanismo?"
+
+**RESPOSTA IDEAL**:
+> "**HIPOTÁLAMO** - especificamente os núcleos supraóptico e paraventricular.
+>
+> **Mecanismo**:
+> - Lesão → liberação descontrolada de ADH (vasopressina)
+> - SIADH = Síndrome da secreção inapropriada de ADH
+> - Retenção de água → hiponatremia dilucional
+>
+> **Apresentação**:
+> - Na < 135 mEq/L
+> - Osmolaridade sérica baixa
+> - Urina concentrada (osmolaridade alta)
+>
+> **Conduta**: Restrição hídrica, em casos graves: solução hipertônica"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Hipotálamo (núcleos supraóptico/paraventricular). SIADH causa retenção de água e hiponatremia."
+
+**ARMADILHA**: Confundir com diabetes insipidus (que causa hipernatremia)
+
+---
+
 ## ESTAÇÃO 6: CENÁRIOS INTEGRADOS
 
 ### 6.1 Caso Clínico Complexo
@@ -654,6 +741,69 @@
 > - Radiocirurgia para resíduo sólido
 > - Bleomicina intracística para componente cístico
 > - Nova ressecção se tecnicamente seguro
+
+---
+
+### 6.2 Variação da Talamoestriada no Planejamento
+🔴 **AVANÇADO** | Tempo: 3 min
+
+**CENÁRIO**: Angiografia pré-operatória mostra talamoestriada passando ATRÁS do forame de Monro (variante 10-15%).
+
+**PERGUNTA**: "Como essa variação muda seu planejamento cirúrgico?"
+
+**RESPOSTA IDEAL**:
+> "A variação altera a **estratégia de acesso** ao 3V:
+>
+> **Padrão normal**:
+> - Talamoestriada no sulco estriotalâmico
+> - Vira medialmente NA margem posterior do FM
+> - Abordagem transchoroidal tem margem de segurança
+>
+> **Variante (atrás do FM)**:
+> - Talamoestriada passa pela fissura coroidal POSTERIOR ao forame
+> - Risco aumentado ao abrir fissura coroidal no corpo do VL
+> - Considerar abordagem INTERFORNICEAL ou via FM diretamente
+>
+> **Conduta**: Mapear venoso completo no pré-operatório, ajustar corredor"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Variante passa atrás do FM. Risco ao abrir fissura coroidal. Considerar abordagem interforniceal."
+
+**ARMADILHA**: Ignorar variação e usar técnica padrão
+
+---
+
+### 6.3 Quiasma Pré-fixado e Abordagem
+🔴 **AVANÇADO** | Tempo: 3 min
+
+**CENÁRIO**: RM de craniofaringioma mostra quiasma pré-fixado (acima do tubérculo selar).
+
+**PERGUNTA**: "Por que isso contraindica a abordagem transesfenoidal estendida?"
+
+**RESPOSTA IDEAL**:
+> "O quiasma pré-fixado **BLOQUEIA** o corredor cirúrgico:
+>
+> **Anatomia**:
+> - Pré-fixado: quiasma ACIMA do tubérculo selar (~10%)
+> - Posiciona-se mais anteriormente
+> - Reduz espaço entre quiasma e tubérculo
+>
+> **Implicação**:
+> - Transesfenoidal estendida precisa de espaço ACIMA do plano esfenoidal
+> - Quiasma pré-fixado está no caminho
+> - Risco de lesão visual inaceitável
+>
+> **Alternativa**: Abordagem transcraniana (translaminar terminal ou transcalosa)"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Quiasma pré-fixado está mais anterior, bloqueia o corredor transesfenoidal. Usar abordagem transcraniana."
+
+**ARMADILHA**: Forçar abordagem transesfenoidal com risco visual
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "E se o quiasma for pós-fixado?"
+> - Favorece transesfenoidal: mais espaço acima
+> - Porém, pode dificultar visualização posterior
 
 ---
 
