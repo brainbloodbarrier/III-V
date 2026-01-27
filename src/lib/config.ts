@@ -3,9 +3,22 @@
  * Loads source-paths.json and validates required fields.
  */
 
-import { createLogger } from "./logger.ts";
+import { createLogger } from "./logger";
 
 const log = createLogger("config");
+
+/**
+ * Security constant: Maximum file size for input files (100 MB).
+ * Prevents memory exhaustion from maliciously large or corrupted files.
+ *
+ * Rationale: The largest expected document is ~500 pages of medical text with
+ * embedded figure references. At ~2KB/page for structured JSON, this yields
+ * ~1MB typical size. 100MB provides generous headroom while preventing
+ * memory attacks.
+ *
+ * @see Issue #208 - File size validation security enhancement
+ */
+export const MAX_FILE_SIZE_BYTES = 100 * 1024 * 1024; // 100 MB
 
 export interface SourcePaths {
   json: string;

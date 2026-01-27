@@ -1,42 +1,81 @@
 /**
  * JSON parser for Rhoton PDF structured data.
  * Extracts blocks from the hierarchical JSON format.
+ *
+ * **Security Considerations (Issue #212):**
+ * - Trust model: Input files are expected to come from the PDF parser (Phase 1),
+ *   not arbitrary user content. The pipeline is a local CLI tool.
+ * - File size validation: Rejects files exceeding MAX_FILE_SIZE_BYTES to prevent
+ *   memory exhaustion attacks (Issue #208).
+ * - Schema validation: Uses Zod schemas for runtime type safety.
  */
 
-import type { BlockType, BoundingBox, ContentBlock, RhotonPage } from "../../models/document.ts";
-import { createLogger } from "../../lib/logger.ts";
+import { z } from "zod";
+import type { BlockType, BoundingBox, ContentBlock, RhotonPage } from "../../models/document";
+import { dedupe } from "../../lib/array-utils";
+import { createLogger } from "../../lib/logger";
+import { MAX_FILE_SIZE_BYTES } from "../../lib/config";
 
 const log = createLogger("json-parser");
 
 /**
+ * Zod schema for SourceBlock - validates source JSON blocks at runtime.
+ * Uses z.lazy() for recursive children structure.
+ *
+ * Note: images field can be absent, null, or a record - we use .nullable().optional()
+ * to handle all cases found in the source JSON data.
+ */
+const SourceBlockSchema: z.ZodType<SourceBlock> = z.lazy(() =>
+  z.object({
+    id: z.string(),
+    block_type: z.string(),
+    html: z.string(),
+    bbox: z.array(z.number()).nullable(),
+    section_hierarchy: z.record(z.string(), z.string()).nullable(),
+    children: z.array(SourceBlockSchema).nullable(),
+    images: z.record(z.string(), z.unknown()).nullable().optional(),
+  })
+);
+
+/**
  * Raw block from source JSON.
  */
-export interface SourceBlock {
+export type SourceBlock = {
   id: string;
   block_type: string;
   html: string;
   bbox: number[] | null;
   section_hierarchy: Record<string, string> | null;
   children: SourceBlock[] | null;
-  images?: Record<string, unknown>;
-}
+  images?: Record<string, unknown> | null;
+};
+
+/**
+ * Zod schema for SourcePage - validates source JSON pages at runtime.
+ */
+const SourcePageSchema = z.object({
+  block_type: z.string(),
+  bbox: z.array(z.number()),
+  children: z.array(SourceBlockSchema).nullable(),
+});
 
 /**
  * Raw page from source JSON.
  */
-interface SourcePage {
-  block_type: string;
-  bbox: number[];
-  children: SourceBlock[] | null;
-}
+type SourcePage = z.infer<typeof SourcePageSchema>;
+
+/**
+ * Zod schema for SourceDocument - validates source JSON documents at runtime.
+ */
+const SourceDocumentSchema = z.object({
+  block_type: z.string(),
+  children: z.array(SourcePageSchema).nullable(),
+});
 
 /**
  * Raw document from source JSON.
  */
-interface SourceDocument {
-  block_type: string;
-  children: SourcePage[] | null;
-}
+type SourceDocument = z.infer<typeof SourceDocumentSchema>;
 
 /**
  * Result of parsing the JSON document.
@@ -60,7 +99,12 @@ export function parseBlockType(sourceType: string): BlockType {
     Formula: "inline_math",
     TextInlineMath: "inline_math",
   };
-  return typeMap[sourceType] ?? "text";
+  const mappedType = typeMap[sourceType];
+  if (mappedType === undefined) {
+    log.warn("Unknown block type defaulting to 'text'", { sourceType });
+    return "text";
+  }
+  return mappedType;
 }
 
 /**
@@ -68,6 +112,14 @@ export function parseBlockType(sourceType: string): BlockType {
  */
 export function parseBoundingBox(bbox: number[] | null | undefined): BoundingBox {
   if (!bbox || !Array.isArray(bbox) || bbox.length < 4) {
+    log.warn("Invalid bounding box input, using default zeros", {
+      received: bbox,
+      reason: !bbox
+        ? "null or undefined"
+        : !Array.isArray(bbox)
+          ? "not an array"
+          : `insufficient elements (${bbox.length} < 4)`,
+    });
     return { x1: 0, y1: 0, x2: 0, y2: 0 };
   }
   return {
@@ -85,9 +137,19 @@ export function parseBoundingBox(bbox: number[] | null | undefined): BoundingBox
 export function extractHierarchy(
   hierarchy: Record<string, string> | null | undefined
 ): string[] {
-  if (!hierarchy || typeof hierarchy !== "object") {
+  // Handle null/undefined as expected "no hierarchy" case (silent)
+  if (hierarchy === null || hierarchy === undefined) {
     return [];
   }
+
+  // Log warning for invalid input types
+  if (typeof hierarchy !== "object" || Array.isArray(hierarchy)) {
+    log.warn("Invalid hierarchy input: expected object", {
+      receivedType: Array.isArray(hierarchy) ? "array" : typeof hierarchy,
+    });
+    return [];
+  }
+
   const entries = Object.entries(hierarchy);
   // Sort by numeric key
   entries.sort(([a], [b]) => parseInt(a, 10) - parseInt(b, 10));
@@ -144,13 +206,13 @@ function extractFigureReferences(content: string): string[] {
     }
   }
 
-  return [...new Set(references)];
+  return dedupe(references);
 }
 
 /**
  * Recursively extracts blocks from a page, flattening nested children.
  */
-export function extractBlocks(pageData: SourcePage, pageNumber: number): ContentBlock[] {
+export function extractBlocks(pageData: SourcePage, _pageNumber: number): ContentBlock[] {
   const blocks: ContentBlock[] = [];
 
   function processBlock(block: SourceBlock): void {
@@ -235,6 +297,13 @@ export function parseJsonDocument(document: SourceDocument): JsonParseResult {
 
 /**
  * Loads and parses a JSON file.
+ * Uses Zod schema validation to ensure type safety at runtime.
+ *
+ * **Security (Issue #208):**
+ * Validates file size before parsing to prevent memory exhaustion from
+ * maliciously large files. The limit is defined by MAX_FILE_SIZE_BYTES.
+ *
+ * @throws {Error} If file not found, exceeds size limit, or fails schema validation
  */
 export async function parseJsonFile(filePath: string): Promise<JsonParseResult> {
   log.info("Loading JSON file", { path: filePath });
@@ -244,6 +313,26 @@ export async function parseJsonFile(filePath: string): Promise<JsonParseResult> 
     throw new Error(`JSON file not found: ${filePath}`);
   }
 
-  const document = (await file.json()) as SourceDocument;
-  return parseJsonDocument(document);
+  // Security check: Validate file size before loading into memory (Issue #208)
+  const fileSize = file.size;
+  if (fileSize > MAX_FILE_SIZE_BYTES) {
+    const sizeMB = (fileSize / (1024 * 1024)).toFixed(2);
+    const maxMB = (MAX_FILE_SIZE_BYTES / (1024 * 1024)).toFixed(0);
+    throw new Error(
+      `File size (${sizeMB} MB) exceeds maximum allowed size (${maxMB} MB): ${filePath}. ` +
+      `This limit prevents memory exhaustion. If this is a legitimate file, consider ` +
+      `splitting it into smaller documents.`
+    );
+  }
+
+  const rawData: unknown = await file.json();
+
+  // Validate the parsed JSON against our schema
+  const parseResult = SourceDocumentSchema.safeParse(rawData);
+  if (!parseResult.success) {
+    const issues = parseResult.error.issues.map((i) => `${i.path.join(".")}: ${i.message}`).join("; ");
+    throw new Error(`Source document validation failed: ${issues}`);
+  }
+
+  return parseJsonDocument(parseResult.data);
 }
