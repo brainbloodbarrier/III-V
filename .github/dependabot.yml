@@ -1,0 +1,57 @@
+# Dependabot configuration for automated dependency updates
+# Issue #215: Dependency auditing CI/CD setup
+#
+# This configuration enables:
+# - Weekly checks for npm dependency updates
+# - Weekly checks for GitHub Actions version updates
+# - Automatic PRs for security updates
+
+version: 2
+updates:
+  # npm dependencies (package.json)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "UTC"
+    # Limit open PRs to avoid noise
+    open-pull-requests-limit: 5
+    # Group minor/patch updates to reduce PR noise
+    groups:
+      development-dependencies:
+        dependency-type: "development"
+        update-types:
+          - "minor"
+          - "patch"
+      production-dependencies:
+        dependency-type: "production"
+        update-types:
+          - "minor"
+          - "patch"
+    # Commit message format
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    # Labels for PRs
+    labels:
+      - "dependencies"
+      - "automated"
+
+  # GitHub Actions versions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "ci"
+      - "automated"

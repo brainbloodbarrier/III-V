@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "chunk-index.schema.json",
+  "title": "ChunkIndex",
+  "description": "Lookup structure for efficient chunk retrieval by section, page, or figure",
+  "type": "object",
+  "required": [
+    "document_id",
+    "total_chunks",
+    "chunks_by_section",
+    "chunks_by_page",
+    "figure_to_chunks"
+  ],
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Parent document reference"
+    },
+    "total_chunks": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of chunks in collection"
+    },
+    "chunks_by_section": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "description": "section_id → chunk_ids mapping"
+    },
+    "chunks_by_page": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "description": "page_number (as string) → chunk_ids mapping"
+    },
+    "figure_to_chunks": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "description": "figure_id → chunk_ids mapping"
+    }
+  }
+}

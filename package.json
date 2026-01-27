@@ -1,0 +1,16 @@
+{
+  "name": "iii-v",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "html-entities": "^2.6.0",
+    "zod": "^4.3.6"
+  }
+}

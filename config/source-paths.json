@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "json": "./rhoton_supratentorial_cerebral_veins_ventric.pdf.json",
+    "markdown": "./rhoton_supratentorial_cerebral_veins_ventric.pdf.markdown",
+    "imageDir": "./rhoton_supratentorial_cerebral_veins_ventric 2.pdf/"
+  },
+  "output": {
+    "baseDir": "./processed/01_normalized",
+    "document": "document.json",
+    "figureMap": "figure_map.json",
+    "content": "content.md",
+    "validationReport": "validation-report.json"
+  },
+  "chunking": {
+    "baseDir": "./processed/02_chunks",
+    "chunks": "chunks.json",
+    "chunkIndex": "chunk_index.json",
+    "preview": "preview.html"
+  },
+  "document": {
+    "id": "rhoton-supratentorial-cerebral-veins",
+    "title": "Supratentorial Cerebral Veins and Ventricles",
+    "author": "Albert L. Rhoton Jr., MD"
+  }
+}
