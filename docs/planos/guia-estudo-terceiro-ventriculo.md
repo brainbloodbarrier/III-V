@@ -6,6 +6,19 @@
 
 ---
 
+## Objetivos de Aprendizagem
+
+Ao final deste estudo, você deve ser capaz de:
+
+1. **Identificar** todas as estruturas que compõem as seis superfícies do 3V
+2. **Descrever** as relações vasculares críticas (VCI, coroidais, veias tributárias)
+3. **Explicar** a anatomia do forame de Monro e suas implicações cirúrgicas
+4. **Comparar** as diferentes abordagens cirúrgicas ao 3V
+5. **Reconhecer** variações anatômicas e suas implicações (massa intermédia, talamoestriada)
+6. **Aplicar** conhecimento anatômico em decisões cirúrgicas
+
+---
+
 ## Visão Geral Anatômica
 
 O terceiro ventrículo é uma cavidade mediana em forma de fenda localizada no diencéfalo. Suas relações críticas incluem:
@@ -17,37 +30,115 @@ O terceiro ventrículo é uma cavidade mediana em forma de fenda localizada no d
 
 **Dimensões aproximadas**: 25-30mm (antero-posterior) × 20mm (altura) × 3-5mm (largura)
 
+### Diagrama Espacial do 3V
+
+```
+                    SUPERIOR (Teto)
+                         ↑
+            ┌────────────┴────────────┐
+            │   Fórnice (corpo)       │
+            │   Tela coroídea sup     │
+            │   VELUM INTERPOSITUM    │  ← VCIs + A.Chor.Post.Med.
+            │   Tela coroídea inf     │
+            │   Plexo coroide         │
+            └─────────────────────────┘
+
+ANTERIOR ←──┬───────────────────────┬──→ POSTERIOR
+            │                       │
+   Colunas  │    MASSA INTERMÉDIA   │    Recesso suprapineal
+   Fórnice  │       (~70%)          │    Com. habenular
+   Com.Ant. │                       │    PINEAL
+   Lam.Term.│   ═══════════════     │    Recesso pineal
+            │   Sulco hipotalâmico  │    Com. posterior
+            │                       │    Aqueduto
+            └───────────────────────┘
+                         ↓
+                    INFERIOR (Assoalho)
+            ┌─────────────────────────┐
+            │ Quiasma → Pedúnculo →   │
+            │ Túber → Mamilares →     │
+            │ Subst.Perf. → Tegmento  │
+            └─────────────────────────┘
+```
+
 ---
 
 ## 1. TETO (Roof)
 
 ### 1.1 Estrutura em Camadas
 
-O teto do terceiro ventrículo é formado por quatro camadas de superior para inferior:
+```
+SUPERIOR
+    │
+    ▼
+┌───────────────────────────────────┐
+│         FÓRNICE (corpo)           │  ← Fibras do hipocampo
+├───────────────────────────────────┤
+│    Tela coroídea SUPERIOR         │  ← Membrana
+├───────────────────────────────────┤
+│       VELUM INTERPOSITUM          │  ← ESPAÇO com VCI + MPChA
+├───────────────────────────────────┤
+│    Tela coroídea INFERIOR         │  ← Membrana
+├───────────────────────────────────┤
+│        PLEXO COROIDE              │  ← Produz LCR
+└───────────────────────────────────┘
+    │
+    ▼
+INFERIOR (luz do 3V)
+```
 
-1. **Fórnice** (corpo) - Arco de fibras do hipocampo
-2. **Camada superior da tela coroídea** - Fixada à superfície inferior do fórnice
-3. **Velum interpositum** - Espaço entre as duas camadas de tela
-4. **Camada inferior da tela coroídea** - Fixada às estrias medulares do tálamo
+**Mnemônico FSVIP**: **F**órnice, **S**uperior tela, **V**elum, **I**nferior tela, **P**lexo
 
 ### 1.2 Velum Interpositum
 
-> **Pérola clínica**: O velum interpositum é o corredor vascular crítico no teto
+```
+┌─────────────────────────────────────────────────────────────┐
+│  💡 PÉROLA CLÍNICA: Velum Interpositum                      │
+├─────────────────────────────────────────────────────────────┤
+│  • Corredor vascular CRÍTICO no teto                        │
+│  • Forma: Triangular (base posterior, vértice anterior)     │
+│  • Extensão: Esplênio → posterior ao FM                     │
+│  • Conteúdo: VCIs bilaterais + A. coroidais post. mediais  │
+│  • Acesso: Via abordagem transchoroidal                     │
+└─────────────────────────────────────────────────────────────┘
+```
 
-- **Forma**: Triangular, mais largo posteriormente
-- **Extensão**: Da margem inferior do esplênio até atrás do forame de Monro
-- **Conteúdo**:
-  - Veias cerebrais internas (bilaterais)
-  - Artérias coroidais posteriores mediais
-  - Plexo coroide do 3º ventrículo
+```
+Vista superior do velum interpositum:
+
+                    ESPLÊNIO
+                       ▲
+                      ╱ ╲
+                     ╱   ╲
+            VCI ←───╱     ╲───→ VCI
+                   ╱       ╲
+                  ╱  VELUM  ╲
+                 ╱ INTERPOSITUM╲
+                ╱               ╲
+               ╱                 ╲
+              ▼──────────────────▼
+         FORAME DE MONRO (bilateral)
+```
 
 ### 1.3 Fórnice
 
-- **Corpo**: Forma o teto propriamente dito
-- **Colunas**: Descem anteriormente, formando a margem anterior do forame de Monro
-- **Cruras**: Divergem posteriormente em direção ao hipocampo
+```
+Vista lateral do fórnice:
 
-**Ponto cirúrgico**: A abordagem interforniceal divide a rafe mediana entre os dois fórnices
+          CORPO (teto do 3V)
+         ═════════════════════
+        ╱                     ╲
+    COLUNA                     CRUS
+       │                         │
+       ▼                         ▼
+    Forame de               Hipocampo
+    Monro (ant.)            (via fímbria)
+       │
+       ▼
+    Corpos mamilares
+```
+
+**Ponto cirúrgico**: A abordagem interforniceal divide a rafe mediana entre os dois fórnices (NÃO as colunas!)
 
 ### 1.4 Plexo Coroide
 
@@ -55,8 +146,7 @@ O teto do terceiro ventrículo é formado por quatro camadas de superior para in
 - Projeta-se para baixo em duas faixas paralelas
 - Contínuo com o plexo dos ventrículos laterais através dos forames de Monro
 
-**Suprimento arterial do plexo do 3V**:
-- Artérias coroidais posteriores mediais (ramos da PCA)
+**Suprimento arterial do plexo do 3V**: Artérias coroidais posteriores MEDIAIS (ramos da P2)
 
 ---
 
@@ -64,33 +154,66 @@ O teto do terceiro ventrículo é formado por quatro camadas de superior para in
 
 ### 2.1 Componentes (Anterior → Posterior)
 
-| Estrutura | Localização | Relação |
-|-----------|-------------|---------|
-| Quiasma óptico | Margem inferior anterior | Recesso óptico acima |
-| Pedúnculo hipofisário | Central anterior | Recesso infundibular posterior |
-| Túber cinéreo | Circunda infundíbulo | Substância cinzenta |
-| Corpos mamilares | Posterior ao túber | Pares, proeminentes |
-| Substância perfurada posterior | Entre mamilares e mesencéfalo | Artérias perfurantes |
-| Mesencéfalo (tegmento) | Posterior | Aqueduto abaixo |
+```
+ANTERIOR                                              POSTERIOR
+   │                                                      │
+   ▼                                                      ▼
+┌──────┬──────────┬──────┬──────────┬──────────┬─────────┐
+│QUIAS-│PEDÚNCULO │TÚBER │ CORPOS   │SUBST.    │TEGMENTO │
+│ MA   │HIPOFIS.  │CINÉ- │MAMILARES │PERFURADA │MESENCEF.│
+│ ÓPTICO│(infund.)│REO   │          │POSTERIOR │         │
+└──────┴──────────┴──────┴──────────┴──────────┴─────────┘
+   ↑          ↑                            ↑
+Recesso    Recesso                    A. perfurantes
+ óptico   infundibular                  (basilar)
+```
 
-### 2.2 Recessos do Assoalho
+**Mnemônico QPTCPM**: **Q**uiasma, **P**edúnculo, **T**úber, **C**orpos, **P**erfurada, **M**esencéfalo
 
-1. **Recesso óptico**: Anterior e superior ao quiasma
-2. **Recesso infundibular**: Projeta-se para o pedúnculo
-3. **Recesso suprapineal**: Acima da pineal
-4. **Recesso pineal**: Projeta-se para a glândula pineal
+### 2.2 Recessos do 3V
+
+```
+┌───────────────────────────────────────────────┐
+│           RECESSOS DO 3º VENTRÍCULO           │
+├───────────────────────────────────────────────┤
+│                                               │
+│   ANTERIORES (no assoalho):                   │
+│   ┌─────────────────────────────────────┐     │
+│   │ 1. ÓPTICO: anterior/superior quiasma│     │
+│   │ 2. INFUNDIBULAR: para o pedúnculo   │     │
+│   └─────────────────────────────────────┘     │
+│                                               │
+│   POSTERIORES (na parede):                    │
+│   ┌─────────────────────────────────────┐     │
+│   │ 3. SUPRAPINEAL: acima da pineal     │     │
+│   │ 4. PINEAL: para base da pineal      │     │
+│   └─────────────────────────────────────┘     │
+│                                               │
+└───────────────────────────────────────────────┘
+```
 
 ### 2.3 Hipotálamo
 
 Forma a parte inferior das paredes laterais E o assoalho:
 
-- **Zona medial**: Núcleos periventriculares
-- **Zona lateral**: Feixes de fibras (fórnice, feixe prosencefálico medial)
-
-**Divisões funcionais** (anterior → posterior):
-1. Região pré-óptica (termorregulação)
-2. Região tuberal (funções endócrinas)
-3. Região mamilar (memória, via circuito de Papez)
+```
+┌─────────────────────────────────────────────────────────────┐
+│  💡 PÉROLA CLÍNICA: Divisões do Hipotálamo                  │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ANTERIOR ────────────────────────────────────→ POSTERIOR   │
+│                                                             │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
+│  │  PRÉ-ÓPTICA │  │   TUBERAL   │  │   MAMILAR   │         │
+│  │             │  │             │  │             │         │
+│  │ Temperatura │  │  Endócrino  │  │   Memória   │         │
+│  │             │  │  (eixo HH)  │  │  (Papez)    │         │
+│  └─────────────┘  └─────────────┘  └─────────────┘         │
+│                                                             │
+│  Mnemônico PTM: Pré-óptica (Temp), Tuberal, Mamilar (Mem)   │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -98,28 +221,43 @@ Forma a parte inferior das paredes laterais E o assoalho:
 
 ### 3.1 Divisão pelo Sulco Hipotalâmico
 
-O sulco hipotalâmico divide cada parede lateral em:
+```
+                 TETO (Velum/VCI)
+                       │
+        ┌──────────────┴──────────────┐
+        │                             │
+        │         TÁLAMO              │  ← 2/3 superiores
+        │    (massa intermédia        │
+        │     cruza em ~70%)          │
+        │                             │
+        ├─────────────────────────────┤ ← SULCO HIPOTALÂMICO
+        │                             │
+        │       HIPOTÁLAMO            │  ← 1/3 inferior
+        │    (núcleos endócrinos)     │
+        │                             │
+        └──────────────┬──────────────┘
+                       │
+                 ASSOALHO
+```
 
-- **Superior**: Superfície medial do TÁLAMO
-- **Inferior**: HIPOTÁLAMO
+### 3.2 Massa Intermédia (Adesão Intertalâmica)
 
-### 3.2 Estruturas nas Paredes Laterais
-
-**Tálamo** (2/3 superiores):
-- Massa intermédia (adesão intertalâmica) - cruza em ~70% dos casos
-- Estria medular do tálamo - corre ao longo da margem superior
-
-**Hipotálamo** (1/3 inferior):
-- Núcleos: Pré-óptico, supraóptico, paraventricular, ventromedial, dorsomedial, mamilar
-
-### 3.3 Massa Intermédia (Adesão Intertalâmica)
-
-> **Pergunta capciosa**: "E se a massa intermédia estiver ausente?"
-
-- **Presença**: ~70% dos indivíduos
-- **Função**: Marco anatômico apenas, não estrutura crítica
-- **Variação**: Tamanho variável, pode ser múltipla
-- **Ausência**: Sem déficit neurológico conhecido
+```
+┌─────────────────────────────────────────────────────────────┐
+│  ⚠️  PERGUNTA CAPCIOSA: "E se a massa intermédia ausente?"  │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  • Presença: ~70-80% dos indivíduos                         │
+│  • Função: APENAS marco anatômico, NÃO crítica              │
+│  • Variação: Tamanho variável, pode ser múltipla            │
+│  • Ausência: SEM déficit neurológico conhecido              │
+│                                                             │
+│  RESPOSTA: "É marco anatômico, não estrutura funcional.     │
+│   Usamos outros marcos: estrias medulares, linha média      │
+│   entre VCIs."                                              │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -127,23 +265,42 @@ O sulco hipotalâmico divide cada parede lateral em:
 
 ### 4.1 Componentes (Superior → Inferior)
 
-1. **Colunas do fórnice** - Descem e divergem
-2. **Comissura anterior** - Cruza entre as colunas
-3. **Lâmina terminal** - Membrana fina do quiasma à comissura
+```
+SUPERIOR
+    │
+    ▼
+┌───────────────────────────────────────┐
+│       COLUNAS DO FÓRNICE              │  → Descem e divergem
+├───────────────────────────────────────┤     para corpos mamilares
+│       COMISSURA ANTERIOR              │  → Conecta estruturas
+├───────────────────────────────────────┤     olfatórias/temporais
+│        LÂMINA TERMINAL                │  → Via cirúrgica!
+└───────────────────────────────────────┘
+    │
+    ▼
+QUIASMA ÓPTICO
+```
 
 ### 4.2 Lâmina Terminal
 
-- **Limites**:
-  - Superior: Rostro do corpo caloso
-  - Inferior: Quiasma óptico
-- **Estrutura**: Fina membrana de substância cinzenta + glia
-- **Importância cirúrgica**: Via de acesso para lesões do 3V (abordagem translaminar terminal)
-
-### 4.3 Comissura Anterior
-
-- Conecta estruturas olfatórias e temporais
-- Localizada posterior e superior ao quiasma
-- Marca o limite entre lâmina terminal e colunas do fórnice
+```
+┌─────────────────────────────────────────────────────────────┐
+│  💡 PÉROLA CLÍNICA: Abordagem Translaminar Terminal         │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  LIMITES DA ABERTURA:                                       │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │  Superior: Comissura anterior (não estender!)        │   │
+│  │  Inferior: Borda superior do quiasma (não lesar!)   │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                                                             │
+│  ESTRUTURAS A PRESERVAR:                                    │
+│  • A. comunicante anterior + perfurantes hipotalâmicos      │
+│  • A. recorrente de Heubner (passa lateralmente)           │
+│  • Quiasma óptico                                          │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -151,23 +308,29 @@ O sulco hipotalâmico divide cada parede lateral em:
 
 ### 5.1 Componentes (Superior → Inferior)
 
-1. **Recesso suprapineal**
-2. **Comissura habenular**
-3. **Glândula pineal**
-4. **Recesso pineal**
-5. **Comissura posterior**
-6. **Entrada do aqueduto cerebral**
+```
+SUPERIOR
+    │
+    ▼
+┌───────────────────────────────────────┐
+│       RECESSO SUPRAPINEAL             │
+├───────────────────────────────────────┤
+│       COMISSURA HABENULAR             │
+├───────────────────────────────────────┤
+│       GLÂNDULA PINEAL                 │  ← Entre colículos
+├───────────────────────────────────────┤     superiores
+│         RECESSO PINEAL                │
+├───────────────────────────────────────┤
+│       COMISSURA POSTERIOR             │  ← Marca junção
+├───────────────────────────────────────┤     diencéfalo-mesencéfalo
+│    ENTRADA DO AQUEDUTO CEREBRAL       │
+└───────────────────────────────────────┘
+    │
+    ▼
+MESENCÉFALO
+```
 
-### 5.2 Glândula Pineal
-
-- **Posição**: Entre os colículos superiores
-- **Relações**:
-  - Superior: Esplênio do corpo caloso
-  - Anterior: 3º ventrículo
-  - Posterior: Cisterna quadrigeminal
-  - Lateral: Veias cerebrais internas
-
-### 5.3 Comissura Posterior
+### 5.2 Comissura Posterior
 
 - Marca a junção diencéfalo-mesencéfalo
 - Localizada imediatamente acima do aqueduto
@@ -179,27 +342,78 @@ O sulco hipotalâmico divide cada parede lateral em:
 
 ### 6.1 Limites
 
-| Margem | Estrutura |
-|--------|-----------|
-| Anterior/Superior | Coluna do fórnice |
-| Posterior | Tálamo (polo anterior) |
-| Inferior | Plexo coroide |
+```
+┌─────────────────────────────────────────────────────────────┐
+│                   FORAME DE MONRO                           │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│              COLUNA DO FÓRNICE                              │
+│                 (anterior)                                  │
+│                     │                                       │
+│                     ▼                                       │
+│         ┌───────────────────────┐                          │
+│         │                       │                          │
+│  PLEXO  │     LUZ DO FORAME     │  TÁLAMO                  │
+│ COROIDE │        (4-5mm)        │ (polo anterior)          │
+│(inferior)│                       │  (posterior)             │
+│         └───────────────────────┘                          │
+│                                                             │
+│  LATERAL: Genu da cápsula interna (única parte que chega   │
+│           à superfície ventricular!)                        │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-### 6.2 Estruturas que Passam pelo Forame
+### 6.2 Relações Vasculares Críticas
 
-- **Veias**: Veia talamoestriada → veia cerebral interna
-- **Artérias**: Ramos da coroidal posterior medial
-- **Plexo coroide**: Contínuo entre VL e 3V
+```
+┌─────────────────────────────────────────────────────────────┐
+│  ⚠️  ESTRUTURAS VASCULARES NO FORAME DE MONRO               │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│                      VCI                                    │
+│                       ↑                                     │
+│                       │ (forma-se aqui)                     │
+│  V. Coroidal Sup. ──→ + ←── V. Talamoestriada              │
+│                       │                                     │
+│                ┌──────┴──────┐                              │
+│                │   FORAME    │                              │
+│                │  DE MONRO   │                              │
+│                └─────────────┘                              │
+│                       │                                     │
+│              A. Coroidal Post. Med.                         │
+│              (ramos para plexo)                             │
+│                                                             │
+│  PONTO VENOSO: Ângulo Thal.Str.-VCI = marca do forame      │
+│                no angiograma                                │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-### 6.3 Relações Vasculares Críticas
+### 6.3 Variações da Talamoestriada
 
-> **Pergunta capciosa**: "O que acontece se você lesar a veia talamoestriada?"
-
-- Drena grande parte da cápsula interna
-- Lesão unilateral: geralmente tolerada
-- Lesão bilateral: risco de infarto hemorrágico profundo
-
-**Ponto do angiograma**: O ponto venoso (ângulo talamoestriada-VCI) marca o forame
+```
+┌─────────────────────────────────────────────────────────────┐
+│  ⚠️  VARIAÇÕES ANATÔMICAS DA TALAMOESTRIADA                 │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  PADRÃO NORMAL (~85%):                                      │
+│  • Passa pelo sulco estriotalâmico                          │
+│  • Vira medialmente na margem POSTERIOR do FM               │
+│  • Junta-se à V. coroidal sup. → VCI                       │
+│                                                             │
+│  VARIANTE 1 (~10-15%):                                      │
+│  • Passa pela fissura coroidal ATRÁS do forame              │
+│                                                             │
+│  VARIANTE 2 (~4%):                                          │
+│  • Talamoestriada AUSENTE                                   │
+│  • V. talamocaudada assume a drenagem                       │
+│  • Trajeto mais medial/posterior                            │
+│                                                             │
+│  SEMPRE verificar angiograma pré-operatório!                │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -207,168 +421,309 @@ O sulco hipotalâmico divide cada parede lateral em:
 
 ### 7.1 Sistema Venoso Profundo
 
+```
+┌─────────────────────────────────────────────────────────────┐
+│              SISTEMA VENOSO PROFUNDO DO 3V                  │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│                    SEIO RETO                                │
+│                        ↑                                    │
+│                  VEIA DE GALENO                             │
+│                   ╱         ╲                               │
+│                  ╱           ╲                              │
+│               VCI             VEIA BASAL                    │
+│           (bilateral)       (de Rosenthal)                  │
+│              │                    │                         │
+│    ┌─────────┼─────────┐         │                         │
+│    │         │         │         │                         │
+│  Thal.Str. Chor.Sup. Sept.     Forma-se sob               │
+│    │         │         │      subst. perfurada             │
+│    └─────────┴─────────┘                                   │
+│         FM (ponto venoso)       Trajeto: CAQ               │
+│                                 (Crural-Ambiente-Quadrig.) │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
 #### Veias Cerebrais Internas (VCI)
 
-- **Origem**: Junção talamoestriada + coroidal superior, no forame de Monro
-- **Trajeto**: Posteriormente no velum interpositum
-- **Tributárias**:
-  - V. talamoestriada
-  - V. coroidal superior
-  - V. septal posterior
-  - V. talâmicas
-  - V. atrial medial
-- **Término**: Unem-se para formar a veia de Galeno
-
-#### Veia de Galeno (Veia Cerebral Magna)
-
-- **Formação**: Junção das VCIs + veias basais
-- **Trajeto**: Curto, curva superiormente
-- **Término**: Seio reto
-
-> **Pergunta capciosa**: "Pode sacrificar a VCI?"
-
-- Bilateral: Geralmente fatal (coma, edema, hemorragia)
-- Unilateral: Possível em casos selecionados, risco de déficit
+```
+┌─────────────────────────────────────────────────────────────┐
+│  ⚠️  PERGUNTA CAPCIOSA: "Pode sacrificar a VCI?"            │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  BILATERAL: Geralmente FATAL                                │
+│  • Edema venoso hemorrágico profundo                        │
+│  • Coma                                                     │
+│  • Morte                                                    │
+│                                                             │
+│  UNILATERAL: POSSÍVEL mas ARRISCADO                         │
+│  • Alteração de consciência                                 │
+│  • Déficits de memória                                      │
+│  • Hemiparesia                                              │
+│                                                             │
+│  RECOMENDAÇÃO: Preservar SEMPRE que possível.               │
+│  Se necessário, coagulação GRADUAL (colaterais)            │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ### 7.2 Sistema Arterial
 
-#### Artérias Coroidais Posteriores Mediais
+```
+┌─────────────────────────────────────────────────────────────┐
+│              SUPRIMENTO ARTERIAL DO 3V                      │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  PLEXO DO 3V:        PLEXO DO VL:                          │
+│  ┌─────────────┐     ┌─────────────────────────┐           │
+│  │ A.Chor.Post.│     │ A.Chor.Ant. (corno temp)│           │
+│  │   MEDIAL    │     │ A.Chor.Post.Lat (corpo) │           │
+│  │   (P2)      │     │                         │           │
+│  └─────────────┘     └─────────────────────────┘           │
+│                                                             │
+│  REGRA: 3V = MEDIAL; VL = ANTERIOR + LATERAL               │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-- **Origem**: Segmento P2 da PCA (ou diretamente da basilar)
-- **Trajeto**: Curvam-se ao redor do mesencéfalo, entram no velum interpositum
-- **Suprimento**: Plexo coroide do 3V, teto, parte do tálamo
+#### Tríade da Artéria Coroidal Anterior
 
-#### Artérias Coroidais Posteriores Laterais
-
-- **Suprimento**: Plexo coroide do VL, tálamo lateral
-
-#### Relação com Artérias do Círculo de Willis
-
-- A. comunicante anterior: Anterior ao 3V
-- A. comunicantes posteriores: Laterais ao assoalho
-- Topo da basilar: Inferior ao assoalho
+```
+┌─────────────────────────────────────────────────────────────┐
+│  💡 PÉROLA CLÍNICA: Infarto da A. Coroidal Anterior         │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  TRÍADE (3 Hs):                                             │
+│                                                             │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
+│  │ HEMIPLEGIA  │  │HEMIANESTESIA│  │ HEMIANOPSIA │         │
+│  │             │  │             │  │  HOMÔNIMA   │         │
+│  │ Cápsula int.│  │   Tálamo    │  │ Trato ópt./ │         │
+│  │ (br. post.) │  │ ventrolat.  │  │ Gen. lat.   │         │
+│  └─────────────┘  └─────────────┘  └─────────────┘         │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
 ## 8. CORREDORES CIRÚRGICOS
 
-### 8.1 Abordagem Transcaloso-Transchoroidal
+### 8.1 Comparação das Abordagens
 
-**Via**: Através do corpo caloso → ventrículo lateral → fissura coroidal
+```
+┌─────────────────────────────────────────────────────────────┐
+│              ABORDAGENS CIRÚRGICAS AO 3V                    │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  TRANSCALOSA-TRANSCHOROIDAL                                 │
+│  ├─ Via: Caloso → VL → fissura coroidal (lado fornical)    │
+│  ├─ Alvo: Teto e parte superior do 3V                      │
+│  └─ Risco: V. talamoestriada (evitar lado talâmico)        │
+│                                                             │
+│  TRANSCALOSA-INTERFORNICEAL                                 │
+│  ├─ Via: Caloso → entre os dois fórnices (rafe mediana)    │
+│  ├─ Alvo: Exposição direta do 3V                           │
+│  └─ Risco: Déficit memória se lesar colunas (controverso)  │
+│                                                             │
+│  TRANSLAMINAR TERMINAL                                      │
+│  ├─ Via: Subfrontal → lâmina terminal                      │
+│  ├─ Alvo: 3V anterior, craniofaringiomas                   │
+│  └─ Risco: Quiasma, hipotálamo, ACoA                       │
+│                                                             │
+│  ENDOSCÓPICA                                                │
+│  ├─ Via: Transcortical → VL → FM                           │
+│  ├─ Alvo: Cistos coloides, ETV, biópsia                    │
+│  └─ Vantagem: Minimamente invasiva                         │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-**Vantagens**:
-- Evita lesão cortical
-- Bom acesso ao teto e parte superior do 3V
+### 8.2 Fissura Coroidal: Lado Fornical vs Talâmico
 
-**Estruturas em risco**:
-- Veia talamoestriada (evitar lado talâmico da fissura)
-- Fórnice (abordagem pelo lado fornical é mais segura)
-
-### 8.2 Abordagem Transcaloso-Interforniceal
-
-**Via**: Entre os dois fórnices na linha média
-
-**Vantagens**:
-- Exposição direta do 3V
-- Evita plexo coroide
-
-> **Pergunta capciosa**: "Qual coluna do fórnice você sacrifica na interforniceal?"
-
-**Resposta**: Nenhuma! A rafe mediana é incisada. Secção unilateral de uma coluna pode causar déficits de memória (controverso).
-
-### 8.3 Abordagem Translaminar Terminal
-
-**Via**: Subfrontal → através da lâmina terminal
-
-**Indicações**: Tumores do 3V anterior, craniofaringiomas
-
-**Estruturas em risco**:
-- Quiasma óptico
-- Hipotálamo
-- A. comunicante anterior
-
-### 8.4 Abordagem Endoscópica
-
-**Via**: Transcortical ou transcaloso → ventrículo lateral → forame de Monro
-
-**Indicações**:
-- Cistos coloides
-- Ventriculostomia do 3V (ETV)
-- Biópsia de tumores
-
----
-
-## 9. ABREVIAÇÕES ESSENCIAIS (Estilo Rhoton)
-
-### Estruturas Neurais
-
-| Abreviação | Significado |
-|------------|-------------|
-| For. | Foramen |
-| V. | Vein/Ventricle |
-| A. | Artery |
-| Ant. | Anterior |
-| Post. | Posterior |
-| Sup. | Superior |
-| Inf. | Inferior |
-| Med. | Medial |
-| Lat. | Lateral |
-| Int. | Internal/Intermedia |
-| Cer. | Cerebral |
-| Chor. | Choroid/Choroidal |
-| Thal. | Thalamic/Thalamus |
-| Sept. | Septal/Septum |
-| Pell. | Pellucidum |
-| Call. | Callosum |
-| Comm. | Commissure |
-| Term. | Terminalis |
-| Mam. | Mamillary |
-| Hippo. | Hippocampal |
-| Caud. | Caudate |
-| Fiss. | Fissure |
-| Interpos. | Interpositum |
-
-### Veias
-
-| Abreviação | Significado |
-|------------|-------------|
-| V.C.I. | Veia Cerebral Interna |
-| Thal.Str. | Thalamostriate |
-| Chor. | Choroidal |
-| Sept. | Septal |
-
-### Artérias
-
-| Abreviação | Significado |
-|------------|-------------|
-| P.C.A. | Posterior Cerebral Artery |
-| A.Ch.A. | Anterior Choroidal Artery |
-| M.P.Ch.A. | Medial Posterior Choroidal Artery |
-| L.P.Ch.A. | Lateral Posterior Choroidal Artery |
+```
+┌─────────────────────────────────────────────────────────────┐
+│  ⚠️  POR QUE ABRIR PELO LADO FORNICAL?                      │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│         FÓRNICE              │          TÁLAMO              │
+│    (Tenia fornicis)          │     (Tenia thalami)          │
+│            │                 │            │                 │
+│            ▼                 │            ▼                 │
+│   ┌─────────────────┐        │   ┌─────────────────┐        │
+│   │ Estruturas      │        │   │ TALAMOESTRIADA  │        │
+│   │ menores,        │        │   │ A. COROIDAIS    │        │
+│   │ sacrificáveis   │        │   │ (Alto risco!)   │        │
+│   └─────────────────┘        │   └─────────────────┘        │
+│            │                 │            │                 │
+│            ▼                 │            ▼                 │
+│   TRANSCHOROIDAL ✓           │   SUBCHOROIDAL ✗             │
+│   (preferida)                │   (obsoleta)                 │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 10. PONTOS DE INTEGRAÇÃO PARA ENSINO
+## 9. PATOLOGIA E IMPLICAÇÕES CLÍNICAS
 
-### Conexões Conceituais
+### 9.1 Cisto Coloide
 
-1. **Fórnice → Memória**: Via circuito de Papez (fórnice → mamilares → tálamo anterior → cíngulo)
+```
+┌─────────────────────────────────────────────────────────────┐
+│  ⚠️  CISTO COLOIDE E MORTE SÚBITA                           │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  LOCALIZAÇÃO: Teto do forame de Monro                       │
+│                                                             │
+│  MECANISMO DE MORTE SÚBITA:                                 │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │  Cisto no FM → Obstrução intermitente → Obstrução   │   │
+│  │  COMPLETA súbita → Hidrocefalia AGUDA → Herniação  │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                                                             │
+│  INDICAÇÃO CIRÚRGICA: > 10mm, mesmo ASSINTOMÁTICO           │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-2. **Hipotálamo → Endócrino**: Eixo hipotálamo-hipofisário, infundíbulo visível
+### 9.2 Tumores Pineais
 
-3. **VCI → Limite cirúrgico**: A veia define o limite seguro de ressecção superior
+```
+┌─────────────────────────────────────────────────────────────┐
+│  💡 PÉROLA CLÍNICA: Síndrome de Parinaud                    │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  TRÍADE:                                                    │
+│  1. Paralisia do olhar para CIMA                            │
+│  2. Pupilas: reagem à acomodação, NÃO à luz                │
+│  3. Nistagmo de convergência-retração                       │
+│                                                             │
+│  CAUSA: Compressão do teto mesencefálico por tumor pineal  │
+│                                                             │
+│  HIDROCEFALIA: Por compressão do aqueduto                   │
+│                                                             │
+│  CONDUTA: ETV ± biópsia no mesmo tempo                      │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-4. **Velum interpositum → Corredor vascular**: Entender para acessar sem lesionar
+---
 
-5. **Forame de Monro → Ponto de convergência**: Onde veias, artérias e CSF se encontram
+## 10. ABREVIAÇÕES ESSENCIAIS (Estilo Rhoton)
 
-### Perguntas para Auto-avaliação
+### Tabela de Referência Rápida
 
-1. Quais estruturas formam o teto do 3V de superior para inferior?
-2. Qual a diferença entre tela coroídea e velum interpositum?
-3. O que delimita o forame de Monro?
-4. Qual artéria supre principalmente o plexo coroide do 3V?
-5. Por que a abordagem pelo lado fornical da fissura coroidal é preferida?
+| Abreviação | Significado | Português |
+|------------|-------------|-----------|
+| V.C.I. | Internal Cerebral Vein | Veia Cerebral Interna |
+| Thal.Str. | Thalamostriate | Talamoestriada |
+| A.Ch.A. | Anterior Choroidal Artery | A. Coroidal Anterior |
+| M.P.Ch.A. | Medial Posterior Choroidal A. | A. Coroidal Post. Medial |
+| For. Mon. | Foramen of Monro | Forame de Monro |
+| V. Int. | Velum Interpositum | Véu Interposto |
+| Lam. Term. | Lamina Terminalis | Lâmina Terminal |
+| Mass. Int. | Massa Intermedia | Massa Intermédia |
+| Corp. Call. | Corpus Callosum | Corpo Caloso |
+| P.C.A. | Posterior Cerebral Artery | A. Cerebral Posterior |
+
+---
+
+## 11. AUTO-AVALIAÇÃO
+
+### 11.1 Perguntas de Verificação
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│               TESTE SEU CONHECIMENTO                        │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ANATOMIA BÁSICA:                                           │
+│  □ Cite as 5 camadas do teto do 3V (FSVIP)                  │
+│  □ Cite as 6 estruturas do assoalho (QPTCPM)                │
+│  □ Quais são os 4 recessos do 3V?                           │
+│  □ O que divide a parede lateral em tálamo/hipotálamo?      │
+│                                                             │
+│  VASCULAR:                                                  │
+│  □ Qual artéria supre o plexo do 3V?                        │
+│  □ Quais veias formam a VCI?                                │
+│  □ Qual o trajeto da veia basal? (CAQ)                      │
+│  □ Pode sacrificar VCI bilateral? Por quê?                  │
+│                                                             │
+│  CIRÚRGICO:                                                 │
+│  □ Por que preferir lado fornical da fissura coroidal?      │
+│  □ A interforniceal secciona as colunas do fórnice?         │
+│  □ Quais estruturas preservar na translaminar terminal?     │
+│  □ Qual o tamanho de cisto coloide que indica cirurgia?     │
+│                                                             │
+│  VARIAÇÕES:                                                 │
+│  □ Em que % a massa intermédia está presente?               │
+│  □ Em que % a talamoestriada está ausente?                  │
+│  □ Quais as 3 posições do quiasma e percentuais?           │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 11.2 Respostas para Verificação
+
+<details>
+<summary>Clique para ver as respostas</summary>
+
+**ANATOMIA BÁSICA:**
+- Fórnice, Sup. tela, Velum, Inf. tela, Plexo
+- Quiasma, Pedúnculo, Túber, Corpos, Perfurada, Mesencéfalo
+- Óptico, Infundibular (anteriores); Suprapineal, Pineal (posteriores)
+- Sulco hipotalâmico
+
+**VASCULAR:**
+- A. coroidal posterior MEDIAL (P2)
+- Talamoestriada + Coroidal superior
+- Crural → Ambiente → Quadrigeminal
+- NÃO - fatal (edema venoso hemorrágico profundo)
+
+**CIRÚRGICO:**
+- Lado talâmico contém talamoestriada e coroidais (maior risco)
+- NÃO - apenas a rafe mediana (comissura do fórnice)
+- Quiasma, ACoA, A. de Heubner, perfurantes hipotalâmicos
+- > 10mm (mesmo assintomático)
+
+**VARIAÇÕES:**
+- 70-80%
+- 4% (substituída pela talamocaudada)
+- Pré-fixado 10%, Normal 80%, Pós-fixado 10%
+
+</details>
+
+### 11.3 Checklist de Competências
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│            CHECKLIST PRÉ-APRESENTAÇÃO                       │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  CONHECIMENTO ANATÔMICO:                                    │
+│  □ Consigo desenhar o corte sagital do 3V de memória        │
+│  □ Sei todas as estruturas do teto, assoalho e paredes     │
+│  □ Domino as abreviações estilo Rhoton                     │
+│                                                             │
+│  ANATOMIA VASCULAR:                                         │
+│  □ Sei o trajeto completo da VCI                           │
+│  □ Conheço as variações da talamoestriada                  │
+│  □ Sei diferenciar coroidal ant. vs post. medial           │
+│                                                             │
+│  APLICAÇÃO CIRÚRGICA:                                       │
+│  □ Consigo explicar cada abordagem e suas indicações       │
+│  □ Sei as estruturas em risco em cada via                  │
+│  □ Entendo as implicações das variações anatômicas         │
+│                                                             │
+│  PREPARAÇÃO PARA PERGUNTAS:                                 │
+│  □ Estudei as perguntas capciosas (perguntas-antecipadas)  │
+│  □ Tenho respostas prontas para cenários clínicos         │
+│  □ Sei admitir incerteza com confiança                     │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -383,3 +738,4 @@ O sulco hipotalâmico divide cada parede lateral em:
 
 *Última atualização: Janeiro 2026*
 *Gerado a partir de 416 chunks do documento Rhoton*
+*Aprimorado com diagramas ASCII, pérolas clínicas e auto-avaliação*

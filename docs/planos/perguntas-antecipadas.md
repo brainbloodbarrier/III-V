@@ -2,320 +2,718 @@
 
 **Contexto**: Ambiente hostil, R5, esperando perfeição
 **Estratégia**: Resposta direta, confiante, sem hesitação
+**Formato**: OSCE (Objective Structured Clinical Examination)
 
 ---
 
-## CATEGORIA 1: VARIABILIDADE ANATÔMICA
+## Guia de Uso OSCE
+
+### Níveis de Dificuldade
+- 🟢 **BÁSICO**: Todo R5 deve responder corretamente
+- 🟡 **INTERMEDIÁRIO**: Diferencia quem estudou bem
+- 🔴 **AVANÇADO**: Demonstra domínio excepcional
+
+### Estrutura de Cada Pergunta
+1. **Cenário/Contexto**: Situação clínica ou acadêmica
+2. **Pergunta**: O que será perguntado
+3. **Resposta IDEAL**: Resposta completa e estruturada
+4. **Resposta MÍNIMA ACEITÁVEL**: O mínimo para não errar
+5. **Armadilha**: Erro comum a evitar
+6. **Follow-up**: Pergunta de aprofundamento provável
+
+---
+
+## ESTAÇÃO 1: VARIABILIDADE ANATÔMICA
 
 ### 1.1 Massa Intermédia
-**Pergunta**: "E se a massa intermédia estiver ausente?"
+🟢 **BÁSICO** | Tempo: 2 min
 
-**Resposta**:
-> "A massa intermédia, ou adesão intertalâmica, está presente em aproximadamente 70-80% dos indivíduos. É um MARCO ANATÔMICO, não uma estrutura funcionalmente crítica. Sua ausência não causa déficit neurológico conhecido. Na cirurgia, ela ajuda a orientar a linha média e delimitar as paredes laterais, mas podemos usar outros marcos como as estrias medulares do tálamo e a linha média entre as VCIs."
+**CENÁRIO**: Durante aula de anatomia, o preceptor mostra um espécime onde a massa intermédia está ausente.
 
-**Armadilha**: Não confundir com comissura anterior (que é sempre presente e funcional)
+**PERGUNTA**: "E se a massa intermédia estiver ausente? Como você orienta a cirurgia?"
+
+**RESPOSTA IDEAL**:
+> "A massa intermédia está presente em aproximadamente 70-80% dos indivíduos. É um MARCO ANATÔMICO, não uma estrutura funcionalmente crítica.
+>
+> **Sua ausência NÃO causa déficit neurológico.**
+>
+> Na cirurgia, quando ausente, utilizo marcos alternativos:
+> - Estrias medulares do tálamo (margem superior das paredes laterais)
+> - Linha média entre as VCIs (no velum interpositum)
+> - Sulco hipotalâmico (divide tálamo de hipotálamo)"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Presente em ~70%, é apenas marco anatômico, ausência não causa déficit. Uso outros marcos como estrias medulares."
+
+**ARMADILHA**: Não confundir com comissura anterior (que é sempre presente e funcional)
+
+**FOLLOW-UP PROVÁVEL** 🟡:
+> "Qual a diferença entre massa intermédia e comissura anterior?"
+> - MI: adesão intertalâmica, ~70%, marco apenas
+> - CA: conecta estruturas olfatórias/temporais, sempre presente, funcional
 
 ---
 
 ### 1.2 Variações da Talamoestriada
-**Pergunta**: "E se você não encontrar a veia talamoestriada no sulco?"
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "A talamoestriada pode passar através da fissura coroidal ATRÁS do forame de Monro em vez de pela sua margem posterior. Isso ocorre em aproximadamente 10-15% dos casos. Além disso, em 4% dos casos, a talamoestriada está AUSENTE e a veia talamocaudada assume sua drenagem. Esta veia é direcionada mais medialmente ou posteriormente, não anteriormente como a talamoestriada clássica."
+**CENÁRIO**: Você está planejando abordagem transcalosa-transchoroidal e revisa a angiografia.
 
-**Armadilha**: Sempre verificar o trajeto no angiograma pré-op
+**PERGUNTA**: "E se você não encontrar a veia talamoestriada no sulco estriotalâmico?"
+
+**RESPOSTA IDEAL**:
+> "Existem variações anatômicas importantes:
+>
+> **VARIANTE 1 (~10-15%)**:
+> - Talamoestriada passa pela fissura coroidal ATRÁS do forame de Monro
+> - Não no sulco estriotalâmico
+>
+> **VARIANTE 2 (~4%)**:
+> - Talamoestriada está AUSENTE
+> - Veia talamocaudada assume a drenagem
+> - Trajeto mais medial/posterior
+>
+> **CONDUTA**: Sempre verificar angiograma pré-operatório e identificar a variação antes da cirurgia."
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Pode passar atrás do forame em 10-15% ou estar ausente em 4% com a talamocaudada substituindo."
+
+**ARMADILHA**: Assumir que a anatomia será sempre "típica"
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Se você lesar a talamoestriada, qual o déficit esperado?"
+> - Drena cápsula interna, núcleos da base
+> - Infarto venoso hemorrágico
+> - Hemiparesia, alteração consciência
 
 ---
 
 ### 1.3 Variações do Quiasma
-**Pergunta**: "Qual a importância da posição do quiasma para abordagens ao 3V?"
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "O quiasma pode ser:
-> - **Pré-fixado** (~10%): acima do tubérculo selar - MENOS espaço acima do quiasma
-> - **Normal** (~80%): sobre o diafragma selar
-> - **Pós-fixado** (~10%): sobre o dorso selar - MAIS espaço acima do quiasma
+**CENÁRIO**: Planejamento de abordagem transesfenoidal estendida para tumor do 3V anterior.
+
+**PERGUNTA**: "Qual a importância da posição do quiasma para abordagens ao 3V?"
+
+**RESPOSTA IDEAL**:
+> "O quiasma apresenta três posições:
 >
-> Para abordagens transesfenoidal estendida ao 3V anterior, quiasma pré-fixado é desfavorável - o quiasma bloqueia a visão. A abordagem translaminar terminal é preferida nestes casos."
+> | Posição | Prevalência | Localização | Implicação Cirúrgica |
+> |---------|-------------|-------------|----------------------|
+> | **Pré-fixado** | ~10% | Acima do tubérculo selar | DESFAVORÁVEL - bloqueia visão TS |
+> | **Normal** | ~80% | Sobre o diafragma selar | Adequado |
+> | **Pós-fixado** | ~10% | Sobre o dorso selar | FAVORÁVEL - mais espaço acima |
+>
+> **Conduta**: Para quiasma pré-fixado, prefiro abordagem translaminar terminal à transesfenoidal estendida."
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Pré-fixado 10%, normal 80%, pós-fixado 10%. Pré-fixado limita abordagem transesfenoidal."
+
+**ARMADILHA**: Não avaliar posição do quiasma no pré-operatório
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Como você avalia a posição do quiasma?"
+> - RM sagital T1/T2
+> - Relação quiasma-diafragma-tubérculo selar
+> - Angulação dos nervos ópticos
 
 ---
 
-## CATEGORIA 2: LIMITES E ESTRUTURAS
+## ESTAÇÃO 2: LIMITES E ESTRUTURAS
 
 ### 2.1 Colunas do Fórnice
-**Pergunta**: "Qual coluna do fórnice você sacrifica na abordagem interforniceal?"
+🟢 **BÁSICO** | Tempo: 2 min
 
-**Resposta**:
-> "NENHUMA. A abordagem interforniceal incisa a rafe mediana entre os dois fórnices - a comissura do fórnice (ou comissura do hipocampo). Não seccionamos nenhuma coluna.
+**CENÁRIO**: Discussão de caso de tumor do 3V com indicação de abordagem interforniceal.
+
+**PERGUNTA**: "Qual coluna do fórnice você sacrifica na abordagem interforniceal?"
+
+**RESPOSTA IDEAL**:
+> "**NENHUMA.**
 >
-> Porém, se for necessária secção unilateral de uma coluna, os déficits de memória são CONTROVERSOS - alguns estudos mostram amnésia anterógrada, outros não demonstram déficit significativo. A recomendação é evitar qualquer secção de coluna."
+> A abordagem interforniceal incisa a **rafe mediana** entre os dois fórnices - também chamada de comissura do fórnice ou comissura do hipocampo.
+>
+> **NÃO seccionamos nenhuma coluna.**
+>
+> Se for necessária secção unilateral de coluna (por extensão tumoral):
+> - Déficits de memória são CONTROVERSOS
+> - Alguns estudos: amnésia anterógrada
+> - Outros: sem déficit significativo
+>
+> **Recomendação**: Evitar qualquer secção de coluna."
 
-**Armadilha**: Distinguir entre rafe mediana (segura) e colunas (arriscado)
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Nenhuma. Incisamos a rafe mediana entre os fórnices, não as colunas."
+
+**ARMADILHA**: Assumir que interforniceal = seccionar uma coluna
+
+**FOLLOW-UP PROVÁVEL** 🟡:
+> "Qual a diferença entre rafe mediana e colunas do fórnice?"
+> - Rafe: comissura que une os dois fórnices na linha média
+> - Colunas: fibras que descem para os corpos mamilares
 
 ---
 
-### 2.2 Foramen de Monro
-**Pergunta**: "O que está imediatamente lateral ao forame de Monro?"
+### 2.2 Forame de Monro - Relação Lateral
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "O GENU da cápsula interna. Esta é a única parte da cápsula interna que vem diretamente à superfície ventricular, no intervalo entre o núcleo caudado (anterior) e o tálamo (posterior). Lesão iatrogênica ao genu causa hemiparesia contralateral - afeta fibras corticoespinhais e corticobulbares."
+**CENÁRIO**: Você está operando um cisto coloide e precisa ampliar o forame.
 
-**Armadilha**: O forame não está no "centro" do ventrículo - está bem lateral à linha média
+**PERGUNTA**: "O que está imediatamente lateral ao forame de Monro?"
+
+**RESPOSTA IDEAL**:
+> "O **GENU da cápsula interna**.
+>
+> **Por que é importante**:
+> - É a ÚNICA parte da cápsula interna que chega à superfície ventricular
+> - Localiza-se no intervalo entre:
+>   - Núcleo caudado (anterior)
+>   - Tálamo (posterior)
+>
+> **Consequência de lesão**:
+> - Hemiparesia contralateral
+> - Fibras corticoespinhais e corticobulbares
+>
+> **Implicação**: NÃO ampliar o forame lateralmente!"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Genu da cápsula interna. É a única parte que chega à superfície ventricular. Lesão causa hemiparesia."
+
+**ARMADILHA**: Pensar que o forame está no "centro" do ventrículo
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Qual a diferença de conteúdo entre genu, braço anterior e braço posterior da cápsula interna?"
+> - Genu: fibras corticobulbares
+> - Braço anterior: tálamo-frontal, tálamo-caudado
+> - Braço posterior: corticoespinhal, sensitivas
 
 ---
 
 ### 2.3 Sulco Hipotalâmico
-**Pergunta**: "O que está abaixo do sulco hipotalâmico?"
+🟢 **BÁSICO** | Tempo: 1 min
 
-**Resposta**:
-> "O HIPOTÁLAMO. O sulco hipotalâmico divide a parede lateral do 3V em:
-> - **Acima**: Tálamo (diencéfalo dorsal)
-> - **Abaixo**: Hipotálamo (diencéfalo ventral)
+**CENÁRIO**: Identificação anatômica durante aula.
+
+**PERGUNTA**: "O que está abaixo do sulco hipotalâmico?"
+
+**RESPOSTA IDEAL**:
+> "O **HIPOTÁLAMO**.
 >
-> O hipotálamo inclui os núcleos: pré-óptico, supraóptico, paraventricular, ventromedial, dorsomedial, e os corpos mamilares. O sulco é o marco para identificar esta transição funcional crítica."
+> O sulco hipotalâmico divide a parede lateral do 3V em:
+> - **Acima**: Tálamo (2/3 superiores)
+> - **Abaixo**: Hipotálamo (1/3 inferior)
+>
+> O hipotálamo inclui os núcleos (anterior → posterior):
+> - Pré-óptico (termorregulação)
+> - Supraóptico
+> - Paraventricular
+> - Ventromedial
+> - Dorsomedial
+> - Mamilar (memória - circuito de Papez)"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Hipotálamo. O sulco divide a parede lateral em tálamo (acima) e hipotálamo (abaixo)."
+
+**ARMADILHA**: Confundir com outras divisões talâmicas
+
+**FOLLOW-UP PROVÁVEL** 🟡:
+> "Quais as três divisões funcionais do hipotálamo?"
+> - Pré-óptica: temperatura
+> - Tuberal: endócrino
+> - Mamilar: memória (PTM)
 
 ---
 
 ### 2.4 Recessos do 3V
-**Pergunta**: "Quais recessos existem no terceiro ventrículo?"
+🟢 **BÁSICO** | Tempo: 1 min
 
-**Resposta**:
-> "São QUATRO recessos:
-> 1. **Recesso óptico**: anterior e superior ao quiasma
-> 2. **Recesso infundibular**: projeta-se para o pedúnculo hipofisário
-> 3. **Recesso suprapineal**: acima da glândula pineal
-> 4. **Recesso pineal**: projeta-se para a base da pineal
+**CENÁRIO**: Descrição anatômica do 3V.
+
+**PERGUNTA**: "Quais recessos existem no terceiro ventrículo?"
+
+**RESPOSTA IDEAL**:
+> "São **QUATRO** recessos:
 >
-> Os dois anteriores (óptico e infundibular) estão no assoalho; os dois posteriores (suprapineal e pineal) estão na parede posterior."
+> **ANTERIORES (no assoalho)**:
+> 1. Recesso ÓPTICO - anterior e superior ao quiasma
+> 2. Recesso INFUNDIBULAR - projeta-se para o pedúnculo hipofisário
+>
+> **POSTERIORES (na parede)**:
+> 3. Recesso SUPRAPINEAL - acima da glândula pineal
+> 4. Recesso PINEAL - projeta-se para a base da pineal"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Quatro: óptico e infundibular (anteriores), suprapineal e pineal (posteriores)."
+
+**ARMADILHA**: Esquecer algum recesso ou errar localização
+
+**FOLLOW-UP PROVÁVEL** 🟡:
+> "Qual a importância do recesso infundibular na ETV?"
+> - Marca o limite anterior seguro
+> - Não avançar para não lesar infundíbulo
 
 ---
 
-## CATEGORIA 3: ANATOMIA VASCULAR
+## ESTAÇÃO 3: ANATOMIA VASCULAR
 
 ### 3.1 Sacrifício de VCI
-**Pergunta**: "Pode sacrificar a veia cerebral interna?"
+🔴 **AVANÇADO** | Tempo: 3 min
 
-**Resposta**:
-> "BILATERAL: Geralmente FATAL - causa edema venoso hemorrágico profundo, coma, morte.
+**CENÁRIO**: Tumor do 3V com VCI englobada. Discussão de conduta.
+
+**PERGUNTA**: "Pode sacrificar a veia cerebral interna?"
+
+**RESPOSTA IDEAL**:
+> "**BILATERAL**: Geralmente **FATAL**
+> - Edema venoso hemorrágico profundo
+> - Coma
+> - Morte
 >
-> UNILATERAL: Possível em casos selecionados, mas com RISCO significativo. As VCIs drenam tálamo, cápsula interna, núcleos da base. Mesmo unilateral pode causar:
-> - Alteração de consciência
-> - Déficits de memória
-> - Hemiparesia
+> **UNILATERAL**: **POSSÍVEL mas ARRISCADO**
+> - A VCI drena: tálamo, cápsula interna, núcleos da base
+> - Consequências possíveis:
+>   - Alteração de consciência
+>   - Déficits de memória
+>   - Hemiparesia
 >
-> A recomendação é PRESERVAR sempre que possível. Se precisar sacrificar, fazer coagulação gradual para permitir desenvolvimento colateral."
+> **ESTRATÉGIA se necessário**:
+> - Coagulação GRADUAL (não ligadura abrupta)
+> - Permite desenvolvimento de colaterais
+> - Monitorização neurofisiológica
+>
+> **Recomendação**: PRESERVAR sempre que possível."
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Bilateral: fatal. Unilateral: possível mas arriscado - alteração consciência, memória, hemiparesia. Sempre tentar preservar."
+
+**ARMADILHA**: Subestimar a gravidade de lesão venosa profunda
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Qual a diferença de tolerância entre VCI e veia basal?"
+> - Ambas têm variação individual
+> - Depende de qual drena mais território
+> - Avaliar angiograficamente dominância
 
 ---
 
 ### 3.2 Origem das Coroidais
-**Pergunta**: "Qual a origem do suprimento do plexo coroide?"
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "Depende do ventrículo:
+**CENÁRIO**: Discussão sobre suprimento arterial do plexo coroide.
+
+**PERGUNTA**: "Qual a origem do suprimento do plexo coroide?"
+
+**RESPOSTA IDEAL**:
+> "**VENTRÍCULO LATERAL**:
+> - Coroidal ANTERIOR (da carótida interna):
+>   - Principalmente corno temporal
+> - Coroidal posterior LATERAL (da P2):
+>   - Corpo e átrio
 >
-> **Ventrículo Lateral**:
-> - Coroidal anterior (da carótida interna) - principalmente corno temporal
-> - Coroidal posterior lateral (da P2) - corpo e átrio
+> **TERCEIRO VENTRÍCULO**:
+> - Coroidal posterior **MEDIAL** (da P2 ou diretamente da basilar)
 >
-> **Terceiro Ventrículo**:
-> - Coroidal posterior MEDIAL (da P2 ou diretamente da basilar)
->
-> Lembrar: a coroidal ANTERIOR supre o VL, NÃO o 3V. A coroidal posterior MEDIAL supre o 3V."
+> **REGRA MNEMÔNICA**:
+> - 3V = MEDIAL
+> - VL = ANTERIOR + LATERAL"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "VL: coroidal anterior e posterior lateral. 3V: coroidal posterior MEDIAL."
+
+**ARMADILHA**: Confundir coroidal anterior (VL) com posterior medial (3V)
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Qual o território da artéria coroidal anterior além do plexo?"
+> - Braço posterior cápsula interna
+> - Trato óptico/corpo geniculado lateral
+> - Parte do tálamo, hipocampo, amígdala
 
 ---
 
 ### 3.3 Infarto da Coroidal Anterior
-**Pergunta**: "Quais são as consequências do infarto da artéria coroidal anterior?"
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "A TRÍADE clássica:
-> 1. **Hemiplegia** - lesão do braço posterior da cápsula interna
-> 2. **Hemianestesia** - lesão do tálamo ventrolateral
-> 3. **Hemianopsia homônima** - lesão do trato óptico ou corpo geniculado lateral
+**CENÁRIO**: Pós-operatório de aneurisma de carótida com novo déficit.
+
+**PERGUNTA**: "Quais são as consequências do infarto da artéria coroidal anterior?"
+
+**RESPOSTA IDEAL**:
+> "A **TRÍADE** clássica (3 Hs):
 >
-> Território: braço posterior da cápsula interna, globo pálido, trato óptico, parte do tálamo, hipocampo e amígdala."
+> | Déficit | Estrutura Lesada |
+> |---------|------------------|
+> | **HEMIPLEGIA** | Braço posterior da cápsula interna |
+> | **HEMIANESTESIA** | Tálamo ventrolateral |
+> | **HEMIANOPSIA homônima** | Trato óptico / corpo geniculado lateral |
+>
+> **Território completo**:
+> - Braço posterior da cápsula interna
+> - Globo pálido
+> - Trato óptico
+> - Parte do tálamo
+> - Hipocampo e amígdala"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Tríade dos 3 Hs: hemiplegia, hemianestesia, hemianopsia homônima."
+
+**ARMADILHA**: Confundir com infarto de outras coroidais
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Por que a coroidal anterior é considerada artéria de 'alto risco' em cirurgia de aneurismas?"
+> - Múltiplos ramos perfurantes
+> - Território eloquente
+> - Variação anatômica significativa
 
 ---
 
 ### 3.4 Veia Basal
-**Pergunta**: "Qual o trajeto da veia basal e sua importância?"
+🔴 **AVANÇADO** | Tempo: 2 min
 
-**Resposta**:
-> "A veia basal (de Rosenthal) forma-se abaixo da substância perfurada anterior pela junção de:
+**CENÁRIO**: Planejamento de abordagem para tumor da cisterna ambiente.
+
+**PERGUNTA**: "Qual o trajeto da veia basal e sua importância?"
+
+**RESPOSTA IDEAL**:
+> "**FORMAÇÃO**: Abaixo da substância perfurada anterior
 > - Veia cerebral média profunda
 > - Veias estriadas inferiores
 > - Veia cerebral anterior
 >
-> TRAJETO: Contorna o mesencéfalo pelos cisternas crural → ambiente → quadrigeminal, onde se une à VCI para formar a veia de Galeno.
+> **TRAJETO**: Contorna o mesencéfalo pelas cisternas (mnemônico CAQ):
+> - **C**rural
+> - **A**mbiente
+> - **Q**uadrigeminal
 >
-> IMPORTÂNCIA: Em alguns indivíduos, a basal drena território maior que a VCI - avaliar angiograficamente. Lesão bilateral é catastrófica."
+> **TÉRMINO**: Une-se à VCI → Veia de Galeno
+>
+> **IMPORTÂNCIA**:
+> - Em alguns indivíduos, drena território MAIOR que a VCI
+> - Verificar dominância na angiografia
+> - Lesão bilateral: catastrófica"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Forma-se sob substância perfurada anterior, contorna o mesencéfalo (cisternas crural-ambiente-quadrigeminal), une-se à VCI para formar Galeno."
+
+**ARMADILHA**: Subestimar importância - pode ser dominante sobre VCI
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Quais veias formam a veia de Galeno?"
+> - VCIs (bilateral)
+> - Veias basais (bilateral)
+> - Veias calcarinas anteriores
+> - Veias vermianas superiores
 
 ---
 
-## CATEGORIA 4: ABORDAGENS CIRÚRGICAS
+## ESTAÇÃO 4: ABORDAGENS CIRÚRGICAS
 
 ### 4.1 Lado da Fissura Coroidal
-**Pergunta**: "Por que abrir a fissura coroidal pelo lado fornical e não pelo talâmico?"
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "O lado TALÂMICO contém a TALAMOESTRIADA e as artérias coroidais. Incisar a tenia thalami (lado talâmico) tem maior risco de:
-> - Lesão da talamoestriada → infarto venoso da cápsula interna
-> - Lesão das coroidais → infarto do plexo e parênquima adjacente
+**CENÁRIO**: Discussão de técnica para abordagem transchoroidal.
+
+**PERGUNTA**: "Por que abrir a fissura coroidal pelo lado fornical e não pelo talâmico?"
+
+**RESPOSTA IDEAL**:
+> "**LADO TALÂMICO (Tenia thalami)** - EVITAR:
+> - Contém a TALAMOESTRIADA
+> - Contém artérias COROIDAIS
+> - Maior risco de:
+>   - Infarto venoso da cápsula interna
+>   - Infarto do plexo e parênquima
 >
-> A tenia fornicis (lado fornical) tem estruturas menores e sacrificáveis. A abordagem é chamada 'transchoroidal' quando vai pelo lado fornical, e 'subchoroidal' quando vai pelo lado talâmico (hoje obsoleta)."
+> **LADO FORNICAL (Tenia fornicis)** - PREFERIR:
+> - Estruturas menores e sacrificáveis
+> - Menor risco vascular
+>
+> **NOMENCLATURA**:
+> - Transchoroidal = via lado fornical ✓
+> - Subchoroidal = via lado talâmico ✗ (obsoleta)"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Lado talâmico tem talamoestriada e coroidais - maior risco. Lado fornical é mais seguro."
+
+**ARMADILHA**: Confundir tenia fornicis com tenia thalami
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "O que é a fissura coroidal?"
+> - Fenda entre fórnice e tálamo
+> - Onde o plexo coroide se fixa
+> - Via de acesso ao velum interpositum
 
 ---
 
 ### 4.2 Veias-Ponte
-**Pergunta**: "Quantas veias-ponte pode sacrificar para o seio sagital superior?"
+🔴 **AVANÇADO** | Tempo: 2 min
 
-**Resposta**:
-> "DEPENDE da localização:
+**CENÁRIO**: Planejamento de craniotomia bi-frontal para tumor da ACoA.
+
+**PERGUNTA**: "Quantas veias-ponte pode sacrificar para o seio sagital superior?"
+
+**RESPOSTA IDEAL**:
+> "**DEPENDE da localização**:
 >
-> **Terço ANTERIOR** do SSS: Mais tolerante, colaterais abundantes
-> **Terço MÉDIO** (região rolândica): PERIGOSO - veia de Trolard, veias motoras
-> **Terço POSTERIOR**: Mais tolerante, mas veias occipitais podem causar hemianopsia
+> | Região | Tolerância | Justificativa |
+> |--------|------------|---------------|
+> | **Terço ANTERIOR** | Mais tolerante | Colaterais abundantes |
+> | **Terço MÉDIO** | PERIGOSO | V. de Trolard, veias motoras |
+> | **Terço POSTERIOR** | Mais tolerante | Mas pode causar hemianopsia |
 >
-> REGRA: Nunca sacrificar mais de 2-3 veias-ponte em qualquer região. Veias únicas grandes (como veia de Trolard dominante) NÃO devem ser sacrificadas."
+> **REGRA**: Máximo 2-3 veias-ponte por região
+>
+> **EXCEÇÃO ABSOLUTA**: Veia de Trolard dominante - NUNCA sacrificar"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Depende da região. Anterior: mais tolerante. Médio: perigoso. Regra: máximo 2-3 por região, nunca Trolard dominante."
+
+**ARMADILHA**: Assumir que todas as veias-ponte são sacrificáveis
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Como você avalia se a veia de Trolard é dominante?"
+> - Angiografia venosa
+> - Calibre comparativo
+> - Território de drenagem
 
 ---
 
 ### 4.3 Abordagem Translaminar Terminal
-**Pergunta**: "Quais são os limites da abertura da lâmina terminal?"
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "A lâmina terminal é aberta entre:
-> - **Inferiormente**: Borda superior do quiasma óptico
-> - **Superiormente**: Borda inferior da comissura anterior
+**CENÁRIO**: Planejamento de ressecção de craniofaringioma retroquiasmático.
+
+**PERGUNTA**: "Quais são os limites da abertura da lâmina terminal?"
+
+**RESPOSTA IDEAL**:
+> "**LIMITES DA ABERTURA**:
+> - **Inferior**: Borda SUPERIOR do quiasma óptico
+> - **Superior**: Borda INFERIOR da comissura anterior
 >
-> CUIDADOS:
-> - Não estender para o quiasma (lesão visual)
-> - Não estender para a comissura anterior (embora seja raramente sintomática)
-> - Preservar artéria comunicante anterior e seus perfurantes hipotalâmicos
-> - Artéria recorrente de Heubner passa lateralmente - preservar"
+> **ESTRUTURAS A PRESERVAR**:
+> - Quiasma óptico (não estender inferiormente)
+> - Comissura anterior (não estender superiormente)
+> - Artéria comunicante anterior + perfurantes hipotalâmicos
+> - Artéria recorrente de Heubner (passa lateralmente)
+>
+> **Mnemônico**: Q-ACoA-Heubner-perfurantes"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Entre o quiasma (abaixo) e a comissura anterior (acima). Preservar ACoA e Heubner."
+
+**ARMADILHA**: Estender abertura e lesar quiasma ou perfurantes
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Qual déficit causa lesão da artéria de Heubner?"
+> - Território: cabeça caudado, braço anterior cápsula, putâmen
+> - Hemisfério dominante: afasia
+> - Fraqueza face/braço
 
 ---
 
 ### 4.4 Secção do Corpo Caloso
-**Pergunta**: "Qual extensão de caloso pode seccionar sem déficit?"
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "REGRA GERAL: Até 2-3 cm no corpo caloso anterior geralmente não causa síndrome de desconexão evidente.
+**CENÁRIO**: Discussão sobre extensão de calosotomia para tumor do 3V.
+
+**PERGUNTA**: "Qual extensão de caloso pode seccionar sem déficit?"
+
+**RESPOSTA IDEAL**:
+> "**REGRA GERAL**: Até **2-3 cm** no corpo caloso ANTERIOR
+> - Geralmente não causa síndrome de desconexão evidente
 >
-> PORÉM:
-> - Lesão do ESPLÊNIO causa alexia sem agrafia (síndrome de desconexão posterior)
-> - Lesão do ROSTRO pode causar déficits sutis de comportamento
-> - Secção COMPLETA causa síndrome de desconexão franca (mão alienígena, etc.)
+> **LOCALIZAÇÕES ESPECÍFICAS**:
 >
-> Para tumores do 3V, 2cm é suficiente para a maioria dos casos."
+> | Local | Consequência de Lesão |
+> |-------|----------------------|
+> | **Esplênio** | Alexia sem agrafia |
+> | **Rostro** | Déficits sutis de comportamento |
+> | **Completa** | Síndrome desconexão franca (mão alienígena) |
+>
+> **Para tumores do 3V**: 2cm é suficiente na maioria dos casos"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "2-3 cm no corpo anterior é seguro. Esplênio causa alexia sem agrafia."
+
+**ARMADILHA**: Estender demais posteriormente e lesar esplênio
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "O que é alexia sem agrafia?"
+> - Paciente NÃO consegue LER
+> - Mas CONSEGUE escrever
+> - Síndrome de desconexão: área visual → área linguagem
 
 ---
 
-## CATEGORIA 5: PATOLOGIA
+## ESTAÇÃO 5: PATOLOGIA
 
 ### 5.1 Cisto Coloide
-**Pergunta**: "Por que cistos coloides causam morte súbita?"
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "Os cistos coloides tipicamente se localizam no TETO DO FORAME DE MONRO. Podem causar obstrução intermitente do fluxo de LCR levando a:
+**CENÁRIO**: Paciente jovem com cefaleia intermitente, TC mostra cisto no forame de Monro.
+
+**PERGUNTA**: "Por que cistos coloides causam morte súbita?"
+
+**RESPOSTA IDEAL**:
+> "**LOCALIZAÇÃO**: Teto do forame de Monro
 >
-> 1. **Hidrocefalia aguda** por bloqueio bilateral dos forames
-> 2. **Aumento súbito da PIC** sem tempo para compensação
-> 3. **Herniação tonsilar** e compressão do tronco cerebral
+> **MECANISMO DE MORTE SÚBITA**:
+> ```
+> Cisto → Obstrução intermitente → Obstrução COMPLETA súbita
+>                                          ↓
+>                                Hidrocefalia AGUDA bilateral
+>                                          ↓
+>                                Aumento súbito PIC (sem compensação)
+>                                          ↓
+>                                Herniação tonsilar → ÓBITO
+> ```
 >
-> A 'morte súbita' ocorre por obstrução completa transitória seguida de descompensação. Por isso cistos coloides > 10mm devem ser tratados, mesmo assintomáticos."
+> **INDICAÇÃO CIRÚRGICA**: >10mm, mesmo ASSINTOMÁTICO
+>
+> **Por quê?**: Obstrução pode ocorrer a qualquer momento"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Localizam-se no teto do forame de Monro, causam obstrução intermitente que pode se tornar completa subitamente, levando a hidrocefalia aguda e herniação."
+
+**ARMADILHA**: Subestimar risco de cisto assintomático
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Qual abordagem você prefere para cisto coloide?"
+> - Endoscópica: menos invasiva, menor morbidade
+> - Transcalosa: para cistos muito aderentes
+> - Depende de tamanho, localização, experiência
 
 ---
 
-### 5.2 Craniofaringioma
-**Pergunta**: "Qual a relação do craniofaringioma com o terceiro ventrículo?"
+### 5.2 Síndrome de Parinaud
+🟡 **INTERMEDIÁRIO** | Tempo: 2 min
 
-**Resposta**:
-> "Os craniofaringiomas podem ser:
+**CENÁRIO**: Paciente com tumor pineal e queixas visuais.
+
+**PERGUNTA**: "O que é a síndrome de Parinaud e por que ocorre em tumores pineais?"
+
+**RESPOSTA IDEAL**:
+> "**TRÍADE CLÍNICA**:
+> 1. Paralisia do olhar para **CIMA**
+> 2. Pupilas: reagem à **acomodação** mas NÃO à **luz**
+> 3. Nistagmo de convergência-retração
 >
-> 1. **PRÉ-FIXADOS**: Crescem anteriormente, deslocam o quiasma para trás
-> 2. **RETRO-QUIASMÁTICOS**: Invadem o 3V pelo assoalho ou pela lâmina terminal
-> 3. **INTRA-VENTRICULARES PUROS**: Raros, originam-se do infundíbulo
+> **MECANISMO**: Compressão do teto mesencefálico (colículos superiores) pelo tumor pineal
 >
-> A ressecção pelo 3V requer abordagem translaminar terminal (para anteriores) ou transcaloso-transchoroidal (para superiores). A aderência ao hipotálamo determina se ressecção total é segura."
-
----
-
-### 5.3 Tumores Pineais
-**Pergunta**: "Por que tumores pineais causam hidrocefalia?"
-
-**Resposta**:
-> "Os tumores pineais crescem na CISTERNA QUADRIGEMINAL, comprimindo:
+> **HIDROCEFALIA ASSOCIADA**: Por compressão do aqueduto cerebral
 >
-> 1. **Aqueduto cerebral** - obstrução direta
-> 2. **Teto do 3V** - obstrução do fluxo pelo velum interpositum
-> 3. **Veia de Galeno** - congestão venosa adiciona edema
+> **CONDUTA**: ETV + biópsia no mesmo tempo cirúrgico"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Paralisia do olhar para cima + pupilas que reagem à acomodação mas não à luz. Compressão do teto mesencefálico."
+
+**ARMADILHA**: Confundir com outras paralisias do olhar
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "Por que as pupilas reagem à acomodação mas não à luz?"
+> - Vias diferentes: luz via pretectal, acomodação via córtex occipital
+> - Lesão dorsal mesencéfalo poupa via ventral de acomodação
+
+---
+
+## ESTAÇÃO 6: CENÁRIOS INTEGRADOS
+
+### 6.1 Caso Clínico Complexo
+🔴 **AVANÇADO** | Tempo: 5 min
+
+**CENÁRIO**: Paciente 45 anos, cefaleia há 3 meses, déficit visual bitemporal progressivo. RM mostra lesão sólido-cística no 3V anterior, estendendo-se para cisterna suprasselar.
+
+**PERGUNTA**: "Qual o diagnóstico provável e como você abordaria?"
+
+**RESPOSTA IDEAL**:
+> "**DIAGNÓSTICO PROVÁVEL**: Craniofaringioma retroquiasmático
 >
-> O sinal clássico é HIDROCEFALIA + SÍNDROME DE PARINAUD (paralisia do olhar para cima, pupilas que reagem à acomodação mas não à luz). A ETV (ventriculostomia endoscópica do 3V) pode ser feita no mesmo tempo que a biópsia."
+> **AVALIAÇÃO PRÉ-OPERATÓRIA**:
+> - Função hipotalâmica-hipofisária
+> - Avaliação neuro-oftalmológica completa
+> - Posição do quiasma na RM
+>
+> **ESCOLHA DA ABORDAGEM** (depende da extensão):
+>
+> | Extensão | Abordagem |
+> |----------|-----------|
+> | Anterior predominante | Translaminar terminal |
+> | Superior predominante | Transcalosa-transchoroidal |
+> | Mista | Combinada ou estadiada |
+>
+> **CONSIDERAÇÕES**:
+> - Aderência ao hipotálamo determina radicalidade segura
+> - Preservar haste hipofisária se possível
+> - Déficit endócrino comum no pós-operatório"
+
+**RESPOSTA MÍNIMA ACEITÁVEL**:
+> "Craniofaringioma. Avaliar função hipofisária e posição do quiasma. Abordagem translaminar terminal ou transcalosa-transchoroidal dependendo da extensão."
+
+**ARMADILHA**: Propor ressecção radical sem considerar aderência hipotalâmica
+
+**FOLLOW-UP PROVÁVEL** 🔴:
+> "E se houver recidiva?"
+> - Radiocirurgia para resíduo sólido
+> - Bleomicina intracística para componente cístico
+> - Nova ressecção se tecnicamente seguro
 
 ---
 
-## CATEGORIA 6: ARMADILHAS COMUNS
+## ESTRATÉGIAS PARA AMBIENTE HOSTIL
 
-### 6.1 Confusões Anatômicas
-**Pergunta capciosa → Armadilha → Correção**
+### Respostas para "Não Sei"
 
-| Confusão | Armadilha | Correção |
-|----------|-----------|----------|
-| Colunas vs Corpo do fórnice | Achar que são o mesmo | Colunas descem ao forame; corpo é superior |
-| Tela coroídea vs Velum interpositum | Usar como sinônimos | Tela = membrana; Velum = espaço entre as telas |
-| Massa intermédia vs Comissura anterior | Confundir localização | MI = linha média do 3V; CA = parede anterior |
-| Coroidal anterior vs posterior medial | Confundir suprimento | Anterior = VL; Posterior medial = 3V |
-| Talamoestriada vs Talamocaudada | Não saber a variação | Talamocaudada substitui talamoestriada em 4% |
+| Situação | Estratégia |
+|----------|------------|
+| Não lembra o número exato | "O princípio é... [explique o conceito]" |
+| Nunca viu a situação | "Não tenho experiência pessoal, mas a literatura sugere..." |
+| Pergunta fora do tema | "Poderia especificar se está perguntando sobre X ou Y?" |
+| Verdadeiramente não sabe | "Reconheço que não tenho essa informação. Posso revisar e retornar." |
 
----
+### Postura Recomendada
 
-### 6.2 Números para Lembrar
+**✅ FAZER:**
+- Responder diretamente, sem rodeios
+- Citar números/dados quando disponíveis
+- Admitir incerteza com confiança
+- Manter contato visual
+- Velocidade moderada, pausada
 
-| Estrutura/Conceito | Valor | Nota |
-|-------------------|-------|------|
-| Massa intermédia presente | ~70% | Marco, não crítica |
-| Talamoestriada ausente | ~4% | Talamocaudada substitui |
-| Quiasma pré-fixado | ~10% | Limita abordagem TS |
-| Quiasma pós-fixado | ~10% | Facilita abordagem TS |
-| Secção calosa segura | 2-3 cm | Corpo anterior |
-| Veias-ponte sacrificáveis | 2-3 | Por região |
-| Cisto coloide - indicação cirúrgica | >10 mm | Mesmo assintomático |
-
----
-
-## RESPOSTAS PARA SITUAÇÕES DE "NÃO SEI"
-
-Se não souber algo, use estas estratégias:
-
-1. **Reformule**: "Se entendi a pergunta corretamente, você está perguntando sobre..."
-
-2. **Limite honesto**: "Não tenho experiência pessoal com essa situação específica, mas a literatura sugere..."
-
-3. **Foco no princípio**: "Não tenho o número exato, mas o princípio é preservar estruturas de drenagem profunda..."
-
-4. **Cite fonte**: "Nos trabalhos do Rhoton, a recomendação é..."
-
-5. **Peça esclarecimento**: "Poderia especificar se está perguntando sobre a abordagem X ou Y?"
+**❌ NÃO FAZER:**
+- Inventar dados
+- Responder "não sei" sem raciocinar
+- Parecer defensivo
+- Mudar resposta se pressionado (sem motivo)
+- Menosprezar pergunta ou perguntador
 
 ---
 
-## ATITUDES PARA AMBIENTE HOSTIL
+## CHECKLIST PRÉ-APRESENTAÇÃO
 
-### O que fazer:
-- ✅ Responder diretamente, sem rodeios
-- ✅ Admitir incerteza honestamente, mas com confiança
-- ✅ Citar dados/números quando disponíveis
-- ✅ Manter contato visual
-- ✅ Falar em velocidade moderada, pausada
-
-### O que NÃO fazer:
-- ❌ Inventar dados
-- ❌ Responder "não sei" sem tentar raciocinar
-- ❌ Parecer defensivo ou nervoso
-- ❌ Mudar a resposta se pressionado (a menos que realmente errou)
-- ❌ Menosprezar a pergunta ou o perguntador
+```
+┌─────────────────────────────────────────────────────────────┐
+│              PREPARAÇÃO PARA PERGUNTAS                      │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  PERGUNTAS BÁSICAS (🟢):                                    │
+│  □ Sei responder TODAS instantaneamente?                    │
+│                                                             │
+│  PERGUNTAS INTERMEDIÁRIAS (🟡):                             │
+│  □ Consigo responder com confiança?                         │
+│  □ Tenho os números principais de memória?                  │
+│                                                             │
+│  PERGUNTAS AVANÇADAS (🔴):                                  │
+│  □ Tenho resposta estruturada preparada?                    │
+│  □ Sei os follow-ups prováveis?                             │
+│                                                             │
+│  CENÁRIOS INTEGRADOS:                                       │
+│  □ Pratiquei casos clínicos complexos?                      │
+│  □ Sei admitir incerteza com elegância?                     │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
 *"A confiança vem do preparo. Você estudou. Você sabe. Agora demonstre."*
+
+*Última atualização: Janeiro 2026*
+*Formato: OSCE (Objective Structured Clinical Examination)*
