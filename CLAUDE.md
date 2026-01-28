@@ -24,6 +24,9 @@ bun test tests/unit/chunker/splitter.test.ts
 # Run tests matching pattern
 bun test --filter "breadcrumb"
 
+# Run anki-export tests
+bun test tests/unit/anki-export/
+
 # Run Phase 1: Data ingestion
 bun run src/cli/ingest.ts
 
@@ -64,6 +67,15 @@ PDF → JSON/Markdown exports → [Phase 1: ingest.ts] → normalized/document.j
 
 **Quality Gates**: Both phases have validation gates (parse rate, ligature count, chunk sizes). Failing gates exit with code 1.
 
+**Input Types for Zod**: Use separate `*Input` interfaces for pre-validation data. Parse with `Schema.safeParse()` and handle errors with detailed logging:
+```typescript
+const result = Schema.safeParse(input);
+if (!result.success) {
+  const issues = result.error.issues.map(i => `${i.path.join('.')}: ${i.message}`).join('; ');
+  console.warn(`Validation failed: ${issues}`);
+}
+```
+
 **Token Limits** (defined in `src/config/chunking.ts`):
 - MAX_TOKENS: 512 (target during splitting)
 - HARD_MAX_TOKENS: 600 (schema enforced max)
@@ -86,6 +98,31 @@ Pipeline configuration is in `config/source-paths.json`. It defines:
 - Source file paths (JSON, Markdown, images)
 - Output directories for each phase
 - Document metadata (id, title, author)
+
+## Anki Export Module
+
+Located in `src/anki-export/`, converts flashcards CSV to Anki-importable format with FSRS optimization.
+
+```bash
+# Convert CSV to Anki format
+bun run src/anki-export/csv-to-anki.ts
+
+# Setup Anki via AnkiConnect (requires Anki running with addon 2055492159)
+bun run src/anki-export/setup-anki.ts
+
+# Add hints to existing CSV
+bun run src/anki-export/add-hints.ts
+```
+
+**Environment Variables:**
+- `ANKI_CONNECT_URL` - AnkiConnect endpoint (default: `http://localhost:8765`)
+- `ANKI_BATCH_SIZE` - Cards per batch (default: 50)
+- `ANKI_TIMEOUT_MS` - Request timeout (default: 10000)
+
+**Key Patterns:**
+- `CardInput` type for pre-Zod-validation data in `types/fsrs-card.ts`
+- External templates in `templates/` (card-front.html, card-back.html, styles.css)
+- Shared CSV parser in `lib/csv-parser.ts` (RFC 4180 compliant)
 
 ## Language
 
