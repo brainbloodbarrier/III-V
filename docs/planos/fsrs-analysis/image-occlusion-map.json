@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "issue": "#240",
+    "status": "complete",
+    "date": "2026-01-27",
+    "total_figures": 24,
+    "estimated_cards": 85
+  },
+  "figures": [
+    {
+      "figure_id": "4.1",
+      "title": "Teto do Terceiro Ventrículo - Vista Superior",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Fórnice (corpo)", "tag": "anatomia-teto", "mnemonic": "FSVIP-1"},
+        {"name": "Camada superior tela coroídea", "tag": "anatomia-teto", "mnemonic": "FSVIP-2"},
+        {"name": "Velum interpositum", "tag": "anatomia-teto", "mnemonic": "FSVIP-3"},
+        {"name": "Camada inferior tela coroídea", "tag": "anatomia-teto", "mnemonic": "FSVIP-4"},
+        {"name": "Plexo coroide", "tag": "anatomia-teto", "mnemonic": "FSVIP-5"}
+      ],
+      "estimated_cards": 5
+    },
+    {
+      "figure_id": "4.2",
+      "title": "Velum Interpositum - Dissecção",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Veia cerebral interna (VCI)", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Artéria coroidal posterior medial", "tag": "vascular-arterias", "mnemonic": null},
+        {"name": "Esplênio do corpo caloso", "tag": "anatomia-teto", "mnemonic": null}
+      ],
+      "estimated_cards": 3
+    },
+    {
+      "figure_id": "4.3",
+      "title": "Fissura Coroidal",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Tenia fornicis", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "Tenia thalami", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "Plexo coroide", "tag": "anatomia-teto", "mnemonic": null}
+      ],
+      "estimated_cards": 3
+    },
+    {
+      "figure_id": "4.8",
+      "title": "Assoalho do Terceiro Ventrículo - Vista Sagital",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Quiasma óptico", "tag": "anatomia-assoalho", "mnemonic": "QPTCMP-1"},
+        {"name": "Pedúnculo hipofisário", "tag": "anatomia-assoalho", "mnemonic": "QPTCMP-2"},
+        {"name": "Túber cinéreo", "tag": "anatomia-assoalho", "mnemonic": "QPTCMP-3"},
+        {"name": "Corpos mamilares", "tag": "anatomia-assoalho", "mnemonic": "QPTCMP-4"},
+        {"name": "Substância perfurada posterior", "tag": "anatomia-assoalho", "mnemonic": "QPTCMP-5"},
+        {"name": "Tegmento mesencefálico", "tag": "anatomia-assoalho", "mnemonic": "QPTCMP-6"}
+      ],
+      "estimated_cards": 6
+    },
+    {
+      "figure_id": "4.9",
+      "title": "Recessos do Terceiro Ventrículo",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Recesso óptico", "tag": "anatomia-recessos", "mnemonic": null},
+        {"name": "Recesso infundibular", "tag": "anatomia-recessos", "mnemonic": null},
+        {"name": "Recesso suprapineal", "tag": "anatomia-recessos", "mnemonic": null},
+        {"name": "Recesso pineal", "tag": "anatomia-recessos", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.10",
+      "title": "Parede Lateral - Sulco Hipotalâmico",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Tálamo", "tag": "anatomia-lateral", "mnemonic": null},
+        {"name": "Hipotálamo", "tag": "anatomia-lateral", "mnemonic": null},
+        {"name": "Sulco hipotalâmico", "tag": "anatomia-lateral", "mnemonic": null},
+        {"name": "Massa intermédia", "tag": "anatomia-lateral", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.15",
+      "title": "Forame de Monro - Vista Superior",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Colunas do fórnice", "tag": "forame-monro", "mnemonic": "Anterior"},
+        {"name": "Polo anterior do tálamo", "tag": "forame-monro", "mnemonic": "Posterior"},
+        {"name": "Veia talamoestriada", "tag": "forame-monro", "mnemonic": null},
+        {"name": "Genu da cápsula interna", "tag": "forame-monro", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.16",
+      "title": "Ponto Venoso - Angiografia",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "Veia talamoestriada", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Veia cerebral interna", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Ângulo (ponto venoso)", "tag": "vascular-veias", "mnemonic": null}
+      ],
+      "estimated_cards": 3
+    },
+    {
+      "figure_id": "4.20",
+      "title": "VCI - Formação e Trajeto",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Veia talamoestriada", "tag": "vascular-veias", "mnemonic": "T"},
+        {"name": "Veia coroidal superior", "tag": "vascular-veias", "mnemonic": "C"},
+        {"name": "VCI", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Estria medular do tálamo", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Pulvinar", "tag": "vascular-veias", "mnemonic": null}
+      ],
+      "estimated_cards": 5
+    },
+    {
+      "figure_id": "4.21",
+      "title": "Veia de Galeno - Tributárias",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "VCIs", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Veias basais", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Veias calcarinas anteriores", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Veias vermianas superiores", "tag": "vascular-veias", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.25",
+      "title": "Veia Basal de Rosenthal - Trajeto CAQ",
+      "source": "Rhoton Chapter 4",
+      "priority": 1,
+      "structures_to_occlude": [
+        {"name": "Cisterna crural", "tag": "vascular-veias", "mnemonic": "CAQ-1"},
+        {"name": "Cisterna ambiente", "tag": "vascular-veias", "mnemonic": "CAQ-2"},
+        {"name": "Cisterna quadrigeminal", "tag": "vascular-veias", "mnemonic": "CAQ-3"},
+        {"name": "Veia basal", "tag": "vascular-veias", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.26",
+      "title": "Veia Basal - Tributárias",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "Veia cerebral média profunda", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Veias estriadas inferiores", "tag": "vascular-veias", "mnemonic": null},
+        {"name": "Veia cerebral anterior", "tag": "vascular-veias", "mnemonic": null}
+      ],
+      "estimated_cards": 3
+    },
+    {
+      "figure_id": "4.30",
+      "title": "Artérias Coroidais",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "Artéria coroidal anterior", "tag": "vascular-arterias", "mnemonic": null},
+        {"name": "Artéria coroidal posterior medial", "tag": "vascular-arterias", "mnemonic": null},
+        {"name": "Artéria coroidal posterior lateral", "tag": "vascular-arterias", "mnemonic": null},
+        {"name": "P2", "tag": "vascular-arterias", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.35",
+      "title": "Parede Anterior - Lâmina Terminal",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "Colunas do fórnice", "tag": "anatomia-anterior", "mnemonic": null},
+        {"name": "Comissura anterior", "tag": "anatomia-anterior", "mnemonic": null},
+        {"name": "Lâmina terminal", "tag": "anatomia-anterior", "mnemonic": null},
+        {"name": "Quiasma óptico", "tag": "anatomia-anterior", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.36",
+      "title": "Parede Posterior - Região Pineal",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "Recesso suprapineal", "tag": "anatomia-posterior", "mnemonic": null},
+        {"name": "Comissura habenular", "tag": "anatomia-posterior", "mnemonic": null},
+        {"name": "Glândula pineal", "tag": "anatomia-posterior", "mnemonic": null},
+        {"name": "Comissura posterior", "tag": "anatomia-posterior", "mnemonic": null},
+        {"name": "Aqueduto cerebral", "tag": "anatomia-posterior", "mnemonic": null}
+      ],
+      "estimated_cards": 5
+    },
+    {
+      "figure_id": "4.40",
+      "title": "Abordagem Transchoroidal",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "Fissura coroidal aberta", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "Tenia fornicis", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "Velum interpositum", "tag": "cirurgico-abordagem", "mnemonic": null}
+      ],
+      "estimated_cards": 3
+    },
+    {
+      "figure_id": "4.41",
+      "title": "Abordagem Interforniceal",
+      "source": "Rhoton Chapter 4",
+      "priority": 3,
+      "structures_to_occlude": [
+        {"name": "Rafe mediana", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "Fórnice direito", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "Fórnice esquerdo", "tag": "cirurgico-abordagem", "mnemonic": null}
+      ],
+      "estimated_cards": 3
+    },
+    {
+      "figure_id": "4.42",
+      "title": "Abordagem Translaminar Terminal",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "Lâmina terminal", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "Quiasma óptico", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "Comissura anterior", "tag": "cirurgico-abordagem", "mnemonic": null},
+        {"name": "ACoA", "tag": "cirurgico-abordagem", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.45",
+      "title": "ETV - Marcos Anatômicos",
+      "source": "Rhoton Chapter 4",
+      "priority": 2,
+      "structures_to_occlude": [
+        {"name": "Infundíbulo", "tag": "cirurgico-endoscopia", "mnemonic": "Anterior"},
+        {"name": "Corpos mamilares", "tag": "cirurgico-endoscopia", "mnemonic": "Posterior"},
+        {"name": "Artéria basilar", "tag": "cirurgico-endoscopia", "mnemonic": null}
+      ],
+      "estimated_cards": 3
+    },
+    {
+      "figure_id": "4.50",
+      "title": "Posição do Quiasma - Variações",
+      "source": "Rhoton Chapter 4",
+      "priority": 3,
+      "structures_to_occlude": [
+        {"name": "Quiasma pré-fixado", "tag": "anatomia-quiasma", "mnemonic": "10%"},
+        {"name": "Quiasma normal", "tag": "anatomia-quiasma", "mnemonic": "80%"},
+        {"name": "Quiasma pós-fixado", "tag": "anatomia-quiasma", "mnemonic": "10%"},
+        {"name": "Tubérculo selar", "tag": "anatomia-quiasma", "mnemonic": null},
+        {"name": "Dorso selar", "tag": "anatomia-quiasma", "mnemonic": null}
+      ],
+      "estimated_cards": 5
+    },
+    {
+      "figure_id": "4.55",
+      "title": "Núcleos Hipotalâmicos",
+      "source": "Rhoton Chapter 4",
+      "priority": 3,
+      "structures_to_occlude": [
+        {"name": "Núcleo pré-óptico", "tag": "anatomia-assoalho", "mnemonic": "PSP-VDM"},
+        {"name": "Núcleo supraóptico", "tag": "anatomia-assoalho", "mnemonic": "PSP-VDM"},
+        {"name": "Núcleo paraventricular", "tag": "anatomia-assoalho", "mnemonic": "PSP-VDM"},
+        {"name": "Núcleo ventromedial", "tag": "anatomia-assoalho", "mnemonic": "PSP-VDM"},
+        {"name": "Núcleo dorsomedial", "tag": "anatomia-assoalho", "mnemonic": "PSP-VDM"},
+        {"name": "Núcleo mamilar", "tag": "anatomia-assoalho", "mnemonic": "PSP-VDM"}
+      ],
+      "estimated_cards": 6
+    },
+    {
+      "figure_id": "4.60",
+      "title": "Circuito de Papez",
+      "source": "Rhoton Chapter 4",
+      "priority": 3,
+      "structures_to_occlude": [
+        {"name": "Hipocampo", "tag": "anatomia-circuitos", "mnemonic": "H-M-T-C-H"},
+        {"name": "Fórnice", "tag": "anatomia-circuitos", "mnemonic": null},
+        {"name": "Corpos mamilares", "tag": "anatomia-circuitos", "mnemonic": "H-M-T-C-H"},
+        {"name": "Trato mamilotalâmico", "tag": "anatomia-circuitos", "mnemonic": null},
+        {"name": "Tálamo anterior", "tag": "anatomia-circuitos", "mnemonic": "H-M-T-C-H"},
+        {"name": "Giro do cíngulo", "tag": "anatomia-circuitos", "mnemonic": "H-M-T-C-H"}
+      ],
+      "estimated_cards": 6
+    },
+    {
+      "figure_id": "4.65",
+      "title": "Cisterna Quadrigeminal - Relações Vasculares",
+      "source": "Rhoton Chapter 4",
+      "priority": 3,
+      "structures_to_occlude": [
+        {"name": "Artéria cerebelar superior", "tag": "anatomia-cisternas", "mnemonic": null},
+        {"name": "Nervo troclear (IV)", "tag": "anatomia-cisternas", "mnemonic": null},
+        {"name": "Artéria cerebral posterior", "tag": "anatomia-cisternas", "mnemonic": null},
+        {"name": "Veia de Galeno", "tag": "anatomia-cisternas", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    },
+    {
+      "figure_id": "4.70",
+      "title": "Herniação Transtentorial",
+      "source": "Rhoton Chapter 4",
+      "priority": 3,
+      "structures_to_occlude": [
+        {"name": "Uncus", "tag": "patologia", "mnemonic": null},
+        {"name": "Nervo oculomotor (III)", "tag": "patologia", "mnemonic": null},
+        {"name": "Pedúnculo cerebral", "tag": "patologia", "mnemonic": null},
+        {"name": "Incisura tentorial", "tag": "patologia", "mnemonic": null}
+      ],
+      "estimated_cards": 4
+    }
+  ],
+  "summary": {
+    "priority_1": {
+      "figures": 9,
+      "estimated_cards": 38,
+      "description": "Core anatomy - must have"
+    },
+    "priority_2": {
+      "figures": 9,
+      "estimated_cards": 33,
+      "description": "Vascular and surgical - should have"
+    },
+    "priority_3": {
+      "figures": 6,
+      "estimated_cards": 25,
+      "description": "Advanced concepts - nice to have"
+    }
+  },
+  "implementation_notes": {
+    "tool": "Image Occlusion Enhanced (Anki add-on ID: 1374772155)",
+    "format": "PNG/JPG high resolution",
+    "licensing": "Verify Rhoton figure licensing for educational use",
+    "alternative": "Create schematic diagrams if licensing issues"
+  }
+}
