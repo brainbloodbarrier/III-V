@@ -1,0 +1,80 @@
+.card {
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #eee;
+  padding: 20px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.answer-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4ade80;
+  margin-top: 15px;
+}
+
+hr#answer {
+  border: none;
+  border-top: 2px solid #4ade80;
+  margin: 20px 0;
+}
+
+.hint-button {
+  background: #2d4a7c;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 15px auto;
+  max-width: 200px;
+  transition: background 0.3s;
+}
+
+.hint-button:hover {
+  background: #3d5a8c;
+}
+
+.hint {
+  background: #1e3a5f;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-style: italic;
+  color: #fbbf24;
+}
+
+.tags-footer {
+  margin-top: auto;
+  padding-top: 15px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.difficulty {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.difficulty-E { background: #22c55e; color: #000; }
+.difficulty-M { background: #f59e0b; color: #000; }
+.difficulty-D { background: #ef4444; color: #fff; }
+
+.mnemonic {
+  background: #6366f1;
+  padding: 4px 12px;
+  border-radius: 20px;
+}

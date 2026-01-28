@@ -1,0 +1,12 @@
+{
+  "deckName": "III-V::Terceiro-Ventriculo",
+  "noteTypeName": "FSRS-3V",
+  "preset": "3V-Core",
+  "totalCards": 272,
+  "byDifficulty": {
+    "E": 49,
+    "M": 138,
+    "D": 85
+  },
+  "exportDate": "2026-01-28T00:51:23.419Z"
+}

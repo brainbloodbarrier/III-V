@@ -1,0 +1,278 @@
+#separator:Tab
+#html:true
+#deck:III-V::Terceiro-Ventriculo
+#notetype:FSRS-3V
+#tags column:3
+
+A camada mais SUPERIOR do teto do 3V é o ___.	Fórnice (corpo)	3V::anatomia-teto 3V::limites	FSVIP - Fórnice, Superior tela, Velum, Inferior tela, Plexo	M	
+Abaixo do fórnice no teto do 3V está a ___.	Camada superior da tela coroídea	3V::anatomia-teto 3V::limites	FSVIP	M	
+O espaço entre as duas camadas da tela coroídea no teto do 3V é o ___.	Velum interpositum	3V::anatomia-teto 3V::limites	FSVIP	M	
+Abaixo do velum interpositum está a ___.	Camada inferior da tela coroídea	3V::anatomia-teto 3V::limites	FSVIP	M	
+A estrutura mais INFERIOR do teto do 3V é o ___.	Plexo coroide	3V::anatomia-teto 3V::limites	FSVIP	M	
+O velum interpositum é um espaço ___ entre as duas camadas da tela coroídea.	Triangular	3V::anatomia-teto 3V::velum	Triângulo com vértice anterior	M	
+O velum interpositum contém as ___.	Veias cerebrais internas (VCIs)	3V::anatomia-teto 3V::vascular	VCI + ACPM navegam no velum	M	
+Além das VCIs, o velum interpositum também contém as ___.	Artérias coroidais posteriores mediais (ACPMs)	3V::anatomia-teto 3V::vascular	VCI + ACPM navegam no velum	M	
+O limite POSTERIOR do velum interpositum é a ___.	Margem inferior do esplênio do corpo caloso	3V::anatomia-teto 3V::velum		M	
+O limite ANTERIOR do velum interpositum é ___.	Posteriormente ao forame de Monro	3V::anatomia-teto 3V::velum		M	
+O velum interpositum é mais largo ___ (anterior/posteriormente).	Posteriormente	3V::anatomia-teto 3V::velum	Triângulo com base posterior	M	
+A margem ANTERIOR do forame de Monro é formada pelas ___.	Colunas do fórnice	3V::forame-monro 3V::limites	Colunas na frente, tálamo atrás	M	
+A margem POSTERIOR do forame de Monro é formada pelo ___.	Polo anterior do tálamo	3V::forame-monro 3V::limites	Colunas na frente, tálamo atrás	M	
+A única parte da cápsula interna que chega à superfície ventricular é o ___.	Genu da cápsula interna	3V::forame-monro 3V::cirurgico	Genu = genuflexão = ponto de risco	M	
+CASO: Paciente pós-operatório de tumor do forame de Monro desenvolve hemiparesia. Qual estrutura foi lesada?	Genu da cápsula interna (lateral ao forame)	3V::forame-monro 3V::clinico	Genu lateral ao forame	D	Pense nas estruturas adjacentes ao forame de Monro
+A veia talamoestriada passa ___ (anterior/posteriormente) no sulco estriotalâmico.	Anteriormente	3V::forame-monro 3V::vascular		M	
+A veia talamoestriada vira ___ na margem posterior do forame de Monro.	Medialmente	3V::forame-monro 3V::vascular	Anterior → medial → VCI	M	
+Em ___% dos casos, a talamoestriada passa pela fissura coroidal ATRÁS do forame.	10-15%	3V::forame-monro 3V::variacao	10-15% variante	M	
+Em ___% dos casos, a talamoestriada está AUSENTE e a veia talamocaudada assume.	4%	3V::forame-monro 3V::variacao	4% substituição	M	
+A artéria que supre o plexo coroide do TERCEIRO ventrículo é a ___.	Artéria coroidal posterior MEDIAL	3V::vascular-arterias 3V::plexo	3V = Medial; VL = Anterior/Lateral	M	
+A artéria coroidal posterior medial é geralmente ramo da ___.	P2 (segmento P2 da artéria cerebral posterior)	3V::vascular-arterias 3V::plexo		M	
+Alternativamente, a artéria coroidal posterior medial pode originar-se diretamente da ___.	Artéria basilar	3V::vascular-arterias 3V::plexo		M	
+O plexo coroide do VL é suprido por ___ artérias coroidais principais.	2 (anterior e posterior lateral)	3V::vascular-arterias 3V::plexo 3V::atomizado	VL = Anterior + Lateral	E	
+A estrutura mais ANTERIOR do assoalho do 3V é o ___.	Quiasma óptico	3V::anatomia-assoalho 3V::limites	QPTCMP - Quiasma, Pedúnculo, Túber, Corpos, Mesencéfalo, Perfurada	M	
+Posterior ao quiasma óptico no assoalho do 3V está o ___.	Pedúnculo hipofisário (infundíbulo)	3V::anatomia-assoalho 3V::limites	QPTCMP	M	
+Posterior ao pedúnculo hipofisário está o ___.	Túber cinéreo	3V::anatomia-assoalho 3V::limites	QPTCMP	M	
+Posterior ao túber cinéreo estão os ___.	Corpos mamilares	3V::anatomia-assoalho 3V::limites	QPTCMP	M	
+Posterior aos corpos mamilares está a ___.	Substância perfurada posterior	3V::anatomia-assoalho 3V::limites	QPTCMP	M	
+A estrutura mais POSTERIOR do assoalho do 3V é o ___.	Tegmento mesencefálico	3V::anatomia-assoalho 3V::limites	QPTCMP	M	
+O recesso óptico do 3V localiza-se ___ ao quiasma.	Anterior e superior	3V::anatomia-recessos 3V::limites	Óptico/Infundibular = anteriores; Supra/Pineal = posteriores	M	
+O recesso infundibular do 3V projeta-se para o ___.	Pedúnculo hipofisário	3V::anatomia-recessos 3V::limites		M	
+O recesso suprapineal localiza-se ___ à glândula pineal.	Acima	3V::anatomia-recessos 3V::limites		M	
+O recesso pineal projeta-se para a ___ da pineal.	Base	3V::anatomia-recessos 3V::limites		M	
+O primeiro recesso ANTERIOR do 3V é o ___.	Recesso óptico	3V::anatomia-recessos 3V::limites	Anteriores no assoalho	M	
+O segundo recesso ANTERIOR do 3V é o ___.	Recesso infundibular	3V::anatomia-recessos 3V::limites	Anteriores no assoalho	M	
+O primeiro recesso POSTERIOR do 3V é o ___.	Recesso suprapineal	3V::anatomia-recessos 3V::limites	Posteriores na parede	M	
+O segundo recesso POSTERIOR do 3V é o ___.	Recesso pineal	3V::anatomia-recessos 3V::limites	Posteriores na parede	M	
+O sulco hipotalâmico divide a parede lateral do 3V em duas regiões. ACIMA do sulco está o ___.	Tálamo	3V::anatomia-lateral 3V::limites	Sulco separa T de H	M	
+O sulco hipotalâmico divide a parede lateral do 3V em duas regiões. ABAIXO do sulco está o ___.	Hipotálamo	3V::anatomia-lateral 3V::limites	Sulco separa T de H	M	
+A massa intermédia está presente em ___% dos indivíduos.	70-80%	3V::anatomia-lateral 3V::variacao	70-80% presente	M	
+CASO: Na cirurgia, você não encontra a massa intermédia. Isso causa déficit neurológico?	NÃO - é apenas marco anatômico, não estrutura funcional	3V::anatomia-lateral 3V::clinico	Marco, não função	D	Lembre-se: Marco, não função
+A estrutura mais SUPERIOR da parede anterior do 3V é a ___.	Colunas do fórnice	3V::anatomia-anterior 3V::limites	Colunas, Comissura Anterior, Lâmina Terminal	M	
+Abaixo das colunas do fórnice na parede anterior está a ___.	Comissura anterior	3V::anatomia-anterior 3V::limites		M	
+A estrutura mais INFERIOR da parede anterior do 3V é a ___.	Lâmina terminal	3V::anatomia-anterior 3V::limites		M	
+O limite SUPERIOR da lâmina terminal é a borda inferior da ___.	Comissura anterior	3V::anatomia-anterior 3V::limites	Q-CA = limites da lâmina	M	
+O limite INFERIOR da lâmina terminal é a borda superior do ___.	Quiasma óptico	3V::anatomia-anterior 3V::limites	Q-CA = limites da lâmina	M	
+A estrutura mais SUPERIOR da parede posterior do 3V é o ___.	Recesso suprapineal	3V::anatomia-posterior 3V::limites	RSP, CH, Pineal, RP, CP, Aqueduto	M	
+Abaixo do recesso suprapineal está a ___.	Comissura habenular	3V::anatomia-posterior 3V::limites		M	
+Abaixo da comissura habenular está a ___.	Glândula pineal	3V::anatomia-posterior 3V::limites		M	
+Abaixo da pineal está o ___.	Recesso pineal	3V::anatomia-posterior 3V::limites		M	
+Abaixo do recesso pineal está a ___.	Comissura posterior	3V::anatomia-posterior 3V::limites		M	
+A estrutura mais INFERIOR da parede posterior é a entrada do ___.	Aqueduto cerebral	3V::anatomia-posterior 3V::limites		M	
+A comissura posterior marca a junção ___.	Diencéfalo-mesencefálica	3V::anatomia-posterior 3V::limites	CP = limite D-M	M	
+A veia cerebral interna forma-se pela junção de duas veias. A primeira é a ___.	Veia talamoestriada	3V::vascular-veias 3V::vci	T + C = VCI	M	
+A veia cerebral interna forma-se pela junção de duas veias. A segunda é a ___.	Veia coroidal superior	3V::vascular-veias 3V::vci	T + C = VCI	M	
+O local de formação da VCI é na margem ___ do forame de Monro.	Posterior	3V::vascular-veias 3V::vci	Ponto venoso = posterior ao FM	M	
+A VCI cursa ___ no velum interpositum.	Posteriormente	3V::vascular-veias 3V::vci		M	
+A VCI cursa ao longo da ___ do tálamo.	Estria medular	3V::vascular-veias 3V::vci	Estria = guia da VCI	M	
+No pulvinar, a VCI ___ da linha média.	Diverge	3V::vascular-veias 3V::vci	Diverge no pulvinar, converge sob esplênio	M	
+Sob o esplênio, as VCIs ___ para formar a veia de Galeno.	Convergem	3V::vascular-veias 3V::vci		M	
+CASO: Lesão BILATERAL das VCIs durante cirurgia. Qual o prognóstico?	Geralmente FATAL - edema venoso hemorrágico profundo, coma	3V::vascular-veias 3V::clinico	Bilateral = fatal	D	Considere as consequências do comprometimento vascular
+Lesão UNILATERAL da VCI pode causar ___ déficits principais.	3	3V::vascular-veias 3V::clinico 3V::atomizado	Unilateral = possível mas arriscado	D	Pense na sequência completa
+A veia basal de Rosenthal forma-se abaixo da ___.	Substância perfurada anterior	3V::vascular-veias 3V::basal		M	
+A veia basal é formada por três tributárias principais. Qual o mnemônico?	3 tributárias: veia cerebral média profunda, veias estriadas inferiores, veia cerebral anterior	3V::vascular-veias 3V::basal	3 tributárias formam basal	M	
+A primeira tributária que forma a veia basal é a ___.	Veia cerebral média profunda	3V::vascular-veias 3V::basal	3 tributárias formam basal	M	
+A segunda tributária que forma a veia basal são as ___.	Veias estriadas inferiores	3V::vascular-veias 3V::basal	3 tributárias formam basal	M	
+A terceira tributária que forma a veia basal é a ___.	Veia cerebral anterior	3V::vascular-veias 3V::basal	3 tributárias formam basal	M	
+O trajeto da veia basal contorna o mesencéfalo por três cisternas. Qual o mnemônico?	CAQ (Crural, Ambiente, Quadrigeminal)	3V::vascular-veias 3V::basal	CAQ = trajeto da basal	M	
+A primeira cisterna no trajeto da veia basal ao redor do mesencéfalo é a ___.	Cisterna crural	3V::vascular-veias 3V::basal	CAQ = trajeto da basal	M	
+A segunda cisterna no trajeto da veia basal ao redor do mesencéfalo é a ___.	Cisterna ambiente	3V::vascular-veias 3V::basal	CAQ = trajeto da basal	M	
+A terceira cisterna no trajeto da veia basal ao redor do mesencéfalo é a ___.	Cisterna quadrigeminal	3V::vascular-veias 3V::basal	CAQ = trajeto da basal	M	
+A veia basal une-se à ___ para formar a veia de Galeno.	VCI	3V::vascular-veias 3V::basal	Basal + VCI = Galeno	M	
+A fissura coroidal é a fenda entre duas estruturas. A primeira é o ___.	Fórnice	3V::cirurgico-abordagem 3V::fissura	Fórnice-Tálamo = fissura	D	Pense nos marcos anatômicos desta abordagem
+A fissura coroidal é a fenda entre duas estruturas. A segunda é o ___.	Tálamo	3V::cirurgico-abordagem 3V::fissura	Fórnice-Tálamo = fissura	D	Pense nos marcos anatômicos desta abordagem
+O plexo coroide fixa-se ao longo da ___.	Fissura coroidal	3V::cirurgico-abordagem 3V::fissura		D	Qual é o princípio desta abordagem?
+A abordagem transchoroidal abre a fissura pelo lado ___.	Fornical (tenia fornicis)	3V::cirurgico-abordagem 3V::transchoroidal	Trans-CHOROIDAL = via fórnice	D	Via transchoroidal = pelo fórnice
+Por que é mais seguro abrir pelo lado fornical?	O lado talâmico contém a talamoestriada e artérias coroidais	3V::cirurgico-abordagem 3V::transchoroidal	Tálamo = vasos	D	Via transchoroidal = pelo fórnice
+A abordagem interforniceal incisa a ___ entre os dois fórnices.	Rafe mediana (comissura do fórnice)	3V::cirurgico-abordagem 3V::interforniceal	Rafe, não colunas	D	Lembre-se: Rafe, não colunas
+VERDADEIRO ou FALSO: A abordagem interforniceal secciona as colunas do fórnice.	FALSO - incisa apenas a rafe mediana	3V::cirurgico-abordagem 3V::interforniceal		D	Cuidado com a afirmação - verifique cada termo
+CASO: Secção unilateral de uma coluna do fórnice. Qual o déficit esperado?	CONTROVERSO - alguns estudos mostram amnésia anterógrada, outros não	3V::cirurgico-abordagem 3V::clinico	Controverso = evitar	D	Qual estrutura está em risco nesta região?
+A abordagem translaminar terminal abre a lâmina terminal entre duas estruturas. A primeira é o ___.	Quiasma óptico	3V::cirurgico-abordagem 3V::translaminar	Q-CA = abertura	D	Translaminar = através da lâmina terminal
+A abordagem translaminar terminal abre a lâmina terminal entre duas estruturas. A segunda é a ___.	Comissura anterior	3V::cirurgico-abordagem 3V::translaminar	Q-CA = abertura	D	Translaminar = através da lâmina terminal
+Na abordagem translaminar terminal, quantas estruturas principais devem ser preservadas?	4 estruturas: quiasma óptico, A. comunicante anterior, A. recorrente de Heubner, perfurantes hipotalâmicos	3V::cirurgico-abordagem 3V::translaminar	Q-ACoA-Heubner-perf	D	Lembre-se: Q-ACoA-Heubner-perf
+A primeira estrutura a preservar na abordagem translaminar terminal é o ___.	Quiasma óptico	3V::cirurgico-abordagem 3V::translaminar	Q-ACoA-Heubner-perf	D	Lembre-se: Q-ACoA-Heubner-perf
+A segunda estrutura a preservar na abordagem translaminar terminal é a ___.	Artéria comunicante anterior (ACoA)	3V::cirurgico-abordagem 3V::translaminar	Q-ACoA-Heubner-perf	D	Lembre-se: Q-ACoA-Heubner-perf
+A terceira estrutura a preservar na abordagem translaminar terminal é a ___.	Artéria recorrente de Heubner	3V::cirurgico-abordagem 3V::translaminar	Q-ACoA-Heubner-perf	D	Lembre-se: Q-ACoA-Heubner-perf
+A quarta estrutura a preservar na abordagem translaminar terminal são os ___.	Perfurantes hipotalâmicos	3V::cirurgico-abordagem 3V::translaminar	Q-ACoA-Heubner-perf	D	Lembre-se: Q-ACoA-Heubner-perf
+A tríade do infarto da artéria coroidal anterior é conhecida como os ___.	3 Hs (Hemiplegia, Hemianestesia, Hemianopsia)	3V::vascular-arterias 3V::clinico	3 Hs	D	Lembre-se: 3 Hs
+O primeiro H da tríade do infarto da AChA é ___.	Hemiplegia (lesão do braço posterior da cápsula interna)	3V::vascular-arterias 3V::clinico	3 Hs	D	Lembre-se: 3 Hs
+O segundo H da tríade do infarto da AChA é ___.	Hemianestesia (lesão do tálamo ventrolateral)	3V::vascular-arterias 3V::clinico	3 Hs	D	Lembre-se: 3 Hs
+O terceiro H da tríade do infarto da AChA é ___.	Hemianopsia homônima (lesão do trato óptico/corpo geniculado lateral)	3V::vascular-arterias 3V::clinico	3 Hs	D	Lembre-se: 3 Hs
+A hemiplegia no infarto da AChA ocorre por lesão da ___.	Braço posterior da cápsula interna	3V::vascular-arterias 3V::clinico		D	Lembre: 3 Hs - cápsula, tálamo, via óptica
+A hemianestesia no infarto da AChA ocorre por lesão do ___.	Tálamo ventrolateral	3V::vascular-arterias 3V::clinico		D	Lembre: 3 Hs - cápsula, tálamo, via óptica
+A hemianopsia no infarto da AChA pode ocorrer por lesão do ___.	Trato óptico	3V::vascular-arterias 3V::clinico		D	Lembre: 3 Hs - cápsula, tálamo, via óptica
+Alternativamente, a hemianopsia no infarto da AChA pode ocorrer por lesão do ___.	Corpo geniculado lateral	3V::vascular-arterias 3V::clinico		D	Lembre: 3 Hs - cápsula, tálamo, via óptica
+No máximo ___ veias-ponte podem ser sacrificadas por região do SSS.	2-3	3V::cirurgico-abordagem 3V::veias	2-3 por região	D	Lembre-se: 2-3 por região
+A veia de Trolard dominante ___ (pode/não pode) ser sacrificada.	NÃO pode	3V::cirurgico-abordagem 3V::veias	Trolard dominante = preservar	D	Qual é o princípio desta abordagem?
+A extensão segura de secção do corpo caloso é até ___ cm.	2-3	3V::cirurgico-abordagem 3V::caloso	2-3 cm anterior	D	Lembre-se: 2-3 cm anterior
+Lesão do ESPLÊNIO do corpo caloso causa ___.	Alexia sem agrafia	3V::cirurgico-abordagem 3V::clinico	Esplênio = leitura	D	Qual é o princípio desta abordagem?
+Cistos coloides localizam-se no ___ do forame de Monro.	Teto	3V::patologia 3V::cisto-coloide		D	Considere a fisiopatologia do processo
+Cistos coloides podem causar morte súbita por ___.	Obstrução aguda do fluxo de LCR → hidrocefalia aguda → herniação	3V::patologia 3V::cisto-coloide	Obstrução intermitente = morte súbita	D	Considere a fisiopatologia do processo
+O tamanho de cisto coloide que indica cirurgia é maior que ___ mm.	10	3V::patologia 3V::cisto-coloide	Maior 10 = operar	D	Considere a fisiopatologia do processo
+Tumores pineais causam hidrocefalia por compressão do ___.	Aqueduto cerebral e/ou teto do 3V	3V::patologia 3V::pineal		D	Considere a fisiopatologia do processo
+O primeiro sinal da síndrome de Parinaud é ___.	Paralisia do olhar para cima	3V::patologia 3V::pineal	Parinaud = olhar para cima + pupilas	D	Considere a fisiopatologia do processo
+O segundo sinal da síndrome de Parinaud é ___.	Pupilas que reagem à acomodação mas não à luz (dissociação luz-perto)	3V::patologia 3V::pineal	Parinaud = olhar para cima + pupilas	D	Considere a fisiopatologia do processo
+A síndrome de Parinaud está associada a lesões ___.	Pineais/tectais	3V::patologia 3V::pineal		D	Considere a fisiopatologia do processo
+O quiasma PRÉ-FIXADO localiza-se acima do ___.	Tubérculo selar	3V::anatomia-quiasma 3V::variacao	Pré = 10%	M	
+O quiasma PRÉ-FIXADO está presente em ___% dos casos.	10%	3V::anatomia-quiasma 3V::variacao	Pré = 10%	M	
+O quiasma NORMAL localiza-se sobre o ___.	Diafragma selar	3V::anatomia-quiasma 3V::variacao	Normal = 80%	M	
+O quiasma NORMAL está presente em ___% dos casos.	80%	3V::anatomia-quiasma 3V::variacao	Normal = 80%	M	
+O quiasma PÓS-FIXADO localiza-se sobre o ___.	Dorso selar	3V::anatomia-quiasma 3V::variacao	Pós = 10%	M	
+O quiasma PÓS-FIXADO está presente em ___% dos casos.	10%	3V::anatomia-quiasma 3V::variacao	Pós = 10%	M	
+Quiasma ___ (pré/pós) fixado LIMITA a abordagem transesfenoidal estendida.	Pré-fixado	3V::anatomia-quiasma 3V::cirurgico	Pré = bloqueia	M	
+Quiasma ___ (pré/pós) fixado FACILITA a abordagem transesfenoidal estendida.	Pós-fixado	3V::anatomia-quiasma 3V::cirurgico	Pós = facilita	M	
+V.C.I. = ___	Veia Cerebral Interna	3V::abreviacoes 3V::veias		E	
+Thal.Str. = ___	Thalamostriate (talamoestriada)	3V::abreviacoes 3V::veias		E	
+P.C.A. = ___	Posterior Cerebral Artery	3V::abreviacoes 3V::arterias		E	
+A.Ch.A. = ___	Anterior Choroidal Artery	3V::abreviacoes 3V::arterias		E	
+M.P.Ch.A. = ___	Medial Posterior Choroidal Artery	3V::abreviacoes 3V::arterias		E	
+L.P.Ch.A. = ___	Lateral Posterior Choroidal Artery	3V::abreviacoes 3V::arterias		E	
+For. Mon. = ___	Foramen of Monro	3V::abreviacoes 3V::estruturas		E	
+V.I. / V. Int. = ___	Velum Interpositum	3V::abreviacoes 3V::estruturas		E	
+Lam. Term. = ___	Lamina Terminalis	3V::abreviacoes 3V::estruturas		E	
+Mass. Int. = ___	Massa Intermedia	3V::abreviacoes 3V::estruturas		E	
+Sep. Pell. = ___	Septum Pellucidum	3V::abreviacoes 3V::estruturas		E	
+Str. Med. Thal. = ___	Stria Medullaris Thalami	3V::abreviacoes 3V::estruturas		E	
+Corp. Call. = ___	Corpus Callosum	3V::abreviacoes 3V::estruturas		E	
+Ant. Sept. V. = ___	Anterior Septal Vein	3V::abreviacoes 3V::veias		E	
+Post. Caud. V. = ___	Posterior Caudate Vein	3V::abreviacoes 3V::veias		E	
+Sup. Chor. V. = ___	Superior Choroidal Vein	3V::abreviacoes 3V::veias		E	
+Inf. Vent. V. = ___	Inferior Ventricular Vein	3V::abreviacoes 3V::veias		E	
+Trans. Hippo. V. = ___	Transverse Hippocampal Vein	3V::abreviacoes 3V::veias		E	
+A.Co.A. = ___	Anterior Communicating Artery	3V::abreviacoes 3V::arterias		E	
+P.Co.A. = ___	Posterior Communicating Artery	3V::abreviacoes 3V::arterias		E	
+A tenia fornicis fixa a margem ___ do fórnice ao plexo coroide.	Lateral	3V::cirurgico-abordagem 3V::fissura		D	Qual é o princípio desta abordagem?
+A tenia thalami é a margem de fixação do plexo coroide ao ___.	Tálamo	3V::cirurgico-abordagem 3V::fissura	Tenia thalami = lado talâmico	D	Qual é o princípio desta abordagem?
+A tela coroídea é a ___.	Membrana dupla (entre fórnice e tálamo)	3V::anatomia-teto 3V::definicoes	Tela = membrana; Plexo = vascular	M	
+O plexo coroide é a estrutura ___ que produz LCR.	Vascular (ependimária modificada)	3V::anatomia-teto 3V::definicoes	Tela = membrana; Plexo = vascular	M	
+O grupo MEDIAL das veias ventriculares tem ___ veias principais.	4	3V::vascular-veias 3V::grupos 3V::atomizado	Medial = septal/hipocampal	E	
+O grupo LATERAL das veias ventriculares tem ___ veias principais.	5	3V::vascular-veias 3V::grupos 3V::atomizado	Lateral = caudada/estriada	E	
+A veia ventricular inferior drena para a veia ___.	Basal	3V::vascular-veias 3V::drenagem		M	
+A veia atrial lateral cruza a superfície ___ do pulvinar.	Posterior	3V::vascular-veias 3V::drenagem		M	
+A veia de Galeno recebe ___ tributárias principais.	4	3V::vascular-veias 3V::galeno 3V::atomizado	4 tributárias para Galeno	E	
+Na cisterna quadrigeminal, o nervo troclear passa ABAIXO da artéria ___.	Cerebelar superior	3V::anatomia-cisternas 3V::nervos	ACS-IV-PCA de baixo para cima	M	
+Na cisterna quadrigeminal, o nervo troclear passa ACIMA da artéria ___.	Cerebral posterior	3V::anatomia-cisternas 3V::nervos	ACS-IV-PCA de baixo para cima	M	
+O ponto venoso no angiograma marca o ___.	Forame de Monro	3V::vascular-veias 3V::angiografia	Ponto venoso = FM	M	
+O ponto venoso corresponde ao ângulo formado entre a veia ___ e a VCI.	Talamoestriada	3V::vascular-veias 3V::angiografia	Ponto venoso = FM	M	
+As artérias talamoperfurantes originam-se do ___.	Topo da basilar (P1 e comunicante posterior)	3V::vascular-arterias 3V::talamo		M	
+As artérias talamogeniculadas suprem o ___.	Tálamo lateral (núcleos VPL e VPM)	3V::vascular-arterias 3V::talamo	Geniculadas = lateral	M	
+A artéria de Heubner supre ___ estruturas principais.	3	3V::vascular-arterias 3V::heubner 3V::atomizado		E	
+CASO: Infarto da A. de Heubner no hemisfério ESQUERDO. Qual déficit adicional?	Afasia (hemisfério dominante)	3V::vascular-arterias 3V::clinico	Esquerdo + Heubner = afasia	D	Considere as consequências do comprometimento vascular
+O mnemônico para os núcleos hipotalâmicos de anterior para posterior é ___.	PSP-VDM (Pré-óptico, Supraóptico, Paraventricular, Ventromedial, Dorsomedial, Mamilar)	3V::anatomia-assoalho 3V::hipotalamo	PSP-VDM	M	
+O primeiro núcleo hipotalâmico (mais anterior) é o ___.	Núcleo pré-óptico	3V::anatomia-assoalho 3V::hipotalamo	PSP-VDM	M	
+O segundo núcleo hipotalâmico é o ___.	Núcleo supraóptico	3V::anatomia-assoalho 3V::hipotalamo	PSP-VDM	M	
+O terceiro núcleo hipotalâmico é o ___.	Núcleo paraventricular	3V::anatomia-assoalho 3V::hipotalamo	PSP-VDM	M	
+O quarto núcleo hipotalâmico é o ___.	Núcleo ventromedial	3V::anatomia-assoalho 3V::hipotalamo	PSP-VDM	M	
+O quinto núcleo hipotalâmico é o ___.	Núcleo dorsomedial	3V::anatomia-assoalho 3V::hipotalamo	PSP-VDM	M	
+O sexto núcleo hipotalâmico (mais posterior) é o ___.	Núcleo mamilar	3V::anatomia-assoalho 3V::hipotalamo	PSP-VDM	M	
+O circuito de Papez (memória) conecta 4 estruturas em sequência. Qual o mnemônico?	H-M-T-C-H (Hipocampo → Mamilares → Tálamo anterior → Cingulo → Hipocampo)	3V::anatomia-circuitos 3V::memoria	H-M-T-C-H	M	
+No circuito de Papez, o hipocampo projeta para os ___ via fórnice.	Corpos mamilares	3V::anatomia-circuitos 3V::memoria	H-M-T-C-H	M	
+No circuito de Papez, os corpos mamilares projetam para o ___.	Tálamo anterior (via trato mamilotalâmico)	3V::anatomia-circuitos 3V::memoria	H-M-T-C-H	M	
+No circuito de Papez, o tálamo anterior projeta para o ___.	Giro do cingulo	3V::anatomia-circuitos 3V::memoria	H-M-T-C-H	M	
+A incisura tentorial tem três espaços. O primeiro (ANTERIOR) localiza-se ___.	À frente do tronco cerebral	3V::anatomia-cisternas 3V::tentorial		M	
+A incisura tentorial tem três espaços. O segundo (MÉDIO) localiza-se ___.	Lateralmente ao tronco cerebral	3V::anatomia-cisternas 3V::tentorial		M	
+A incisura tentorial tem três espaços. O terceiro (POSTERIOR) corresponde à cisterna ___.	Quadrigeminal	3V::anatomia-cisternas 3V::tentorial		M	
+Na herniação transtentorial, qual estrutura é empurrada através da incisura?	Uncus	3V::patologia 3V::herniacao	Uncus → III + mesencéfalo	D	Considere a fisiopatologia do processo
+Na herniação transtentorial, o uncus comprime o ___.	Mesencéfalo	3V::patologia 3V::herniacao	Uncus → III + mesencéfalo	D	Considere a fisiopatologia do processo
+Na herniação transtentorial, além do mesencéfalo, o uncus também comprime o nervo ___.	Oculomotor (III)	3V::patologia 3V::herniacao	Uncus → III + mesencéfalo	D	Considere a fisiopatologia do processo
+A estria medular do tálamo origina-se na ___.	Comissura habenular	3V::anatomia-lateral 3V::estria		M	
+A estria medular do tálamo estende-se até a região ___ do tálamo.	Anterior	3V::anatomia-lateral 3V::estria		M	
+Lesão bilateral das perfurantes hipotalâmicas causa ___ déficits principais.	3	3V::vascular-arterias 3V::clinico 3V::atomizado	Hipotálamo = consciência + temp + memória	D	Quais territórios esta artéria irriga?
+O infundíbulo passa inferiormente ___ (à frente/atrás) do processo clinoide anterior.	Atrás	3V::anatomia-assoalho 3V::relacoes		M	
+Aneurismas do topo da basilar podem comprimir o ___ do 3V.	Assoalho	3V::patologia 3V::aneurisma		D	Considere a fisiopatologia do processo
+Aneurismas da ACoA frequentemente sangram para dentro do ___.	Terceiro ventrículo	3V::patologia 3V::aneurisma	ACoA → 3V	D	Lembre-se: ACoA → 3V
+O mnemônico PTM representa as três divisões funcionais do hipotálamo: ___.	Pré-óptica (termorregulação), Tuberal (endócrina), Mamilar (memória)	3V::anatomia-assoalho 3V::hipotalamo	PTM = Temp-Endo-Mem	M	
+A divisão PRÉ-ÓPTICA do hipotálamo é responsável pela ___.	Termorregulação	3V::anatomia-assoalho 3V::hipotalamo	PTM = Temp-Endo-Mem	M	
+A divisão TUBERAL do hipotálamo é responsável pela função ___.	Endócrina	3V::anatomia-assoalho 3V::hipotalamo	PTM = Temp-Endo-Mem	M	
+A divisão MAMILAR do hipotálamo é responsável pela ___.	Memória	3V::anatomia-assoalho 3V::hipotalamo	PTM = Temp-Endo-Mem	M	
+ETV significa ___.	Ventriculostomia Endoscópica do Terceiro Ventrículo	3V::cirurgico-endoscopia 3V::etv		D	Revise o conceito central deste tópico
+Na ETV, o LCR flui do 3V para a cisterna ___.	Interpeduncular	3V::cirurgico-endoscopia 3V::etv	ETV → interpeduncular	D	Revise o conceito central deste tópico
+A indicação principal de ETV é ___.	Hidrocefalia obstrutiva (estenose do aqueduto, tumores pineais)	3V::cirurgico-endoscopia 3V::etv		D	Revise o conceito central deste tópico
+O marco POSTERIOR para ETV são os ___.	Corpos mamilares	3V::cirurgico-endoscopia 3V::etv	Mamilar-Infundíbulo = janela ETV	D	Revise o conceito central deste tópico
+O marco ANTERIOR para ETV é o ___.	Infundíbulo	3V::cirurgico-endoscopia 3V::etv	Mamilar-Infundíbulo = janela ETV	D	Revise o conceito central deste tópico
+A abordagem supracerebelar infratentorial é usada para tumores ___.	Pineais/quadrigeminais	3V::cirurgico-abordagem 3V::supracerebelar		D	Qual é o princípio desta abordagem?
+A primeira opção de posição do paciente para abordagem supracerebelar é ___.	Sentado	3V::cirurgico-abordagem 3V::supracerebelar		D	Qual é o princípio desta abordagem?
+A segunda opção de posição do paciente para abordagem supracerebelar é ___.	Prona com cabeça fletida	3V::cirurgico-abordagem 3V::supracerebelar		D	Qual é o princípio desta abordagem?
+Na abordagem supracerebelar, encontram-se ___ grupos de veias.	3	3V::cirurgico-abordagem 3V::supracerebelar 3V::atomizado		D	Qual é o princípio desta abordagem?
+A fissura cerebelomesencefálica é a fenda entre o ___ e o mesencéfalo.	Cerebelo	3V::anatomia-cisternas 3V::fissura		M	
+A drenagem do grupo sagital superior vai para o ___.	Seio sagital superior	3V::vascular-veias 3V::drenagem	SSS = convexidade	M	
+A drenagem do grupo falcino vai para o ___.	Seio reto	3V::vascular-veias 3V::drenagem	Falcino = profundo	M	
+A drenagem do grupo falcino chega ao seio reto via ___.	VCI/basal/Galeno	3V::vascular-veias 3V::drenagem	Falcino = profundo	M	
+O grupo falcino corresponde aproximadamente ao ___.	Lobo límbico (cingulo, parahipocampal, uncus)	3V::vascular-veias 3V::drenagem	Falcino = límbico	M	
+A veia calcarina anterior drena a profundidade do ___.	Sulco calcarino	3V::vascular-veias 3V::occipital		M	
+As artérias que entram pela parte SUPERIOR da cisterna quadrigeminal são as ___.	Cerebrais posteriores	3V::anatomia-cisternas 3V::vascular		M	
+As artérias que entram pela parte INFERIOR da cisterna quadrigeminal são as ___.	Cerebelares superiores	3V::anatomia-cisternas 3V::vascular	PCAs acima, SCAs abaixo	M	
+O calcar avis é a proeminência na parede medial do átrio sobre o ___.	Sulco calcarino	3V::anatomia-ventriculo-lateral 3V::atrio		M	
+O bulbo do corpo caloso é a proeminência na parede medial do átrio sobre o ___.	Fórceps maior	3V::anatomia-ventriculo-lateral 3V::atrio		M	
+O átrio é a junção de três estruturas ventriculares. A primeira é o ___.	Corpo do ventrículo lateral	3V::anatomia-ventriculo-lateral 3V::atrio		M	
+O átrio é a junção de três estruturas ventriculares. A segunda é o ___.	Corno temporal	3V::anatomia-ventriculo-lateral 3V::atrio		M	
+O átrio é a junção de três estruturas ventriculares. A terceira é o ___.	Corno occipital	3V::anatomia-ventriculo-lateral 3V::atrio		M	
+O trígono colateral é a proeminência no assoalho do átrio sobre o ___.	Sulco colateral	3V::anatomia-ventriculo-lateral 3V::atrio		M	
+O tapetum do corpo caloso forma o ___ do átrio e cornos temporal/occipital.	Teto	3V::anatomia-ventriculo-lateral 3V::tapetum		M	
+Além do teto, o tapetum do corpo caloso também forma a ___ do átrio e cornos temporal/occipital.	Parede lateral	3V::anatomia-ventriculo-lateral 3V::tapetum		M	
+A cauda do núcleo caudado no corno temporal localiza-se no ___.	Teto	3V::anatomia-ventriculo-lateral 3V::corno-temporal		M	
+A cauda do núcleo caudado no corno temporal está medial ao ___.	Tapetum	3V::anatomia-ventriculo-lateral 3V::corno-temporal		M	
+A amígdala forma proeminência na parede ___ do corno temporal.	Anteromedial	3V::anatomia-ventriculo-lateral 3V::corno-temporal		M	
+A fímbria do fórnice origina-se na superfície do ___.	Hipocampo	3V::anatomia-fornix 3V::fimbria		M	
+A fímbria do fórnice continua como o ___.	Crus do fórnice	3V::anatomia-fornix 3V::fimbria		M	
+Em hidrocefalia, o maior marco venoso é a ___.	Veia talamoestriada (e outras veias ventriculares)	3V::cirurgico-hidrocefalia 3V::marcos	Veias = marcos em hidrocefalia	M	
+Por que artérias são menos úteis como marcos em hidrocefalia?	Não são firmemente aderidas à superfície cortical, passam por cisternas/sulcos	3V::cirurgico-hidrocefalia 3V::marcos		M	
+A posição 3/4 prona para abordagem ao átrio mantém o lado da lesão para ___.	Baixo (gravidade ajuda exposição)	3V::cirurgico-abordagem 3V::atrio	Lesão para baixo	D	Lembre-se: Lesão para baixo
+SIADH em lesões do 3V ocorre por lesão do ___.	Hipotálamo	3V::patologia 3V::hipotalamo	SIADH = Na baixo	D	Considere a fisiopatologia do processo
+O SIADH causa ___ como distúrbio hidroeletrolítico.	Hiponatremia	3V::patologia 3V::hipotalamo	SIADH = Na baixo	D	Considere a fisiopatologia do processo
+Manipulação do hipotálamo POSTERIOR pode causar ___ sintomas.	3	3V::patologia 3V::hipotalamo 3V::atomizado	Posterior = temp/sono	D	Considere a fisiopatologia do processo
+A abordagem subchoroidal (obsoleta) abria a fissura coroidal pelo lado ___.	Talâmico (tenia thalami)	3V::cirurgico-abordagem 3V::historico	Subchoroidal = tálamo = obsoleta	D	Qual é o princípio desta abordagem?
+VERDADEIRO ou FALSO: Papiloma do plexo coroide é maligno.	FALSO - é benigno, mas hipervascularizado	3V::patologia 3V::plexo		D	Cuidado com a afirmação - verifique cada termo
+Carcinoma do plexo coroide pode dar metástases pelo ___.	LCR	3V::patologia 3V::plexo	Carcinoma = LCR mets	D	Considere a fisiopatologia do processo
+Embolização pré-operatória é útil para tumores do plexo porque são ___.	Altamente vascularizados	3V::patologia 3V::plexo	Plexo = vascular = embolizar	D	Considere a fisiopatologia do processo
+A idade típica do papiloma do plexo coroide é ___.	Primeiros 2 anos de vida	3V::patologia 3V::plexo	Criança = papiloma	D	Considere a fisiopatologia do processo
+Em CRIANÇAS, papiloma do plexo é mais comum no ___.	Ventrículo lateral (trígono)	3V::patologia 3V::plexo	VL criança, 4V adulto	D	Considere a fisiopatologia do processo
+Em ADULTOS, papiloma do plexo é mais comum no ___.	Quarto ventrículo	3V::patologia 3V::plexo	VL criança, 4V adulto	D	Considere a fisiopatologia do processo
+Mnemônico FSVIP: camadas do teto do 3V de superior para inferior.	Fórnice, Superior tela, Velum, Inferior tela, Plexo	3V::mnemonicos 3V::teto	F-S-V-I-P	E	
+Mnemônico QPTCMP: estruturas do assoalho do 3V de anterior para posterior.	Quiasma, Pedúnculo, Túber, Corpos mamilares, (substância) Perfurada, Mesencéfalo (tegmento)	3V::mnemonicos 3V::assoalho	Q-P-T-C-M-P	E	
+Mnemônico 3 Hs: tríade do infarto da AChA.	Hemiplegia, Hemianestesia, Hemianopsia	3V::mnemonicos 3V::vascular	3 Hs	E	
+Mnemônico CAQ: trajeto da veia basal ao redor do mesencéfalo.	Crural, Ambiente, Quadrigeminal	3V::mnemonicos 3V::vascular	C-A-Q	E	
+Mnemônico PTM: divisões funcionais do hipotálamo.	Pré-óptica (Temp), Tuberal (endócrina), Mamilar (memória)	3V::mnemonicos 3V::hipotalamo	P-T-M	E	
+Mnemônico para posição do quiasma: 10-80-10.	Pré-fixado 10%, Normal 80%, Pós-fixado 10%	3V::mnemonicos 3V::quiasma	10-80-10	E	
+CASO INTEGRADOR: Paciente com tumor do teto do 3V. Qual abordagem e quais estruturas preservar?	Transcalosa-transchoroidal; preservar VCIs, fórnice, talamoestriada	3V::casos-integrados 3V::cirurgico		D	Revise o conceito central deste tópico
+CASO INTEGRADOR: Criança com hidrocefalia e massa pineal. Qual procedimento inicial?	ETV (ventriculostomia) ± biópsia no mesmo tempo	3V::casos-integrados 3V::cirurgico	ETV + biópsia	D	Lembre-se: ETV + biópsia
+CASO INTEGRADOR: Paciente com déficit visual bitemporal e lesão no assoalho do 3V. Diagnóstico?	Craniofaringioma (comprimindo quiasma)	3V::casos-integrados 3V::diagnostico		D	Revise o conceito central deste tópico
+CASO INTEGRADOR: Hidrocefalia aguda + morte súbita em paciente jovem. Principal suspeita?	Cisto coloide com obstrução aguda do forame de Monro	3V::casos-integrados 3V::diagnostico		D	Revise o conceito central deste tópico
+CASO INTEGRADOR: Qual a diferença prática entre abordagem transchoroidal e interforniceal?	Transchoroidal: via fissura coroidal/velum; Interforniceal: via rafe mediana entre fórnices	3V::casos-integrados 3V::cirurgico	Trans = velum; Inter = rafe	D	Compare as características principais
+Qual estrutura NÃO pode ser sacrificada bilateralmente durante cirurgia do 3V?	Veia cerebral interna (VCI)	3V::revisao-rapida 3V::vascular	VCI bilateral = fatal	M	
+Qual o marco anatômico mais confiável para identificar o forame de Monro na angiografia?	Ponto venoso (ângulo talamoestriada-VCI)	3V::revisao-rapida 3V::imagem		M	
+Qual a diferença entre coroidal anterior e posterior medial em termos de território?	Anterior: VL (corno temporal); Posterior medial: 3V	3V::revisao-rapida 3V::vascular	Anterior=VL, Medial=3V	D	Compare as características principais
+Quais são os 4 recessos do 3V?	Óptico, infundibular (anteriores); suprapineal, pineal (posteriores)	3V::revisao-rapida 3V::anatomia	2 anteriores, 2 posteriores	M	
+Qual estrutura marca a divisão tálamo-hipotálamo na parede lateral?	Sulco hipotalâmico	3V::revisao-rapida 3V::anatomia		M	
+O que acontece se você lesar o esplênio durante abordagem transcalosa?	Alexia sem agrafia (síndrome de desconexão)	3V::revisao-rapida 3V::cirurgico		M	
+Quantas tributárias principais formam a veia de Galeno?	4 (VCIs + basais + calcarinas anteriores + vermianas superiores)	3V::revisao-rapida 3V::vascular	4 tributárias	M	
+Qual a principal contraindicação relativa para ETV?	Hidrocefalia comunicante (não obstrutiva)	3V::revisao-rapida 3V::cirurgico		M	
+Qual porcentagem de variação da talamoestriada passando ATRÁS do forame?	10-15%	3V::revisao-rapida 3V::variacao		M	
+Qual porcentagem de AUSÊNCIA da talamoestriada com substituição pela talamocaudada?	4%	3V::revisao-rapida 3V::variacao		M	
+A artéria coroidal que supre o CORNO TEMPORAL do VL é a ___.	Artéria coroidal ANTERIOR	3V::vascular-arterias 3V::plexo 3V::atomizado-de-24	VL = Anterior + Lateral	E	
+A artéria coroidal que supre o CORPO e ÁTRIO do VL é a ___.	Artéria coroidal posterior LATERAL	3V::vascular-arterias 3V::plexo 3V::atomizado-de-24	VL = Anterior + Lateral	E	
+O 1º déficit de lesão unilateral da VCI é ___.	Alteração de consciência	3V::vascular-veias 3V::clinico 3V::atomizado-de-63	Unilateral = possível mas arriscado	D	Pense na sequência completa
+O 2º déficit de lesão unilateral da VCI é ___.	Déficits de memória	3V::vascular-veias 3V::clinico 3V::atomizado-de-63	Unilateral = possível mas arriscado	D	Pense na sequência completa
+O 3º déficit de lesão unilateral da VCI é ___.	Hemiparesia	3V::vascular-veias 3V::clinico 3V::atomizado-de-63	Unilateral = possível mas arriscado	D	Pense na sequência completa
+A 1ª veia do grupo MEDIAL ventricular é a ___.	Veia septal anterior	3V::vascular-veias 3V::grupos 3V::atomizado-de-140	Medial = septal/hipocampal	E	
+A 2ª veia do grupo MEDIAL ventricular são as ___.	Veias septais posteriores	3V::vascular-veias 3V::grupos 3V::atomizado-de-140	Medial = septal/hipocampal	E	
+A 3ª veia do grupo MEDIAL ventricular é a ___.	Veia atrial medial	3V::vascular-veias 3V::grupos 3V::atomizado-de-140	Medial = septal/hipocampal	E	
+A 4ª veia do grupo MEDIAL ventricular são as ___.	Veias hipocampais transversas	3V::vascular-veias 3V::grupos 3V::atomizado-de-140	Medial = septal/hipocampal	E	
+A 1ª veia do grupo LATERAL ventricular são as ___.	Veias caudadas	3V::vascular-veias 3V::grupos 3V::atomizado-de-141	Lateral = caudada/estriada	E	
+A 2ª veia do grupo LATERAL ventricular é a ___.	Veia talamoestriada	3V::vascular-veias 3V::grupos 3V::atomizado-de-141	Lateral = caudada/estriada	E	
+A 3ª veia do grupo LATERAL ventricular é a ___.	Veia atrial lateral	3V::vascular-veias 3V::grupos 3V::atomizado-de-141	Lateral = caudada/estriada	E	
+A 4ª veia do grupo LATERAL ventricular é a ___.	Veia ventricular inferior	3V::vascular-veias 3V::grupos 3V::atomizado-de-141	Lateral = caudada/estriada	E	
+A 5ª veia do grupo LATERAL ventricular é a ___.	Veia amigdalar	3V::vascular-veias 3V::grupos 3V::atomizado-de-141	Lateral = caudada/estriada	E	
+A 1ª tributária da veia de Galeno são as ___.	VCIs (veias cerebrais internas)	3V::vascular-veias 3V::galeno 3V::atomizado-de-144	4 tributárias para Galeno	E	
+A 2ª tributária da veia de Galeno são as ___.	Veias basais (de Rosenthal)	3V::vascular-veias 3V::galeno 3V::atomizado-de-144	4 tributárias para Galeno	E	
+A 3ª tributária da veia de Galeno são as ___.	Veias calcarinas anteriores	3V::vascular-veias 3V::galeno 3V::atomizado-de-144	4 tributárias para Galeno	E	
+A 4ª tributária da veia de Galeno são as ___.	Veias vermianas superiores	3V::vascular-veias 3V::galeno 3V::atomizado-de-144	4 tributárias para Galeno	E	
+A 1ª estrutura suprida pela A. de Heubner é a ___.	Cabeça do núcleo caudado	3V::vascular-arterias 3V::heubner 3V::atomizado-de-151		E	
+A 2ª estrutura suprida pela A. de Heubner é o ___.	Braço anterior da cápsula interna	3V::vascular-arterias 3V::heubner 3V::atomizado-de-151		E	
+A 3ª estrutura suprida pela A. de Heubner é ___.	Parte do putâmen	3V::vascular-arterias 3V::heubner 3V::atomizado-de-151		E	
+O 1º déficit de lesão bilateral das perfurantes hipotalâmicas é ___.	Coma	3V::vascular-arterias 3V::clinico 3V::atomizado-de-172	Hipotálamo = consciência + temp + memória	D	Quais territórios esta artéria irriga?
+O 2º déficit de lesão bilateral das perfurantes hipotalâmicas é ___.	Alteração térmica	3V::vascular-arterias 3V::clinico 3V::atomizado-de-172	Hipotálamo = consciência + temp + memória	D	Quais territórios esta artéria irriga?
+O 3º déficit de lesão bilateral das perfurantes hipotalâmicas é ___.	Perda de memória	3V::vascular-arterias 3V::clinico 3V::atomizado-de-172	Hipotálamo = consciência + temp + memória	D	Quais territórios esta artéria irriga?
+A 1ª veia na abordagem supracerebelar são as ___.	Veias vermianas superiores	3V::cirurgico-abordagem 3V::supracerebelar 3V::atomizado-de-188		D	Qual é o princípio desta abordagem?
+A 2ª veia na abordagem supracerebelar são as ___.	Veias precentrais cerebelares	3V::cirurgico-abordagem 3V::supracerebelar 3V::atomizado-de-188		D	Qual é o princípio desta abordagem?
+A 3ª veia na abordagem supracerebelar são as ___.	Veias hemisféricas superiores	3V::cirurgico-abordagem 3V::supracerebelar 3V::atomizado-de-188		D	Qual é o princípio desta abordagem?
+O 1º sintoma de manipulação do hipotálamo posterior é ___.	Alteração térmica	3V::patologia 3V::hipotalamo 3V::atomizado-de-215	Posterior = temp/sono	D	Considere a fisiopatologia do processo
+O 2º sintoma de manipulação do hipotálamo posterior é ___.	Coma	3V::patologia 3V::hipotalamo 3V::atomizado-de-215	Posterior = temp/sono	D	Considere a fisiopatologia do processo
+O 3º sintoma de manipulação do hipotálamo posterior é ___.	Alteração do ciclo sono-vigília	3V::patologia 3V::hipotalamo 3V::atomizado-de-215	Posterior = temp/sono	D	Considere a fisiopatologia do processo
