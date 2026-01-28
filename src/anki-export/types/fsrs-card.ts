@@ -12,7 +12,18 @@ import { z } from 'zod';
 export const DifficultySchema = z.enum(['E', 'M', 'D']);
 export type Difficulty = z.infer<typeof DifficultySchema>;
 
-// Tag categories for filtering and presets
+/**
+ * Tag categories for filtering and presets.
+ *
+ * NOTE: This schema is for REFERENCE/DOCUMENTATION only.
+ * Tags in FSRSCardSchema are validated as free-form strings to allow
+ * flexibility in CSV input. Use this enum for:
+ * - IDE autocomplete when manually creating cards
+ * - Validating tag consistency in tests
+ * - Documentation of valid tag values
+ *
+ * Issue #259 - Documented as reference-only
+ */
 export const TagCategorySchema = z.enum([
   'anatomia-teto',
   'anatomia-assoalho',
@@ -72,6 +83,21 @@ export const FSRSCardSchema = z.object({
 });
 
 export type FSRSCard = z.infer<typeof FSRSCardSchema>;
+
+/**
+ * Input type for card processing scripts.
+ * Used before full FSRS fields are populated.
+ *
+ * Issue #260 - Unified Card interface
+ */
+export interface CardInput {
+  pergunta: string;
+  resposta: string;
+  tags: string;
+  mnemonico: string;
+  dificuldade?: Difficulty;
+  hint?: string;
+}
 
 // Anki Note Type Configuration
 export const AnkiNoteTypeSchema = z.object({

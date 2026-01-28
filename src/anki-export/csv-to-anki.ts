@@ -1,14 +1,21 @@
 /**
  * CSV to Anki Converter
- * Issue #245 - Implement CSV → Anki conversion script
+ * Issue #245 - Implement CSV to Anki conversion script
  *
  * Converts the Third Ventricle flashcards CSV to Anki-importable format
  * with proper FSRS configuration and note type setup.
+ *
+ * Issues addressed:
+ * - #250: Log Zod validation errors with details
+ * - #252: Added file existence check
+ * - #256: Uses shared CSV parser
+ * - #261: Loads templates from external files
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { parseCSVLine } from './lib/csv-parser';
 import {
   type FSRSCard,
   FSRSCardSchema,
@@ -22,39 +29,27 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 /**
- * Parse CSV line handling quoted fields
+ * Load template file with existence check
+ * Issue #252: File existence check
  */
-function parseCSVLine(line: string): string[] {
-  const result: string[] = [];
-  let current = '';
-  let inQuotes = false;
-
-  for (let i = 0; i < line.length; i++) {
-    const char = line[i];
-
-    if (char === '"') {
-      if (inQuotes && line[i + 1] === '"') {
-        current += '"';
-        i++;
-      } else {
-        inQuotes = !inQuotes;
-      }
-    } else if (char === ',' && !inQuotes) {
-      result.push(current);
-      current = '';
-    } else {
-      current += char;
-    }
+function loadTemplate(filename: string): string {
+  const templatePath = join(__dirname, 'templates', filename);
+  if (!existsSync(templatePath)) {
+    throw new Error(`Template não encontrado: ${templatePath}`);
   }
-
-  result.push(current);
-  return result;
+  return readFileSync(templatePath, 'utf-8');
 }
 
 /**
  * Parse CSV file to FSRSCard array
+ * Issue #250: Log Zod validation errors with details
  */
 function parseCSV(filePath: string): FSRSCard[] {
+  // Issue #252: Check file existence
+  if (!existsSync(filePath)) {
+    throw new Error(`Arquivo CSV não encontrado: ${filePath}`);
+  }
+
   const content = readFileSync(filePath, 'utf-8');
   const lines = content.trim().split('\n');
 
@@ -62,20 +57,22 @@ function parseCSV(filePath: string): FSRSCard[] {
   const dataLines = lines.slice(1);
 
   const cards: FSRSCard[] = [];
+  let invalidCount = 0;
 
-  for (const line of dataLines) {
-    if (!line.trim()) continue;
+  for (let lineNum = 0; lineNum < dataLines.length; lineNum++) {
+    const line = dataLines[lineNum];
+    if (!line?.trim()) continue;
 
     const fields = parseCSVLine(line);
     if (fields.length < 5) continue;
 
     const card = {
-      pergunta: fields[0],
-      resposta: fields[1],
-      tags: fields[2],
-      mnemonico: fields[3] || '',
-      dificuldade: fields[4] as Difficulty,
-      hint: fields[5] || '',
+      pergunta: fields[0] ?? '',
+      resposta: fields[1] ?? '',
+      tags: fields[2] ?? '',
+      mnemonico: fields[3] ?? '',
+      dificuldade: (fields[4] ?? 'M') as Difficulty,
+      hint: fields[5] ?? '',
     };
 
     // Validate with Zod
@@ -83,8 +80,18 @@ function parseCSV(filePath: string): FSRSCard[] {
     if (validated.success) {
       cards.push(validated.data);
     } else {
-      console.warn(`⚠️ Card inválido ignorado: ${card.pergunta.substring(0, 50)}...`);
+      // Issue #250: Log Zod validation errors with details
+      invalidCount++;
+      const issues = validated.error.issues
+        .map((i) => `${i.path.join('.')}: ${i.message}`)
+        .join('; ');
+      console.warn(`Linha ${lineNum + 2}: Card inválido - ${issues}`);
+      console.warn(`  Pergunta: ${card.pergunta.substring(0, 50)}...`);
     }
+  }
+
+  if (invalidCount > 0) {
+    console.warn(`\nTotal de cards inválidos ignorados: ${invalidCount}`);
   }
 
   return cards;
@@ -92,113 +99,12 @@ function parseCSV(filePath: string): FSRSCard[] {
 
 /**
  * Generate Anki note type HTML templates
+ * Issue #261: Load templates from external files
  */
 function generateNoteTypeTemplates(): { qfmt: string; afmt: string; css: string } {
-  const qfmt = `<div class="card question">
-  <div class="content">{{Pergunta}}</div>
-  {{#Hint}}
-  <div class="hint-button" onclick="this.nextElementSibling.style.display='block';this.style.display='none';">
-    💡 Mostrar Dica
-  </div>
-  <div class="hint" style="display:none;">{{Hint}}</div>
-  {{/Hint}}
-</div>
-<div class="tags-footer">
-  <span class="difficulty difficulty-{{Dificuldade}}">{{Dificuldade}}</span>
-  {{#Mnemônico}}<span class="mnemonic">🧠 {{Mnemônico}}</span>{{/Mnemônico}}
-</div>`;
-
-  const afmt = `<div class="card answer">
-  <div class="content">{{Pergunta}}</div>
-  <hr id="answer">
-  <div class="answer-text">{{Resposta}}</div>
-</div>
-<div class="tags-footer">
-  <span class="difficulty difficulty-{{Dificuldade}}">{{Dificuldade}}</span>
-  {{#Mnemônico}}<span class="mnemonic">🧠 {{Mnemônico}}</span>{{/Mnemônico}}
-</div>`;
-
-  const css = `.card {
-  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  text-align: center;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  color: #eee;
-  padding: 20px;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.content {
-  font-size: 22px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-.answer-text {
-  font-size: 24px;
-  font-weight: bold;
-  color: #4ade80;
-  margin-top: 15px;
-}
-
-hr#answer {
-  border: none;
-  border-top: 2px solid #4ade80;
-  margin: 20px 0;
-}
-
-.hint-button {
-  background: #2d4a7c;
-  padding: 10px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin: 15px auto;
-  max-width: 200px;
-  transition: background 0.3s;
-}
-
-.hint-button:hover {
-  background: #3d5a8c;
-}
-
-.hint {
-  background: #1e3a5f;
-  padding: 15px;
-  border-radius: 8px;
-  margin-top: 15px;
-  font-style: italic;
-  color: #fbbf24;
-}
-
-.tags-footer {
-  margin-top: auto;
-  padding-top: 15px;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.difficulty {
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-weight: bold;
-}
-
-.difficulty-E { background: #22c55e; color: #000; }
-.difficulty-M { background: #f59e0b; color: #000; }
-.difficulty-D { background: #ef4444; color: #fff; }
-
-.mnemonic {
-  background: #6366f1;
-  padding: 4px 12px;
-  border-radius: 20px;
-}`;
-
+  const qfmt = loadTemplate('card-front.html');
+  const afmt = loadTemplate('card-back.html');
+  const css = loadTemplate('styles.css');
   return { qfmt, afmt, css };
 }
 
@@ -238,9 +144,9 @@ function generateAnkiImportFile(cards: FSRSCard[], outputPath: string): void {
       escapeForAnki(card.pergunta),
       escapeForAnki(card.resposta),
       ankiTags,
-      escapeForAnki(card.mnemonico || ''),
+      escapeForAnki(card.mnemonico ?? ''),
       card.dificuldade,
-      escapeForAnki(card.hint || ''),
+      escapeForAnki(card.hint ?? ''),
     ];
 
     lines.push(fields.join('\t'));
@@ -263,11 +169,11 @@ function generateDeckConfig(cards: FSRSCard[]): DeckConfig {
   const presetCounts: Record<string, number> = {};
   for (const card of cards) {
     const preset = getPresetForCard(card.tags);
-    presetCounts[preset] = (presetCounts[preset] || 0) + 1;
+    presetCounts[preset] = (presetCounts[preset] ?? 0) + 1;
   }
 
   const primaryPreset =
-    Object.entries(presetCounts).sort((a, b) => b[1] - a[1])[0]?.[0] || '3V-Core';
+    Object.entries(presetCounts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? '3V-Core';
 
   return {
     deckName: 'III-V::Terceiro-Ventriculo',
@@ -291,7 +197,7 @@ function generateExportPackage(cards: FSRSCard[], outputDir: string): void {
   // 1. Generate Anki import file
   const importFile = join(outputDir, 'terceiro-ventriculo-fsrs.txt');
   generateAnkiImportFile(cards, importFile);
-  console.log(`✅ Arquivo de importação: ${importFile}`);
+  console.log(`Arquivo de importação: ${importFile}`);
 
   // 2. Generate note type templates
   const templates = generateNoteTypeTemplates();
@@ -310,24 +216,24 @@ function generateExportPackage(cards: FSRSCard[], outputDir: string): void {
     ),
     'utf-8'
   );
-  console.log(`✅ Templates do note type: ${templatesFile}`);
+  console.log(`Templates do note type: ${templatesFile}`);
 
   // 3. Generate deck config
   const config = generateDeckConfig(cards);
   const configFile = join(outputDir, 'deck-config.json');
   writeFileSync(configFile, JSON.stringify(config, null, 2), 'utf-8');
-  console.log(`✅ Configuração do deck: ${configFile}`);
+  console.log(`Configuração do deck: ${configFile}`);
 
   // 4. Generate FSRS presets
   const presetsFile = join(outputDir, 'fsrs-presets.json');
   writeFileSync(presetsFile, JSON.stringify(DEFAULT_PRESETS, null, 2), 'utf-8');
-  console.log(`✅ Presets FSRS: ${presetsFile}`);
+  console.log(`Presets FSRS: ${presetsFile}`);
 
   // 5. Generate import instructions
   const instructions = generateImportInstructions(config);
   const instructionsFile = join(outputDir, 'IMPORT-INSTRUCTIONS.md');
   writeFileSync(instructionsFile, instructions, 'utf-8');
-  console.log(`✅ Instruções de importação: ${instructionsFile}`);
+  console.log(`Instruções de importação: ${instructionsFile}`);
 }
 
 /**
@@ -415,18 +321,31 @@ function generateImportInstructions(config: DeckConfig): string {
  * Main function
  */
 async function main() {
-  console.log('🔄 CSV to Anki Converter - Terceiro Ventrículo\n');
+  console.log('CSV to Anki Converter - Terceiro Ventrículo\n');
 
   // Input path - prefer the version with hints
   const hintsPath = join(__dirname, '../../docs/planos/flashcards-terceiro-ventriculo-with-hints.csv');
   const fallbackPath = join(__dirname, '../../docs/planos/flashcards-terceiro-ventriculo.csv');
 
-  const inputPath = existsSync(hintsPath) ? hintsPath : fallbackPath;
-  console.log(`📖 Lendo: ${inputPath}`);
+  // Issue #252: Check file existence
+  let inputPath: string;
+  if (existsSync(hintsPath)) {
+    inputPath = hintsPath;
+  } else if (existsSync(fallbackPath)) {
+    inputPath = fallbackPath;
+    console.log('Usando arquivo sem hints (versão com hints não encontrada)');
+  } else {
+    console.error('Erro: Nenhum arquivo CSV encontrado.');
+    console.error(`  Esperado: ${hintsPath}`);
+    console.error(`  Ou: ${fallbackPath}`);
+    process.exit(1);
+  }
+
+  console.log(`Lendo: ${inputPath}`);
 
   // Parse CSV
   const cards = parseCSV(inputPath);
-  console.log(`📊 Cards válidos: ${cards.length}\n`);
+  console.log(`Cards válidos: ${cards.length}\n`);
 
   // Output directory
   const outputDir = join(__dirname, '../../docs/planos/anki-export');
@@ -434,7 +353,7 @@ async function main() {
   // Generate export package
   generateExportPackage(cards, outputDir);
 
-  console.log('\n✅ Exportação completa!');
+  console.log('\nExportação completa!');
   console.log(`   Diretório: ${outputDir}`);
   console.log('   Siga as instruções em IMPORT-INSTRUCTIONS.md');
 }

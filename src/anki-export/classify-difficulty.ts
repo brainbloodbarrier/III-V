@@ -6,29 +6,27 @@
  * - E (Easy): Abreviações, definições simples, fatos únicos
  * - M (Medium): Anatomia, relações espaciais, sequências
  * - D (Difficult): Casos clínicos, cirúrgico, raciocínio integrado
+ *
+ * Issues addressed:
+ * - #249: Removed non-null assertion
+ * - #252: Added file existence check
+ * - #255: Fixed output path consistency
+ * - #256: Uses shared CSV parser
  */
 
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { parseCSVLine, toCSVLine } from './lib/csv-parser';
+import type { Difficulty, CardInput } from './types/fsrs-card';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-type Difficulty = 'E' | 'M' | 'D';
-
-interface Card {
-  pergunta: string;
-  resposta: string;
-  tags: string;
-  mnemonico: string;
-  dificuldade?: Difficulty;
-}
-
 /**
  * Classifica a dificuldade de um card baseado em heurísticas
  */
-function classifyDifficulty(card: Card): Difficulty {
+function classifyDifficulty(card: CardInput): Difficulty {
   const { pergunta, tags } = card;
   const tagsLower = tags.toLowerCase();
   const perguntaLower = pergunta.toLowerCase();
@@ -87,17 +85,6 @@ function classifyDifficulty(card: Card): Difficulty {
   }
 
   // Heurísticas para FÁCIL
-  const easyIndicators = [
-    // Perguntas de definição simples
-    /é a ___\./,
-    /é o ___\./,
-    /são as ___\./,
-    /são os ___\./,
-    // Perguntas de localização simples
-    /localiza-se/,
-    /está presente em ___% dos/,
-  ];
-
   // Se é revisao-rapida, provavelmente médio
   if (tagsLower.includes('revisao-rapida')) {
     return 'M';
@@ -118,64 +105,30 @@ function classifyDifficulty(card: Card): Difficulty {
 }
 
 /**
- * Parse CSV line handling quoted fields
- */
-function parseCSVLine(line: string): string[] {
-  const result: string[] = [];
-  let current = '';
-  let inQuotes = false;
-
-  for (let i = 0; i < line.length; i++) {
-    const char = line[i];
-
-    if (char === '"') {
-      if (inQuotes && line[i + 1] === '"') {
-        current += '"';
-        i++;
-      } else {
-        inQuotes = !inQuotes;
-      }
-    } else if (char === ',' && !inQuotes) {
-      result.push(current);
-      current = '';
-    } else {
-      current += char;
-    }
-  }
-
-  result.push(current);
-  return result;
-}
-
-/**
- * Escape CSV field
- */
-function escapeCSV(field: string): string {
-  if (field.includes(',') || field.includes('"') || field.includes('\n')) {
-    return `"${field.replace(/"/g, '""')}"`;
-  }
-  return `"${field}"`;
-}
-
-/**
  * Main function
  */
 async function main() {
   const inputPath = join(__dirname, '../../docs/planos/flashcards-terceiro-ventriculo.csv');
-  const outputPath = join(__dirname, '../../docs/planos/flashcards-terceiro-ventriculo-with-difficulty.csv');
+  // Issue #255: Output path now consistent with add-hints.ts input expectation
+  const outputPath = join(__dirname, '../../docs/planos/flashcards-terceiro-ventriculo-classified.csv');
   const reportPath = join(__dirname, '../../docs/planos/fsrs-analysis/difficulty-distribution.md');
 
-  console.log('📖 Lendo CSV...');
+  // Issue #252: Check file existence before reading
+  if (!existsSync(inputPath)) {
+    console.error(`Erro: Arquivo não encontrado: ${inputPath}`);
+    process.exit(1);
+  }
+
+  console.log('Lendo CSV...');
   const content = readFileSync(inputPath, 'utf-8');
   const lines = content.trim().split('\n');
 
   // Skip header
-  const header = lines[0];
   const dataLines = lines.slice(1);
 
-  console.log(`📊 Processando ${dataLines.length} cards...`);
+  console.log(`Processando ${dataLines.length} cards...`);
 
-  const cards: Card[] = [];
+  const cards: (CardInput & { dificuldade: Difficulty })[] = [];
   const stats = { E: 0, M: 0, D: 0 };
 
   for (const line of dataLines) {
@@ -184,103 +137,96 @@ async function main() {
     const fields = parseCSVLine(line);
     if (fields.length < 4) continue;
 
-    const card: Card = {
-      pergunta: fields[0],
-      resposta: fields[1],
-      tags: fields[2],
-      mnemonico: fields[3] || '',
+    const card: CardInput = {
+      pergunta: fields[0] ?? '',
+      resposta: fields[1] ?? '',
+      tags: fields[2] ?? '',
+      mnemonico: fields[3] ?? '',
     };
 
-    card.dificuldade = classifyDifficulty(card);
-    stats[card.dificuldade]++;
-    cards.push(card);
+    const dificuldade = classifyDifficulty(card);
+    stats[dificuldade]++;
+    cards.push({ ...card, dificuldade });
   }
 
   // Generate new CSV
-  console.log('📝 Gerando CSV com dificuldade...');
-  const newHeader = '"Pergunta","Resposta","Tags","Mnemônico","Dificuldade"';
+  console.log('Gerando CSV com dificuldade...');
+  const newHeader = '"Pergunta","Resposta","Tags","Mnemonico","Dificuldade"';
   const newLines = [newHeader];
 
   for (const card of cards) {
-    const line = [
-      escapeCSV(card.pergunta),
-      escapeCSV(card.resposta),
-      escapeCSV(card.tags),
-      escapeCSV(card.mnemonico),
-      escapeCSV(card.dificuldade!),
-    ].join(',');
+    // Issue #249: No more non-null assertion - dificuldade is always defined
+    const line = toCSVLine([
+      card.pergunta,
+      card.resposta,
+      card.tags,
+      card.mnemonico,
+      card.dificuldade,
+    ], true); // alwaysQuote=true for consistency
     newLines.push(line);
   }
 
   writeFileSync(outputPath, newLines.join('\n'), 'utf-8');
-  console.log(`✅ CSV salvo em: ${outputPath}`);
+  console.log(`CSV salvo em: ${outputPath}`);
 
   // Generate report
   const total = cards.length;
-  const report = `# Distribuição de Dificuldade - Issue #236
+  const report = `# Distribuicao de Dificuldade - Issue #236
 
-> **Status**: ✅ Completo
+> **Status**: Completo
 > **Data**: ${new Date().toISOString().split('T')[0]}
 > **Total de cards**: ${total}
 
-## Distribuição
+## Distribuicao
 
-| Dificuldade | Quantidade | Percentual | Barra |
-|-------------|------------|------------|-------|
-| Fácil (E) | ${stats.E} | ${((stats.E / total) * 100).toFixed(1)}% | ${'█'.repeat(Math.round((stats.E / total) * 20))}${'░'.repeat(20 - Math.round((stats.E / total) * 20))} |
-| Médio (M) | ${stats.M} | ${((stats.M / total) * 100).toFixed(1)}% | ${'█'.repeat(Math.round((stats.M / total) * 20))}${'░'.repeat(20 - Math.round((stats.M / total) * 20))} |
-| Difícil (D) | ${stats.D} | ${((stats.D / total) * 100).toFixed(1)}% | ${'█'.repeat(Math.round((stats.D / total) * 20))}${'░'.repeat(20 - Math.round((stats.D / total) * 20))} |
+| Dificuldade | Quantidade | Percentual |
+|-------------|------------|------------|
+| Facil (E) | ${stats.E} | ${((stats.E / total) * 100).toFixed(1)}% |
+| Medio (M) | ${stats.M} | ${((stats.M / total) * 100).toFixed(1)}% |
+| Dificil (D) | ${stats.D} | ${((stats.D / total) * 100).toFixed(1)}% |
 
-## Critérios de Classificação
+## Criterios de Classificacao
 
-### Fácil (E) - ${stats.E} cards
-- Abreviações (ex: "V.C.I. = ___")
-- Definições simples
+### Facil (E) - ${stats.E} cards
+- Abreviacoes (ex: "V.C.I. = ___")
+- Definicoes simples
 - Cards atomizados de listas
 - Tags: \`abreviacoes\`, \`mnemonicos\`
 
-### Médio (M) - ${stats.M} cards
+### Medio (M) - ${stats.M} cards
 - Anatomia estrutural
-- Relações espaciais
-- Variações percentuais
-- Sequências em mnemônicos
-- Tags: \`anatomia-*\`, \`vascular-*\` (sem clínico)
+- Relacoes espaciais
+- Variacoes percentuais
+- Sequencias em mnemonicos
+- Tags: \`anatomia-*\`, \`vascular-*\` (sem clinico)
 
-### Difícil (D) - ${stats.D} cards
-- Casos clínicos ("CASO: ...")
-- Raciocínio integrado
-- Abordagens cirúrgicas
+### Dificil (D) - ${stats.D} cards
+- Casos clinicos ("CASO: ...")
+- Raciocinio integrado
+- Abordagens cirurgicas
 - Tags: \`clinico\`, \`cirurgico-abordagem\`, \`patologia\`, \`casos-integrados\`
 
-## Distribuição por Preset Sugerido
+## Validacao
 
-| Preset | E | M | D |
-|--------|---|---|---|
-| 3V-Core | ${cards.filter(c => c.tags.includes('anatomia-')).filter(c => c.dificuldade === 'E').length} | ${cards.filter(c => c.tags.includes('anatomia-')).filter(c => c.dificuldade === 'M').length} | ${cards.filter(c => c.tags.includes('anatomia-')).filter(c => c.dificuldade === 'D').length} |
-| 3V-Vascular | ${cards.filter(c => c.tags.includes('vascular-')).filter(c => c.dificuldade === 'E').length} | ${cards.filter(c => c.tags.includes('vascular-')).filter(c => c.dificuldade === 'M').length} | ${cards.filter(c => c.tags.includes('vascular-')).filter(c => c.dificuldade === 'D').length} |
-| 3V-Surgical | ${cards.filter(c => c.tags.includes('cirurgico-')).filter(c => c.dificuldade === 'E').length} | ${cards.filter(c => c.tags.includes('cirurgico-')).filter(c => c.dificuldade === 'M').length} | ${cards.filter(c => c.tags.includes('cirurgico-')).filter(c => c.dificuldade === 'D').length} |
+A distribuicao esta dentro do esperado:
+- Facil: ~25-35%
+- Medio: ~45-55%
+- Dificil: ~15-25%
 
-## Validação
+## Proximos Passos
 
-A distribuição está dentro do esperado:
-- Fácil: ~25-35% ✓
-- Médio: ~45-55% ✓
-- Difícil: ~15-25% ✓
-
-## Próximos Passos
-
-1. ✅ Classificação automática (este script)
-2. ⏳ Revisão manual de casos borderline
-3. ⏳ Adicionar hints para cards D (#237)
+1. Classificacao automatica (este script)
+2. Revisao manual de casos borderline
+3. Adicionar hints para cards D (#237)
 `;
 
   writeFileSync(reportPath, report, 'utf-8');
-  console.log(`📊 Relatório salvo em: ${reportPath}`);
+  console.log(`Relatorio salvo em: ${reportPath}`);
 
-  console.log('\n📈 Resumo:');
-  console.log(`   Fácil (E):   ${stats.E} (${((stats.E / total) * 100).toFixed(1)}%)`);
-  console.log(`   Médio (M):   ${stats.M} (${((stats.M / total) * 100).toFixed(1)}%)`);
-  console.log(`   Difícil (D): ${stats.D} (${((stats.D / total) * 100).toFixed(1)}%)`);
+  console.log('\nResumo:');
+  console.log(`   Facil (E):   ${stats.E} (${((stats.E / total) * 100).toFixed(1)}%)`);
+  console.log(`   Medio (M):   ${stats.M} (${((stats.M / total) * 100).toFixed(1)}%)`);
+  console.log(`   Dificil (D): ${stats.D} (${((stats.D / total) * 100).toFixed(1)}%)`);
 }
 
 main().catch(console.error);

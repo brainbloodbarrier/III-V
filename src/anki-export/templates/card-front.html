@@ -1,0 +1,13 @@
+<div class="card question">
+  <div class="content">{{Pergunta}}</div>
+  {{#Hint}}
+  <div class="hint-button" onclick="this.nextElementSibling.style.display='block';this.style.display='none';">
+    Mostrar Dica
+  </div>
+  <div class="hint" style="display:none;">{{Hint}}</div>
+  {{/Hint}}
+</div>
+<div class="tags-footer">
+  <span class="difficulty difficulty-{{Dificuldade}}">{{Dificuldade}}</span>
+  {{#Mnemônico}}<span class="mnemonic">{{Mnemônico}}</span>{{/Mnemônico}}
+</div>
