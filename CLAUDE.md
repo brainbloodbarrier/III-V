@@ -124,6 +124,32 @@ bun run src/anki-export/add-hints.ts
 - External templates in `templates/` (card-front.html, card-back.html, styles.css)
 - Shared CSV parser in `lib/csv-parser.ts` (RFC 4180 compliant)
 
+## Schema Documentation
+
+All Zod schemas in `src/models/schemas.ts` use `.describe()` for field-level documentation. These descriptions are the source of truth for field semantics.
+
+```typescript
+// Example: documented schema
+export const ChunkSchema = z.object({
+  chunk_id: z.string()
+    .regex(/^[a-z0-9-]+-chunk-[0-9]{4}$/)
+    .describe("{document_id}-chunk-{sequence:04d}"),
+  token_count: z.number()
+    .int().min(1).max(600)
+    .describe("Token count (chars/4). Hard max: 600"),
+}).describe("Self-contained text unit with breadcrumb context for RAG");
+```
+
+Access descriptions via `schema.description` for documentation generation.
+
+## Slides Module
+
+Located in `src/slides/`, generates presentation support materials for neuroanatomy content.
+
+- Configuration: `config/slides-data.json`
+- Output: Supporting documentation per slide
+- Related docs: `docs/slides/`
+
 ## Language
 
 - Responses in Portuguese (Brazilian)
