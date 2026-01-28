@@ -1,0 +1,19 @@
+{
+  "name": "FSRS-3V",
+  "fields": [
+    "Pergunta",
+    "Resposta",
+    "Tags",
+    "Mnemônico",
+    "Dificuldade",
+    "Hint"
+  ],
+  "templates": [
+    {
+      "name": "Card 1",
+      "qfmt": "<div class=\"card question\">\n  <div class=\"content\">{{Pergunta}}</div>\n  {{#Hint}}\n  <div class=\"hint-button\" onclick=\"this.nextElementSibling.style.display='block';this.style.display='none';\">\n    💡 Mostrar Dica\n  </div>\n  <div class=\"hint\" style=\"display:none;\">{{Hint}}</div>\n  {{/Hint}}\n</div>\n<div class=\"tags-footer\">\n  <span class=\"difficulty difficulty-{{Dificuldade}}\">{{Dificuldade}}</span>\n  {{#Mnemônico}}<span class=\"mnemonic\">🧠 {{Mnemônico}}</span>{{/Mnemônico}}\n</div>",
+      "afmt": "<div class=\"card answer\">\n  <div class=\"content\">{{Pergunta}}</div>\n  <hr id=\"answer\">\n  <div class=\"answer-text\">{{Resposta}}</div>\n</div>\n<div class=\"tags-footer\">\n  <span class=\"difficulty difficulty-{{Dificuldade}}\">{{Dificuldade}}</span>\n  {{#Mnemônico}}<span class=\"mnemonic\">🧠 {{Mnemônico}}</span>{{/Mnemônico}}\n</div>"
+    }
+  ],
+  "css": ".card {\n  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;\n  font-size: 18px;\n  text-align: center;\n  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);\n  color: #eee;\n  padding: 20px;\n  min-height: 200px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.content {\n  font-size: 22px;\n  line-height: 1.5;\n  margin-bottom: 20px;\n}\n\n.answer-text {\n  font-size: 24px;\n  font-weight: bold;\n  color: #4ade80;\n  margin-top: 15px;\n}\n\nhr#answer {\n  border: none;\n  border-top: 2px solid #4ade80;\n  margin: 20px 0;\n}\n\n.hint-button {\n  background: #2d4a7c;\n  padding: 10px 20px;\n  border-radius: 8px;\n  cursor: pointer;\n  margin: 15px auto;\n  max-width: 200px;\n  transition: background 0.3s;\n}\n\n.hint-button:hover {\n  background: #3d5a8c;\n}\n\n.hint {\n  background: #1e3a5f;\n  padding: 15px;\n  border-radius: 8px;\n  margin-top: 15px;\n  font-style: italic;\n  color: #fbbf24;\n}\n\n.tags-footer {\n  margin-top: auto;\n  padding-top: 15px;\n  font-size: 14px;\n  display: flex;\n  justify-content: center;\n  gap: 15px;\n  flex-wrap: wrap;\n}\n\n.difficulty {\n  padding: 4px 12px;\n  border-radius: 20px;\n  font-weight: bold;\n}\n\n.difficulty-E { background: #22c55e; color: #000; }\n.difficulty-M { background: #f59e0b; color: #000; }\n.difficulty-D { background: #ef4444; color: #fff; }\n\n.mnemonic {\n  background: #6366f1;\n  padding: 4px 12px;\n  border-radius: 20px;\n}"
+}

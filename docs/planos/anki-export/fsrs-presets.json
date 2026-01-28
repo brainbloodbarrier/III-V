@@ -1,0 +1,78 @@
+{
+  "3V-Core": {
+    "name": "3V-Core",
+    "desiredRetention": 0.9,
+    "learningSteps": [
+      "10m",
+      "30m"
+    ],
+    "graduatingInterval": 1,
+    "easyInterval": 4,
+    "maximumInterval": 180,
+    "newCardsPerDay": 15,
+    "maximumReviewsPerDay": 100,
+    "fsrsEnabled": true,
+    "description": "Anatomia básica do 3V - equilibrado"
+  },
+  "3V-Vascular": {
+    "name": "3V-Vascular",
+    "desiredRetention": 0.92,
+    "learningSteps": [
+      "10m",
+      "30m",
+      "1d"
+    ],
+    "graduatingInterval": 2,
+    "easyInterval": 5,
+    "maximumInterval": 180,
+    "newCardsPerDay": 10,
+    "maximumReviewsPerDay": 80,
+    "fsrsEnabled": true,
+    "description": "Vascularização - retenção maior"
+  },
+  "3V-Surgical": {
+    "name": "3V-Surgical",
+    "desiredRetention": 0.93,
+    "learningSteps": [
+      "10m",
+      "30m",
+      "1d"
+    ],
+    "graduatingInterval": 2,
+    "easyInterval": 5,
+    "maximumInterval": 150,
+    "newCardsPerDay": 8,
+    "maximumReviewsPerDay": 60,
+    "fsrsEnabled": true,
+    "description": "Abordagens cirúrgicas - alta retenção"
+  },
+  "3V-Clinical": {
+    "name": "3V-Clinical",
+    "desiredRetention": 0.88,
+    "learningSteps": [
+      "15m",
+      "1h"
+    ],
+    "graduatingInterval": 1,
+    "easyInterval": 3,
+    "maximumInterval": 120,
+    "newCardsPerDay": 5,
+    "maximumReviewsPerDay": 50,
+    "fsrsEnabled": true,
+    "description": "Casos clínicos - espaçamento maior"
+  },
+  "3V-Reference": {
+    "name": "3V-Reference",
+    "desiredRetention": 0.85,
+    "learningSteps": [
+      "30m"
+    ],
+    "graduatingInterval": 3,
+    "easyInterval": 7,
+    "maximumInterval": 365,
+    "newCardsPerDay": 20,
+    "maximumReviewsPerDay": 150,
+    "fsrsEnabled": true,
+    "description": "Abreviações e referências - manutenção leve"
+  }
+}
