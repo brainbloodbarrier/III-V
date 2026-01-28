@@ -1,4 +1,4 @@
-import type { Chunk, ChunksOutput, ChunkIndex } from "../../models/chunk";
+import type { ChunksOutput } from "../../models/chunk";
 import { HARD_MAX_TOKENS, MIN_TOKENS } from "./tokenizer";
 
 export interface QualityGate {
@@ -27,7 +27,6 @@ export interface ValidationResult {
  */
 export function validateChunks(
   chunksOutput: ChunksOutput,
-  index: ChunkIndex,
   sourceBlockCount: number,
   expectedFigureCaptions: number,
   processingTimeMs: number

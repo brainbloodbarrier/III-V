@@ -78,26 +78,6 @@ export const FIGURE_LINKING_LIMITS = {
 } as const;
 
 /**
- * Quality gate validation thresholds.
- * These values define pass/fail criteria for chunking output validation.
- */
-export const VALIDATION_THRESHOLDS = {
-  /**
-   * Maximum percentage of chunks allowed to be below MIN_TOKENS.
-   * Small chunks are acceptable for figure captions and section-final chunks,
-   * but exceeding this threshold indicates a splitting problem.
-   */
-  SMALL_CHUNK_THRESHOLD_PERCENT: 1,
-
-  /**
-   * Maximum processing time in seconds for the chunking pipeline.
-   * Exceeding this threshold fails the quality gate, indicating
-   * performance issues that need investigation.
-   */
-  MAX_PROCESSING_TIME_SECONDS: 30,
-} as const;
-
-/**
  * Branded type for token counts that have been validated.
  *
  * This is a nominal/branded type that signals to readers that a number
